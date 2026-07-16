@@ -1,0 +1,433 @@
+[
+  {
+    "video_id": "zbmuiaPuiNM",
+    "title": "Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)",
+    "views": 136549,
+    "lead": "Google just dropped a 50-page playbook on the future of software development with AI, and the headline is blunt: vibe coding doesn't scale, agentic engineering does - and the AI model you obsess over ",
+    "chapters": [
+      [
+        "0:00",
+        "Google's AI coding masterclass"
+      ],
+      [
+        "1:16",
+        "What even is an SDLC?"
+      ],
+      [
+        "2:17",
+        "The new bottleneck: requirements and validation"
+      ],
+      [
+        "3:44",
+        "AI coding is a spectrum, not a switch"
+      ],
+      [
+        "6:43",
+        "The harness: why the model is only 10%"
+      ],
+      [
+        "9:27",
+        "Sponsor: BetterDB"
+      ],
+      [
+        "11:04",
+        "Harness engineering and the factory model"
+      ],
+      [
+        "13:37",
+        "The system evolution mindset"
+      ]
+    ]
+  },
+  {
+    "video_id": "T33iI6izAKw",
+    "title": "Finally, an Open Standard for the Karpathy LLM Wiki is HERE",
+    "views": 60830,
+    "lead": "Google just quietly shipped the Open Knowledge Format (OKF): an open standard that formalizes Andrej Karpathy's LLM wiki pattern into plain markdown any AI can read with zero integration. No plugin, R",
+    "chapters": [
+      [
+        "0:00",
+        "The LLM Wiki (Karpathy's Idea)"
+      ],
+      [
+        "2:04",
+        "Why We Need a Standard: Google's OKF"
+      ],
+      [
+        "3:20",
+        "What OKF Standardizes"
+      ],
+      [
+        "6:47",
+        "Building With the OKF Spec"
+      ],
+      [
+        "8:15",
+        "Sponsor: PostHog"
+      ],
+      [
+        "9:35",
+        "Why OKF Matters (Even If You Never Share)"
+      ],
+      [
+        "11:00",
+        "The Gift: My AI Coding Bundle"
+      ],
+      [
+        "16:25",
+        "Watching My Second Brain Query It"
+      ]
+    ]
+  },
+  {
+    "video_id": "oGE_Dwz-rMk",
+    "title": "Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More",
+    "views": 32210,
+    "lead": "The way the best engineers use AI is shifting fast. Instead of committing to a single provider, they use the right model for each job - like using Claude for implementation, and Codex for reviewing, a",
+    "chapters": [
+      [
+        "0:00",
+        "Introduction"
+      ],
+      [
+        "1:23",
+        "Why Meta-Harnesses Matter"
+      ],
+      [
+        "3:19",
+        "Getting Started"
+      ],
+      [
+        "5:51",
+        "Polly: Claude Implements, Codex Reviews"
+      ],
+      [
+        "7:56",
+        "Anatomy of an Orchestrator"
+      ],
+      [
+        "10:07",
+        "Custom Agents & Guardrails"
+      ],
+      [
+        "11:54",
+        "Debby: Multi-Model Debate"
+      ],
+      [
+        "13:11",
+        "Same Session Across Devices"
+      ]
+    ]
+  },
+  {
+    "video_id": "R-5_2nsF_ZM",
+    "title": "I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.",
+    "views": 25975,
+    "lead": "Markdown makes great memory for an AI agent - a Karpathy-style LLM wiki, an Obsidian second brain it reads and writes. If the agent is just yours, a folder of markdown is hard to beat: simple, yours, ",
+    "chapters": [
+      [
+        "0:00",
+        "Two Types of AI Agents"
+      ],
+      [
+        "1:14",
+        "Why Personal Agents Don't Scale"
+      ],
+      [
+        "3:02",
+        "Production Agent System Architecture"
+      ],
+      [
+        "4:47",
+        "Demo: E-commerce Agent Support"
+      ],
+      [
+        "9:59",
+        "Implementing the Context Retriever"
+      ],
+      [
+        "14:40",
+        "Short and Long-Term Memory"
+      ],
+      [
+        "18:07",
+        "When to Use Each Architecture"
+      ]
+    ]
+  },
+  {
+    "video_id": "PY7xIxybYNc",
+    "title": "Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities",
+    "views": 22397,
+    "lead": "The new best way to build AI agents is to compose capabilities, instead of every agent being a unorganized pile of tools, instructions, and guardrails. That is the shift in Pydantic AI 2.0, and it cha",
+    "chapters": [
+      [
+        "0:00",
+        "Pydantic AI 2.0: They Did It Again"
+      ],
+      [
+        "1:24",
+        "What a Capability Is"
+      ],
+      [
+        "3:23",
+        "Frameworks vs Coding Agent SDKs"
+      ],
+      [
+        "4:45",
+        "Sponsor: Nimbalyst"
+      ],
+      [
+        "6:24",
+        "The Demo Agent Repo"
+      ],
+      [
+        "7:55",
+        "Walkthrough: 1.0 vs 2.0"
+      ],
+      [
+        "10:19",
+        "Progressive Disclosure"
+      ],
+      [
+        "11:03",
+        "Live Agent Demo"
+      ]
+    ]
+  },
+  {
+    "video_id": "m8VC2SV2igM",
+    "title": "This Completely Changes the Way We Build Production AI Agents (Vercel Eve)",
+    "views": 18974,
+    "lead": "Vercel just open sourced their new AI agent framework Eve, and now your entire production AI agent can be just a single folder of mostly markdown. Instructions are markdown, tools are TypeScript, skil",
+    "chapters": [
+      [
+        "0:00",
+        "Your Agent Is a Folder"
+      ],
+      [
+        "0:44",
+        "Inside the Agent Folder"
+      ],
+      [
+        "2:29",
+        "The Compilation Step"
+      ],
+      [
+        "3:39",
+        "Built for Production Reliability"
+      ],
+      [
+        "5:17",
+        "Why Standards Matter (Eve + OKF)"
+      ],
+      [
+        "6:48",
+        "Building Agents with the Vercel Plugin"
+      ],
+      [
+        "8:05",
+        "Demo: The Eve Analyst Agent"
+      ],
+      [
+        "12:31",
+        "Deploying to Production"
+      ]
+    ]
+  },
+  {
+    "video_id": "UztrFXaSWv0",
+    "title": "The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!",
+    "views": 17692,
+    "lead": "The best AI engineers barely prompt their agents anymore. Sounds crazy I know! They build a loop that does the prompting for them and let it run for hours while they step away. The head of Claude Code",
+    "chapters": [
+      [
+        "0:00",
+        "The Loop Engineering Buzzword"
+      ],
+      [
+        "1:42",
+        "The Core Concept of Loops"
+      ],
+      [
+        "5:52",
+        "Downsides and Token Costs"
+      ],
+      [
+        "8:34",
+        "Deterministic Workflows with Archon"
+      ],
+      [
+        "13:18",
+        "Orchestrating Parallel Coding Agents"
+      ],
+      [
+        "17:29",
+        "My Pi Loop Engineering Dashboard"
+      ],
+      [
+        "21:11",
+        "Deploying Control Systems to Production"
+      ],
+      [
+        "23:58",
+        "Outro"
+      ]
+    ]
+  },
+  {
+    "video_id": "VRkkJejseCo",
+    "title": "Anthropic Just Released Claude Sonnet 5 and it's VERY IMPRESSIVE!",
+    "views": 9767,
+    "lead": "Anthropic just released Sonnet 5 and it's an incredible model for the cost!  Dynamous AI community: https://dynamous.ai  Sonnet announcement: https://www.anthropic.com/news/claude-sonnet-5  Artificial",
+    "chapters": []
+  },
+  {
+    "video_id": "muwRbfuKbR4",
+    "title": "The Best AI Coding Setup Isn't the Most Autonomous One (Here's Why)",
+    "views": 9307,
+    "lead": "AI coding with tools like Claude Code and Codex has five levels, from spicy autocomplete to the fully autonomous Dark Factory. Dan Shapiro mapped them onto the five levels of self-driving cars, so you",
+    "chapters": [
+      [
+        "0:00",
+        "The Five Levels of AI Coding"
+      ],
+      [
+        "1:00",
+        "Levels 0 to 2 Explained"
+      ],
+      [
+        "3:37",
+        "Level 3: The Sweet Spot"
+      ],
+      [
+        "5:05",
+        "Level 4: Engineering Teams"
+      ],
+      [
+        "6:35",
+        "Level 5: The Dark Factory"
+      ],
+      [
+        "9:15",
+        "Sponsor - Sonar x Gitar"
+      ],
+      [
+        "11:09",
+        "Building an AI Coding System"
+      ],
+      [
+        "13:43",
+        "The R-PIV Development Loop"
+      ]
+    ]
+  },
+  {
+    "video_id": "JETG-4MmihY",
+    "title": "My AI Memory Now Follows Me Across Every Tool!",
+    "views": 8482,
+    "lead": "Your AI agent's memory is trapped inside one tool. The second you switch from Claude Code to Codex or Pi, all that context is gone - and recently I've been switching constantly!  So I started using Wa",
+    "chapters": []
+  },
+  {
+    "video_id": "1wfY7GCVvh0",
+    "title": "Google's Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY",
+    "views": 6869,
+    "lead": "Building an AI agent is easy these days. The wild part is that shipping one to production is finally just as easy too.  In this video I build an entire AI agent and deploy it in minutes using Google's",
+    "chapters": [
+      [
+        "0:00",
+        "Intro: Google's Agents CLI"
+      ],
+      [
+        "1:13",
+        "How Agent Building Has Changed"
+      ],
+      [
+        "2:46",
+        "How Agents CLI Skills Work"
+      ],
+      [
+        "4:43",
+        "Building the Agent with Claude Code"
+      ],
+      [
+        "7:34",
+        "Traditional Frameworks vs Agent SDKs"
+      ],
+      [
+        "9:52",
+        "Testing the Agent Locally"
+      ],
+      [
+        "11:09",
+        "Agent Evaluation (Don't Skip This)"
+      ],
+      [
+        "12:19",
+        "Deploying to Production (Super Easy)"
+      ]
+    ]
+  },
+  {
+    "video_id": "CrLMktzEzmM",
+    "title": "Claude Fable 5 is Now BANNED?!",
+    "views": 6269,
+    "lead": "I had a whole livestream planned to test Fable 5 live, Anthropic's most capable model yet. Then, three days after launch, the US government apparently ordered Anthropic to shut it down, and now nobody",
+    "chapters": []
+  },
+  {
+    "video_id": "deeOA6YVfqw",
+    "title": "I Turned Claude Code Into a Complete Video Generation System (with Archon)",
+    "views": 5551,
+    "lead": "Try Higgsfield: https://higgsfield.ai/s/mcp-colemedin-eChXUF  I turned Claude Code into an AI marketing factory. The whole point of this video is that the tools I use every day for AI coding - Claude ",
+    "chapters": [
+      [
+        "0:00",
+        "Archon for More Than AI Coding"
+      ],
+      [
+        "1:19",
+        "The AI Content Factory"
+      ],
+      [
+        "3:30",
+        "Video Generation with Higgsfield"
+      ],
+      [
+        "5:29",
+        "Scaling with Archon Workflows"
+      ],
+      [
+        "6:32",
+        "Inside the Two Workflows"
+      ],
+      [
+        "9:58",
+        "Live Demo: Generating Videos"
+      ],
+      [
+        "11:31",
+        "Reviewing the Final Videos"
+      ],
+      [
+        "13:55",
+        "Final Thoughts"
+      ]
+    ]
+  },
+  {
+    "video_id": "fYrPKhHouxs",
+    "title": "The New Kimi K2.7 Model is VERY Impressive",
+    "views": 4220,
+    "lead": "Kimi K2.7 Code is an open-source, coding-focused agentic model developed by Moonshot AI. It's insanely impressive for the price and size!",
+    "chapters": []
+  },
+  {
+    "video_id": "nvW-dTgHAHg",
+    "title": "Live AI Q&A + Crushing it in Chess at the Same Time - Come Hang Out!",
+    "views": 1754,
+    "lead": "Live AI Q&A this Saturday - bring whatever's on your mind about AI coding, agents, Claude Code, Archon, etc. and I'll answer it on stream. Also playing some chess while we talk, so just come hang out ",
+    "chapters": []
+  }
+]

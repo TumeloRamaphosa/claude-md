@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCMwVTLZIRRUyyVrkjDpn4pA"/>
+ <id>yt:channel:MwVTLZIRRUyyVrkjDpn4pA</id>
+ <yt:channelId>MwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+ <title>Cole Medin</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA"/>
+ <author>
+  <name>Cole Medin</name>
+  <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+ </author>
+ <published>2012-08-15T00:44:25+00:00</published>
+ <entry>
+  <id>yt:video:m8VC2SV2igM</id>
+  <yt:videoId>m8VC2SV2igM</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>This Completely Changes the Way We Build Production AI Agents (Vercel Eve)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=m8VC2SV2igM"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-07-16T00:00:30+00:00</published>
+  <updated>2026-07-16T09:11:58+00:00</updated>
+  <media:group>
+   <media:title>This Completely Changes the Way We Build Production AI Agents (Vercel Eve)</media:title>
+   <media:content url="https://www.youtube.com/v/m8VC2SV2igM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/m8VC2SV2igM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Vercel just open sourced their new AI agent framework Eve, and now your entire production AI agent can be just a single folder of mostly markdown. Instructions are markdown, tools are TypeScript, skills and subagents are just nested folders. Eve compiles the whole thing into a durable service you deploy with one command. Durable execution, an isolated sandbox, human approvals, and evals all ship in the box.
+
+In this video I show you how Eve works and a data analyst agent I built with Eve without writing the code or running a single command myself. I just prompt Claude Code with Vercel's plugin, and it scaffolds the agent, runs it, and deploys it. It could not be easier now to build production ready AI agents! This video is a partnership with Vercel, and every opinion in it is my own.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Check out Vercel, the platform to easily host your Eve agents in production:
+https://vercel.plug.dev/9XJwYUg
+
+- You can find the open source Eve framework on GitHub:
+https://github.com/vercel/eve
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Join my free live workshop on July 29th, where I show you how to become an AI native engineering organization - building a reliable standard for how teams use AI coding agents:
+https://dynamous.ai/ai-native-engineering-org
+
+- The Eve agent I build in this video:
+https://github.com/coleam00/eve-analyst
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Your Agent Is a Folder
+0:44 Inside the Agent Folder
+2:29 The Compilation Step
+3:39 Built for Production Reliability
+5:17 Why Standards Matter (Eve + OKF)
+6:48 Building Agents with the Vercel Plugin
+8:05 Demo: The Eve Analyst Agent
+12:31 Deploying to Production
+13:41 Slack + Human Approval
+15:28 Final Thoughts
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="665" average="5.00" min="1" max="5"/>
+    <media:statistics views="18974"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:deeOA6YVfqw</id>
+  <yt:videoId>deeOA6YVfqw</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>I Turned Claude Code Into a Complete Video Generation System (with Archon)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=deeOA6YVfqw"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-07-12T18:51:49+00:00</published>
+  <updated>2026-07-13T07:13:29+00:00</updated>
+  <media:group>
+   <media:title>I Turned Claude Code Into a Complete Video Generation System (with Archon)</media:title>
+   <media:content url="https://www.youtube.com/v/deeOA6YVfqw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/deeOA6YVfqw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try Higgsfield: https://higgsfield.ai/s/mcp-colemedin-eChXUF
+
+I turned Claude Code into an AI marketing factory. The whole point of this video is that the tools I use every day for AI coding - Claude Code and Archon - are not limited to coding. Here I aim that exact same setup at a product catalog and let it produce a batch of finished, human-approved video ads on its own along with the help of Higgsfield.
+
+The biggest takeaway is that a coding harness can be used for a lot more than just coding - really any agentic workflow! Marketing is just the example I picked.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Join my free live workshop on July 29th, where I show you how to become an AI native engineering organization - building a reliable standard for how teams use AI coding agents:
+https://dynamous.ai/ai-native-engineering-org
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The full build from this video (Archon workflows + storefront + scripts):
+https://github.com/coleam00/ai-content-factory
+
+- Archon (my open-source AI coding harness):
+https://github.com/coleam00/Archon
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Archon for More Than AI Coding
+1:19 The AI Content Factory
+3:30 Video Generation with Higgsfield
+5:29 Scaling with Archon Workflows
+6:32 Inside the Two Workflows
+9:58 Live Demo: Generating Videos
+11:31 Reviewing the Final Videos
+13:55 Final Thoughts
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="149" average="5.00" min="1" max="5"/>
+    <media:statistics views="5551"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PY7xIxybYNc</id>
+  <yt:videoId>PY7xIxybYNc</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PY7xIxybYNc"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-07-10T14:00:40+00:00</published>
+  <updated>2026-07-10T14:07:36+00:00</updated>
+  <media:group>
+   <media:title>Pydantic AI 2.0: The New Best Way to Build AI Agents is Composing Capabilities</media:title>
+   <media:content url="https://www.youtube.com/v/PY7xIxybYNc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PY7xIxybYNc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The new best way to build AI agents is to compose capabilities, instead of every agent being a unorganized pile of tools, instructions, and guardrails. That is the shift in Pydantic AI 2.0, and it changes how you build every agent.
+
+A capability is a self-contained brick that bundles its own instructions, tools, model settings, and hooks. You compose an agent by snapping bricks together, and the same brick drops into any other agent unchanged.
+
+In this video I showcase a real support agent built entirely out of capabilities, then reuse one of them in a completely different agent without changing a line. Building production ready AI agents has never been easier!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Check out Nimbalyst, the open source visual workspace for coding agents:
+https://nimbalyst.com/?utm_source=youtube&amp;utm_medium=sponsorship&amp;utm_campaign=cole-medin-202607
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Join my free live workshop on July 29th, where I show you how to become an AI native engineering organization - building a reliable standard for how teams use AI coding agents:
+https://dynamous.ai/ai-native-engineering-org
+
+- My demo agent from this video:
+https://github.com/coleam00/orbit-support-agent 
+
+- Pydantic AI 2.0 announcement:
+https://pydantic.dev/articles/pydantic-ai-v2
+
+- Pydantic AI on GitHub:
+https://github.com/pydantic/pydantic-ai
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Pydantic AI 2.0: They Did It Again
+1:24 What a Capability Is
+3:23 Frameworks vs Coding Agent SDKs
+4:45 Sponsor: Nimbalyst
+6:24 The Demo Agent Repo
+7:55 Walkthrough: 1.0 vs 2.0
+10:19 Progressive Disclosure
+11:03 Live Agent Demo
+12:36 The Harness &amp; Lean Core
+14:17 Outro
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="642" average="5.00" min="1" max="5"/>
+    <media:statistics views="22397"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:R-5_2nsF_ZM</id>
+  <yt:videoId>R-5_2nsF_ZM</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=R-5_2nsF_ZM"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-07-09T00:00:36+00:00</published>
+  <updated>2026-07-09T00:02:38+00:00</updated>
+  <media:group>
+   <media:title>I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.</media:title>
+   <media:content url="https://www.youtube.com/v/R-5_2nsF_ZM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/R-5_2nsF_ZM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Markdown makes great memory for an AI agent - a Karpathy-style LLM wiki, an Obsidian second brain it reads and writes. If the agent is just yours, a folder of markdown is hard to beat: simple, yours, all in git. My second brain is exactly that!
+
+It falls apart the second you ship that agent to other people. Now the memory has many users at once, the data behind it changes in real time, and you need retrieval and access control a pile of files can't give you. That's not a memory problem anymore - you need a context layer.
+
+So I take an agent and build it that layer with Redis, going deep on two new pieces of Redis Iris: Context Retriever, which turns your data into tools the agent can safely call, and Agent Memory, which scales recall across thousands of conversations.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Thanks to Redis for working with me on this video! I've been looking for a while for the best database platform to make exactly this video.
+
+I focus on the two newest pieces, Context Retriever and Agent Memory. Iris is actually five tools, those two plus Redis Data Integration, LangCache, and Redis Search. All seriously worth a look:
+https://fandf.co/439eNyo
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Join my free live workshop on July 29th, where I show you how to become an AI native engineering organization - building a reliable standard for how teams use AI coding agents:
+https://dynamous.ai/ai-native-engineering-org
+
+- My Pydantic AI + Redis Iris agent I demoed in the video:
+https://github.com/coleam00/redis-iris-agent
+
+- Redis Iris docs (Context Engine):
+https://redis.io/docs/latest/develop/ai/context-engine/
+
+- Context Retriever quickstart:
+https://redis.io/tutorials/getting-started-with-redis-iris/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Two Types of AI Agents
+1:14 Why Personal Agents Don't Scale
+3:02 Production Agent System Architecture
+4:47 Demo: E-commerce Agent Support
+9:59 Implementing the Context Retriever
+14:40 Short and Long-Term Memory
+18:07 When to Use Each Architecture
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="824" average="5.00" min="1" max="5"/>
+    <media:statistics views="25975"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:muwRbfuKbR4</id>
+  <yt:videoId>muwRbfuKbR4</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>The Best AI Coding Setup Isn't the Most Autonomous One (Here's Why)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=muwRbfuKbR4"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-07-03T15:23:41+00:00</published>
+  <updated>2026-07-04T08:43:49+00:00</updated>
+  <media:group>
+   <media:title>The Best AI Coding Setup Isn't the Most Autonomous One (Here's Why)</media:title>
+   <media:content url="https://www.youtube.com/v/muwRbfuKbR4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/muwRbfuKbR4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>AI coding with tools like Claude Code and Codex has five levels, from spicy autocomplete to the fully autonomous Dark Factory. Dan Shapiro mapped them onto the five levels of self-driving cars, so you can place yourself on the ladder, and most people are lower than they think.
+
+I break down all five with an analogy that makes each one click, then add what the framework leaves out: where you should actually aim. For most people that's Level 3, in the loop, planning the work and reviewing every change, because that's what keeps software reliable. I've built a full Level 5 Dark Factory, and I'll tell you honestly why chasing it isn't the goal.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Get started with Gitar (just acquired by Sonar!) for free - AI code review that actually fixes your code:
+https://fandf.co/4eS3NLj
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: 
+https://dynamous.ai/agentic-coding-course
+
+- Dan Shapiro - The Five Levels (the original framework):
+https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/
+
+- My Dark Factory Experiment (Level 5 in practice):
+https://github.com/coleam00/dark-factory-experiment
+
+- StrongDM dark factory:
+https://www.strongdm.com/blog/the-strongdm-software-factory-building-software-with-ai
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 The Five Levels of AI Coding
+1:00 Levels 0 to 2 Explained
+3:37 Level 3: The Sweet Spot
+5:05 Level 4: Engineering Teams
+6:35 Level 5: The Dark Factory
+9:15 Sponsor - Sonar x Gitar
+11:09 Building an AI Coding System
+13:43 The R-PIV Development Loop
+16:41 Scaling to a Dark Factory
+20:29 Future of Agentic Engineering
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="309" average="5.00" min="1" max="5"/>
+    <media:statistics views="9307"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:T33iI6izAKw</id>
+  <yt:videoId>T33iI6izAKw</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Finally, an Open Standard for the Karpathy LLM Wiki is HERE</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=T33iI6izAKw"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-07-02T00:00:33+00:00</published>
+  <updated>2026-07-02T00:07:02+00:00</updated>
+  <media:group>
+   <media:title>Finally, an Open Standard for the Karpathy LLM Wiki is HERE</media:title>
+   <media:content url="https://www.youtube.com/v/T33iI6izAKw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/T33iI6izAKw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Google just quietly shipped the Open Knowledge Format (OKF): an open standard that formalizes Andrej Karpathy's LLM wiki pattern into plain markdown any AI can read with zero integration. No plugin, RAG pipeline, or vector DB. You point your agent at a folder and ask it anything as long as it knows OKF!
+
+You probably already have a personal agent and search that works well. And you're probably building some version of a &quot;second brain.&quot; So why is it still basically impossible to hand your knowledge to someone else's AI and have it just work? The answer is we never agreed on a format - and that's exactly what Google has now solved.
+
+In this video I break down OKF, talk about why it's so important, and even give you a bundle so you agent can immediately search through my YouTube content.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Check out Posthog, a single platform to make your products self-driving with product analytics, sessions replay, feature flags, and more:
+https://go.fundlevel.co/cmph
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: 
+https://dynamous.ai/agentic-coding-course
+
+- My open-source OKF bundle (clone this and point your AI at it):
+https://github.com/coleam00/cole-medin-ai-coding
+
+- Open Knowledge Format (Google):
+https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+
+- OKF spec (the SPEC.md file):
+https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
+
+OKF launch blog:
+https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
+
+Karpathy's LLM Wiki:
+https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 The LLM Wiki (Karpathy's Idea)
+2:04 Why We Need a Standard: Google's OKF
+3:20 What OKF Standardizes
+6:47 Building With the OKF Spec
+8:15 Sponsor: PostHog
+9:35 Why OKF Matters (Even If You Never Share)
+11:00 The Gift: My AI Coding Bundle
+16:25 Watching My Second Brain Query It
+17:33 Is OKF Too Simple?
+19:05 Try It Yourself + Wrap-up
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="1882" average="5.00" min="1" max="5"/>
+    <media:statistics views="60830"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VRkkJejseCo</id>
+  <yt:videoId>VRkkJejseCo</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Anthropic Just Released Claude Sonnet 5 and it's VERY IMPRESSIVE!</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/VRkkJejseCo"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-30T20:18:04+00:00</published>
+  <updated>2026-07-04T22:29:29+00:00</updated>
+  <media:group>
+   <media:title>Anthropic Just Released Claude Sonnet 5 and it's VERY IMPRESSIVE!</media:title>
+   <media:content url="https://www.youtube.com/v/VRkkJejseCo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VRkkJejseCo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Anthropic just released Sonnet 5 and it's an incredible model for the cost!
+
+Dynamous AI community: https://dynamous.ai
+
+Sonnet announcement: https://www.anthropic.com/news/claude-sonnet-5
+
+Artificial Intelligence is no doubt the future of not just software development but the whole world. And I'm on a mission to master it - focusing first on mastering AI Agents.
+
+Join me as I push the limits of what is possible with AI.
+
+I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="176" average="5.00" min="1" max="5"/>
+    <media:statistics views="9767"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zbmuiaPuiNM</id>
+  <yt:videoId>zbmuiaPuiNM</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zbmuiaPuiNM"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-25T00:00:05+00:00</published>
+  <updated>2026-06-25T00:06:35+00:00</updated>
+  <media:group>
+   <media:title>Google Just Dropped a Masterclass on Agentic Engineering (It's SO Good)</media:title>
+   <media:content url="https://www.youtube.com/v/zbmuiaPuiNM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zbmuiaPuiNM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Google just dropped a 50-page playbook on the future of software development with AI, and the headline is blunt: vibe coding doesn't scale, agentic engineering does - and the AI model you obsess over is maybe 10% of what actually determines your results. The other 90% is the harness: the context, tools, guardrails, and verification you build around the model.
+
+In this video I break down the biggest takeaways from the paper - the spectrum from vibe coding to agentic engineering, why &quot;Agent = Model + Harness,&quot; context engineering as the real skill, the conductor-to-orchestrator shift in your role, and the economics that prove how important this is.
+
+This is the video to watch if you want to see where AI coding is heading in 2026 and the skills that are worth investing in right now!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Check out BetterDB, an open-source monitoring and caching platform for Valkey/Redis:
+https://betterdb.com/b/xgjyf
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: 
+https://dynamous.ai/agentic-coding-course
+
+- Google's whitepaper &quot;The New SDLC With Vibe Coding&quot;:
+https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Google's AI coding masterclass
+1:16 What even is an SDLC?
+2:17 The new bottleneck: requirements and validation
+3:44 AI coding is a spectrum, not a switch
+6:43 The harness: why the model is only 10%
+9:27 Sponsor: BetterDB
+11:04 Harness engineering and the factory model
+13:37 The system evolution mindset
+14:19 Why the harness is worth the investment
+15:02 Static vs dynamic context
+16:51 Skills: one agent, many specializations
+17:55 Conductor vs orchestrator
+19:53 Token economics: CapEx vs OpEx
+21:22 Outro
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="3528" average="5.00" min="1" max="5"/>
+    <media:statistics views="136549"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JETG-4MmihY</id>
+  <yt:videoId>JETG-4MmihY</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>My AI Memory Now Follows Me Across Every Tool!</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/JETG-4MmihY"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-19T14:00:09+00:00</published>
+  <updated>2026-06-23T01:12:59+00:00</updated>
+  <media:group>
+   <media:title>My AI Memory Now Follows Me Across Every Tool!</media:title>
+   <media:content url="https://www.youtube.com/v/JETG-4MmihY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JETG-4MmihY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your AI agent's memory is trapped inside one tool. The second you switch from Claude Code to Codex or Pi, all that context is gone - and recently I've been switching constantly!
+
+So I started using Walrus Memory: a memory layer that lives outside any single agent, encrypted and owned by you. As I'm working with my agents like my second brain, it pulls out the important details and saves them as memories, and a brand-new agent from a different provider recalls them instantly. Claude wrote the memory, Pi read it, and neither one knew about the other.
+
+Setup is a single prompt! The memories are tied to a key you own, encrypted before they're ever stored, and you decide which agent can read what (and revoke it any time). It's AI memory you actually own.
+
+Try it free: http://bit.ly/43oODrJ
+
+Thanks to Walrus for working with me on this!</media:description>
+   <media:community>
+    <media:starRating count="301" average="5.00" min="1" max="5"/>
+    <media:statistics views="8482"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fYrPKhHouxs</id>
+  <yt:videoId>fYrPKhHouxs</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>The New Kimi K2.7 Model is VERY Impressive</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/fYrPKhHouxs"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-18T11:26:51+00:00</published>
+  <updated>2026-06-21T22:10:42+00:00</updated>
+  <media:group>
+   <media:title>The New Kimi K2.7 Model is VERY Impressive</media:title>
+   <media:content url="https://www.youtube.com/v/fYrPKhHouxs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/fYrPKhHouxs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Kimi K2.7 Code is an open-source, coding-focused agentic model developed by Moonshot AI. It's insanely impressive for the price and size!</media:description>
+   <media:community>
+    <media:starRating count="70" average="5.00" min="1" max="5"/>
+    <media:statistics views="4220"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UztrFXaSWv0</id>
+  <yt:videoId>UztrFXaSWv0</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UztrFXaSWv0"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-18T00:00:08+00:00</published>
+  <updated>2026-06-18T08:30:17+00:00</updated>
+  <media:group>
+   <media:title>The Creators of Claude Code and OpenClaw don't Prompt Their Agents Anymore?!</media:title>
+   <media:content url="https://www.youtube.com/v/UztrFXaSWv0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UztrFXaSWv0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The best AI engineers barely prompt their agents anymore. Sounds crazy I know! They build a loop that does the prompting for them and let it run for hours while they step away. The head of Claude Code at Anthropic put it bluntly: he doesn't prompt Claude, he has loops running that prompt Claude for him.
+
+The only problem is this gets expensive (and hallucinations compound) - you need a harness with observability that can run reliably not always using the expensive frontier models.
+
+So I built one! It's a TypeScript app that runs Pi (on Kimi) in a loop, stores every run in a database, and shows it all in a dashboard. And the loop isn't one agent on repeat, it's agents prompting agents: an orchestrator decides the next tasks and spins up workers to run them in parallel. Think of it like an advanced Ralph loop with more control!
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Build and deploy your AI built applications easily with Retool - plus when you sign up now you get free app imports till July 1st and bonus AI credits on all paid plans!
+https://fandf.co/4uh4uDD
+
+- Neon, my favorite Postgres platform:
+https://get.neon.com/LqufgGN
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: 
+https://dynamous.ai/agentic-coding-course
+
+- Agent Control Plane (my open-source Pi loop dashboard):
+https://github.com/coleam00/agent-control-plane
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 The Loop Engineering Buzzword
+1:42 The Core Concept of Loops
+5:52 Downsides and Token Costs
+8:34 Deterministic Workflows with Archon
+13:18 Orchestrating Parallel Coding Agents
+17:29 My Pi Loop Engineering Dashboard
+21:11 Deploying Control Systems to Production
+23:58 Outro
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="438" average="5.00" min="1" max="5"/>
+    <media:statistics views="17692"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:oGE_Dwz-rMk</id>
+  <yt:videoId>oGE_Dwz-rMk</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=oGE_Dwz-rMk"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-15T14:42:51+00:00</published>
+  <updated>2026-06-19T01:04:23+00:00</updated>
+  <media:group>
+   <media:title>Omnigent: The New Meta-Harness for EVERY Coding Agent - Claude Code, Codex, Pi, More</media:title>
+   <media:content url="https://www.youtube.com/v/oGE_Dwz-rMk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/oGE_Dwz-rMk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The way the best engineers use AI is shifting fast. Instead of committing to a single provider, they use the right model for each job - like using Claude for implementation, and Codex for reviewing, and Kimi/Minimax for simple tasks. The piece we have been missing is a clean way to orchestrate all of those models together. That is exactly what Omnigent is: a meta-harness that runs Claude Code, Codex, and Pi as interchangeable workers under one roof!
+
+In this video I show you how to get it running and put it to work live. One AI agent plans a coding task, hands the implementation to Claude Code in its own git worktree, then routes the finished diff to a different provider, Codex, for review. You also get a governance layer for human in the loop, and sessions that follow you from terminal to browser to phone. And since I build my own agent engine, Archon, every day, I will give you a straight take on where a meta-harness fits.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Omnigent is open source, try it out now! It's so easy to get set up:
+https://github.com/omnigent-ai/omnigent
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: 
+https://dynamous.ai/agentic-coding-course
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Introduction
+1:23 Why Meta-Harnesses Matter
+3:19 Getting Started
+5:51 Polly: Claude Implements, Codex Reviews
+7:56 Anatomy of an Orchestrator
+10:07 Custom Agents &amp; Guardrails
+11:54 Debby: Multi-Model Debate
+13:11 Same Session Across Devices
+14:18 Wrap-Up
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="821" average="5.00" min="1" max="5"/>
+    <media:statistics views="32210"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CrLMktzEzmM</id>
+  <yt:videoId>CrLMktzEzmM</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Claude Fable 5 is Now BANNED?!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CrLMktzEzmM"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-13T15:30:41+00:00</published>
+  <updated>2026-06-14T01:42:12+00:00</updated>
+  <media:group>
+   <media:title>Claude Fable 5 is Now BANNED?!</media:title>
+   <media:content url="https://www.youtube.com/v/CrLMktzEzmM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CrLMktzEzmM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I had a whole livestream planned to test Fable 5 live, Anthropic's most capable model yet. Then, three days after launch, the US government apparently ordered Anthropic to shut it down, and now nobody can use it. So this stream changed: I'm walking through what actually happened, an export-control directive over a claimed jailbreak, why it got pulled for every customer overnight, and what it means for those of us building on these models. And since I already benchmarked Fable 5 hard before it vanished, I'll show you everything I found about whether it was actually worth the hype and the 2x price over Opus 4.8.
+
+Join the Dynamous community: https://dynamous.ai
+
+Livestreams go live Saturdays at 9 AM CT, and the main YouTube video drops every Wednesday at 7 PM CT.</media:description>
+   <media:community>
+    <media:starRating count="133" average="5.00" min="1" max="5"/>
+    <media:statistics views="6269"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1wfY7GCVvh0</id>
+  <yt:videoId>1wfY7GCVvh0</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Google's Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1wfY7GCVvh0"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-11T00:00:16+00:00</published>
+  <updated>2026-06-11T07:35:54+00:00</updated>
+  <media:group>
+   <media:title>Google's Agents CLI: The CLI + Skills Combination to Ship AI Agents EASILY</media:title>
+   <media:content url="https://www.youtube.com/v/1wfY7GCVvh0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1wfY7GCVvh0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Building an AI agent is easy these days. The wild part is that shipping one to production is finally just as easy too.
+
+In this video I build an entire AI agent and deploy it in minutes using Google's new Agents CLI (open source!). It gets its own identity, a locked-down sandbox to run the code it writes, and a full audit trail! These are the kinds of things you need when shipping production grade AI agents.
+
+Big thanks to Google for working with me on this one. I'm genuinely impressed with what they've built here - this is how easy building and deploying AI agents should be and it's incredible to see them open sourcing this tool.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Build and deploy AI agents with Google's Agents CLI (works with any AI coding assistant):
+https://fandf.co/3PsygXP
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The Dynamous Agentic Coding Course is now FULLY released - learn how to build reliable and repeatable systems for AI coding: 
+https://dynamous.ai/agentic-coding-course
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0:00 Intro: Google's Agents CLI
+1:13 How Agent Building Has Changed
+2:46 How Agents CLI Skills Work
+4:43 Building the Agent with Claude Code
+7:34 Traditional Frameworks vs Agent SDKs
+9:52 Testing the Agent Locally
+11:09 Agent Evaluation (Don't Skip This)
+12:19 Deploying to Production (Super Easy)
+14:24 Outro
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Join me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!</media:description>
+   <media:community>
+    <media:starRating count="218" average="5.00" min="1" max="5"/>
+    <media:statistics views="6869"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:nvW-dTgHAHg</id>
+  <yt:videoId>nvW-dTgHAHg</yt:videoId>
+  <yt:channelId>UCMwVTLZIRRUyyVrkjDpn4pA</yt:channelId>
+  <title>Live AI Q&amp;A + Crushing it in Chess at the Same Time - Come Hang Out!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nvW-dTgHAHg"/>
+  <author>
+   <name>Cole Medin</name>
+   <uri>https://www.youtube.com/channel/UCMwVTLZIRRUyyVrkjDpn4pA</uri>
+  </author>
+  <published>2026-06-07T04:26:50+00:00</published>
+  <updated>2026-07-08T07:27:49+00:00</updated>
+  <media:group>
+   <media:title>Live AI Q&amp;A + Crushing it in Chess at the Same Time - Come Hang Out!</media:title>
+   <media:content url="https://www.youtube.com/v/nvW-dTgHAHg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nvW-dTgHAHg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Live AI Q&amp;A this Saturday - bring whatever's on your mind about AI coding, agents, Claude Code, Archon, etc. and I'll answer it on stream. Also playing some chess while we talk, so just come hang out too!
+
+Join the Dynamous community: https://dynamous.ai
+
+Livestreams go out Saturdays at 9 AM CT, and the main YouTube video drops every Wednesday at 7 PM CT.</media:description>
+   <media:community>
+    <media:starRating count="30" average="5.00" min="1" max="5"/>
+    <media:statistics views="1754"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
