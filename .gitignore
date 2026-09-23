@@ -5,3 +5,7 @@
 credentials.env
 shopify*
 shpss*
+
+__pycache__/
+*.pyc
+graphify-out/

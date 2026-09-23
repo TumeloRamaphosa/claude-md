@@ -1,0 +1,10 @@
+{
+  "repository": "pipecat-ai/pipecat",
+  "commit": "9d4c5087aaa1bd5193262136a59d677348bb950c",
+  "retrieved": "2026-09-24",
+  "license": "BSD-2-Clause",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "1037e39cda16f5ae181b77edc55aea78037eaade10da2f8cd505013e2e5e5ebc"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "camgraphe/MaxVideoAi",
+  "commit": "e7230888013f5cf2c6c7b500febd633a9a6800d0",
+  "retrieved": "2026-09-24",
+  "license": "NOASSERTION",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "a79bf5983d62b118b62fed03911f8d6e0d12d0ca61ebcd3ff84e5441284ee078"
+}

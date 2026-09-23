@@ -132,3 +132,7 @@
 *Robusca (Adam Sma$her) — The Iron Engine*
 *StudEx Agent Group · The Dark Factory*
 *"I run this every day so you don't have to remember to."* 🚀
+
+## 07:00 SAST — GitHub skill discovery
+
+GitHub Actions runs `daily-skills.yml` independently of the Mac. Review `skill-discovery/INDEX.md`, test promising candidates and promote useful skills. No automatic installation, social posting or outbound messages. See `docs/DAILY-SKILLS.md`.

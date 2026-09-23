@@ -1,0 +1,34 @@
+{
+  "seen": {
+    "Ariestar/sivtr": {
+      "category": "memory",
+      "commit": "27b8d439e5185f153b1727fcb937b9f4f122fa6a",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "676e29f5e20efef6cc7860793f7fabbb810dac5a1072a7903508b516ed311cda",
+      "repository": "Ariestar/sivtr",
+      "retrieved": "2026-09-24",
+      "status": "draft-not-installed"
+    },
+    "camgraphe/MaxVideoAi": {
+      "category": "content",
+      "commit": "e7230888013f5cf2c6c7b500febd633a9a6800d0",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "a79bf5983d62b118b62fed03911f8d6e0d12d0ca61ebcd3ff84e5441284ee078",
+      "repository": "camgraphe/MaxVideoAi",
+      "retrieved": "2026-09-24",
+      "status": "draft-not-installed"
+    },
+    "pipecat-ai/pipecat": {
+      "category": "voice",
+      "commit": "9d4c5087aaa1bd5193262136a59d677348bb950c",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "BSD-2-Clause",
+      "readme_sha256": "1037e39cda16f5ae181b77edc55aea78037eaade10da2f8cd505013e2e5e5ebc",
+      "repository": "pipecat-ai/pipecat",
+      "retrieved": "2026-09-24",
+      "status": "draft-not-installed"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "Ariestar/sivtr",
+  "commit": "27b8d439e5185f153b1727fcb937b9f4f122fa6a",
+  "retrieved": "2026-09-24",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "676e29f5e20efef6cc7860793f7fabbb810dac5a1072a7903508b516ed311cda"
+}
