@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-25",
+  "created": [
+    {
+      "repository": "AceDataCloud/Nexior",
+      "commit": "1a684219d47febe7cac26c0b01db528bd7ab31a4",
+      "retrieved": "2026-09-25",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "c6d9395a9001ee3a8fb45af141d7531bd514abbf50b7b3c720c307e045541122"
+    },
+    {
+      "repository": "vectorize-io/hindsight",
+      "commit": "57f0b8d10bea12b6276c35ae893fbcbc4eb38682",
+      "retrieved": "2026-09-25",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f"
+    },
+    {
+      "repository": "huggingface/speech-to-speech",
+      "commit": "60d2cb23533579fc7c6990b3545d23bce4a139b9",
+      "retrieved": "2026-09-25",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "0a15c2e099f9060b4e6839e5f1fda3e224bc52e2c2255c853b22f508927d10c6"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

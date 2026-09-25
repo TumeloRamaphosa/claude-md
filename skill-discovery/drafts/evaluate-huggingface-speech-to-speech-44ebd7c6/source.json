@@ -1,0 +1,10 @@
+{
+  "repository": "huggingface/speech-to-speech",
+  "commit": "60d2cb23533579fc7c6990b3545d23bce4a139b9",
+  "retrieved": "2026-09-25",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "0a15c2e099f9060b4e6839e5f1fda3e224bc52e2c2255c853b22f508927d10c6"
+}

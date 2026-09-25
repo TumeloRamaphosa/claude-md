@@ -1,5 +1,15 @@
 {
   "seen": {
+    "AceDataCloud/Nexior": {
+      "category": "content",
+      "commit": "1a684219d47febe7cac26c0b01db528bd7ab31a4",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "c6d9395a9001ee3a8fb45af141d7531bd514abbf50b7b3c720c307e045541122",
+      "repository": "AceDataCloud/Nexior",
+      "retrieved": "2026-09-25",
+      "status": "draft-not-installed"
+    },
     "Ariestar/sivtr": {
       "category": "memory",
       "commit": "27b8d439e5185f153b1727fcb937b9f4f122fa6a",
@@ -20,6 +30,16 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "huggingface/speech-to-speech": {
+      "category": "voice",
+      "commit": "60d2cb23533579fc7c6990b3545d23bce4a139b9",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "0a15c2e099f9060b4e6839e5f1fda3e224bc52e2c2255c853b22f508927d10c6",
+      "repository": "huggingface/speech-to-speech",
+      "retrieved": "2026-09-25",
+      "status": "draft-not-installed"
+    },
     "pipecat-ai/pipecat": {
       "category": "voice",
       "commit": "9d4c5087aaa1bd5193262136a59d677348bb950c",
@@ -28,6 +48,16 @@
       "readme_sha256": "1037e39cda16f5ae181b77edc55aea78037eaade10da2f8cd505013e2e5e5ebc",
       "repository": "pipecat-ai/pipecat",
       "retrieved": "2026-09-24",
+      "status": "draft-not-installed"
+    },
+    "vectorize-io/hindsight": {
+      "category": "memory",
+      "commit": "57f0b8d10bea12b6276c35ae893fbcbc4eb38682",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
+      "repository": "vectorize-io/hindsight",
+      "retrieved": "2026-09-25",
       "status": "draft-not-installed"
     }
   }

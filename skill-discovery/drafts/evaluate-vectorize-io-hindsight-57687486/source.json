@@ -1,0 +1,10 @@
+{
+  "repository": "vectorize-io/hindsight",
+  "commit": "57f0b8d10bea12b6276c35ae893fbcbc4eb38682",
+  "retrieved": "2026-09-25",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f"
+}
