@@ -1,0 +1,10 @@
+{
+  "repository": "xerj-org/xerj",
+  "commit": "d12bd332af6c4fdbae3fb567c9ec644250612df5",
+  "retrieved": "2026-09-26",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "df6cbb4335b70f2cf1f294e24650a46ea8ade160a76168d4895c0f3953253a9a"
+}

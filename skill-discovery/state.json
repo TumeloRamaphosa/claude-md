@@ -20,6 +20,16 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "bluejay-ai-dev/mivas-bench": {
+      "category": "voice",
+      "commit": "77a593d9507b1a967852470f6ae35d9dfa01640c",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "f09d24e06ac6b4cc756696c0f14dad67781046707fcf69507d1849109b3bf4d8",
+      "repository": "bluejay-ai-dev/mivas-bench",
+      "retrieved": "2026-09-26",
+      "status": "draft-not-installed"
+    },
     "camgraphe/MaxVideoAi": {
       "category": "content",
       "commit": "e7230888013f5cf2c6c7b500febd633a9a6800d0",
@@ -28,6 +38,16 @@
       "readme_sha256": "a79bf5983d62b118b62fed03911f8d6e0d12d0ca61ebcd3ff84e5441284ee078",
       "repository": "camgraphe/MaxVideoAi",
       "retrieved": "2026-09-24",
+      "status": "draft-not-installed"
+    },
+    "dgrauet/ltx-2-mlx": {
+      "category": "content",
+      "commit": "15e7f002f8944d5c647286ef801c595a4f28ac6f",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "4012ccea529f8d5ef5eac18d32b4948891472c4708f0581eaba62f92728a6bac",
+      "repository": "dgrauet/ltx-2-mlx",
+      "retrieved": "2026-09-26",
       "status": "draft-not-installed"
     },
     "huggingface/speech-to-speech": {
@@ -58,6 +78,16 @@
       "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
       "repository": "vectorize-io/hindsight",
       "retrieved": "2026-09-25",
+      "status": "draft-not-installed"
+    },
+    "xerj-org/xerj": {
+      "category": "memory",
+      "commit": "d12bd332af6c4fdbae3fb567c9ec644250612df5",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "df6cbb4335b70f2cf1f294e24650a46ea8ade160a76168d4895c0f3953253a9a",
+      "repository": "xerj-org/xerj",
+      "retrieved": "2026-09-26",
       "status": "draft-not-installed"
     }
   }

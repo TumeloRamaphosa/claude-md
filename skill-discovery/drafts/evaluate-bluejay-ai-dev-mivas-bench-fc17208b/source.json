@@ -1,0 +1,10 @@
+{
+  "repository": "bluejay-ai-dev/mivas-bench",
+  "commit": "77a593d9507b1a967852470f6ae35d9dfa01640c",
+  "retrieved": "2026-09-26",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "f09d24e06ac6b4cc756696c0f14dad67781046707fcf69507d1849109b3bf4d8"
+}

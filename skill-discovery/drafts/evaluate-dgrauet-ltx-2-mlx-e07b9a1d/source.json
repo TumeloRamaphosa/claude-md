@@ -1,0 +1,10 @@
+{
+  "repository": "dgrauet/ltx-2-mlx",
+  "commit": "15e7f002f8944d5c647286ef801c595a4f28ac6f",
+  "retrieved": "2026-09-26",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "4012ccea529f8d5ef5eac18d32b4948891472c4708f0581eaba62f92728a6bac"
+}
