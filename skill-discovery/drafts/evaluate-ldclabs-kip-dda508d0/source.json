@@ -1,0 +1,10 @@
+{
+  "repository": "ldclabs/KIP",
+  "commit": "69a05ff71e5c1ef759311432151b1a28d6aa749a",
+  "retrieved": "2026-09-27",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "cca2bbe463addf5a9f271b1ce39aeffa37a6d408ba50714f86f5c23e3fd46d88"
+}

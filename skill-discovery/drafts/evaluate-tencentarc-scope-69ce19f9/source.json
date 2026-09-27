@@ -1,0 +1,10 @@
+{
+  "repository": "TencentARC/SCoPE",
+  "commit": "2fa984036004fb564fc2b0e888ce2bd95ab03735",
+  "retrieved": "2026-09-27",
+  "license": "NOASSERTION",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "c88fe1631eb5a137d12005d06a2a166788bd58c732eb19eb74525faf44420d82"
+}

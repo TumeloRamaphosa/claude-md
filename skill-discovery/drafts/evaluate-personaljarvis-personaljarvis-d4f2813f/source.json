@@ -1,0 +1,10 @@
+{
+  "repository": "PersonalJarvis/PersonalJarvis",
+  "commit": "62e318ff46b4e111cb7c8d624bf68525b4a1ce7e",
+  "retrieved": "2026-09-27",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "d90890ed1b2b2db494faed548eb7ad574e66d95bc221febc13d0da207622b9fb"
+}

@@ -20,6 +20,26 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "PersonalJarvis/PersonalJarvis": {
+      "category": "voice",
+      "commit": "62e318ff46b4e111cb7c8d624bf68525b4a1ce7e",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "d90890ed1b2b2db494faed548eb7ad574e66d95bc221febc13d0da207622b9fb",
+      "repository": "PersonalJarvis/PersonalJarvis",
+      "retrieved": "2026-09-27",
+      "status": "draft-not-installed"
+    },
+    "TencentARC/SCoPE": {
+      "category": "content",
+      "commit": "2fa984036004fb564fc2b0e888ce2bd95ab03735",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "c88fe1631eb5a137d12005d06a2a166788bd58c732eb19eb74525faf44420d82",
+      "repository": "TencentARC/SCoPE",
+      "retrieved": "2026-09-27",
+      "status": "draft-not-installed"
+    },
     "bluejay-ai-dev/mivas-bench": {
       "category": "voice",
       "commit": "77a593d9507b1a967852470f6ae35d9dfa01640c",
@@ -58,6 +78,16 @@
       "readme_sha256": "0a15c2e099f9060b4e6839e5f1fda3e224bc52e2c2255c853b22f508927d10c6",
       "repository": "huggingface/speech-to-speech",
       "retrieved": "2026-09-25",
+      "status": "draft-not-installed"
+    },
+    "ldclabs/KIP": {
+      "category": "memory",
+      "commit": "69a05ff71e5c1ef759311432151b1a28d6aa749a",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "cca2bbe463addf5a9f271b1ce39aeffa37a6d408ba50714f86f5c23e3fd46d88",
+      "repository": "ldclabs/KIP",
+      "retrieved": "2026-09-27",
       "status": "draft-not-installed"
     },
     "pipecat-ai/pipecat": {
