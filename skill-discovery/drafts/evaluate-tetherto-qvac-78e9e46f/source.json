@@ -1,0 +1,10 @@
+{
+  "repository": "tetherto/qvac",
+  "commit": "ab3a5be659994d7d5b85a58624850a66113d7efe",
+  "retrieved": "2026-09-28",
+  "license": "Apache-2.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "d63f1c78a997dd2cbcf6a976b05c492143f533ab2db7f29b00e6f43a2fe0c387"
+}

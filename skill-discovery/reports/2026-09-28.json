@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-28",
+  "created": [
+    {
+      "repository": "EfficientAI-tech/efficientAI",
+      "commit": "d25adcd5fece98fe37ebb405c1f2217b2dbc3528",
+      "retrieved": "2026-09-28",
+      "license": "NOASSERTION",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "2269a8888464c4d64fcb9b2e6df6d0b1e81af64a9d4212626232221d416b289b"
+    },
+    {
+      "repository": "tetherto/qvac",
+      "commit": "ab3a5be659994d7d5b85a58624850a66113d7efe",
+      "retrieved": "2026-09-28",
+      "license": "Apache-2.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "d63f1c78a997dd2cbcf6a976b05c492143f533ab2db7f29b00e6f43a2fe0c387"
+    },
+    {
+      "repository": "lktiep/cortex-hub",
+      "commit": "5c64886c713a78b8c1d77914cdf06f0d66ca992e",
+      "retrieved": "2026-09-28",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "64b5771a69deb081c40fd9d4bec9d96cc86bd9f0aed5625e3cc9be7dc60d5221"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

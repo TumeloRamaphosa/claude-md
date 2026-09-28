@@ -1,0 +1,10 @@
+{
+  "repository": "lktiep/cortex-hub",
+  "commit": "5c64886c713a78b8c1d77914cdf06f0d66ca992e",
+  "retrieved": "2026-09-28",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "64b5771a69deb081c40fd9d4bec9d96cc86bd9f0aed5625e3cc9be7dc60d5221"
+}

@@ -1,0 +1,993 @@
+<div align="center">
+
+# 🎙️ Efficient<span style="color: #EAB308;">AI</span>
+
+[![GitHub Stars](https://img.shields.io/github/stars/EfficientAI-tech/efficientAI?style=social&label=Star)](https://github.com/EfficientAI-tech/efficientAI)
+[![GitHub Forks](https://img.shields.io/github/forks/EfficientAI-tech/efficientAI?style=social&label=Fork)](https://github.com/EfficientAI-tech/efficientAI)
+
+**Test your Voice AI Agents before Production**
+
+<span style="color: #EAB308;">**Open-source**</span> evaluation platform for conversational AI.
+
+Test quality, measure performance, & ship with confidence.
+
+<img src="./assets/Readme%20logo.gif" alt="EfficientAI Demo" width="800">
+
+ [📅 Book a Demo](https://cal.com/aadhar-singh-bhadauria/30min) • [💻 GitHub](https://github.com/EfficientAI-tech/efficientAI) • [💬 Discord](https://discord.gg/Saz9b2NA7)
+
+⭐ If this saves you time, please consider starring the repo — it helps us a lot.
+
+[![GitHub Stars](https://img.shields.io/github/stars/EfficientAI-tech/efficientAI?style=flat-square&logo=github)](https://github.com/EfficientAI-tech/efficientAI)
+[![License](https://img.shields.io/github/license/EfficientAI-tech/efficientAI?style=flat-square)](https://github.com/EfficientAI-tech/efficientAI)
+[![LinkedIn](https://img.shields.io/static/v1?label=Connect%20on&message=LinkedIn&color=0077B5&logo=LinkedIn&style=flat-square)](https://www.linkedin.com/company/efficientaicloud)
+[![X (Twitter)](https://img.shields.io/static/v1?label=Follow%20on&message=X%20(Twitter)&color=000000&logo=X&style=flat-square)](https://x.com/AiEfficient)
+[![Book a Demo](https://img.shields.io/static/v1?label=Schedule&message=Demo&color=006BFF&logo=Calendly&style=flat-square)](https://cal.com/aadhar-singh-bhadauria/30min)
+
+</div>
+
+---
+
+## ✨ What EfficientAI Does
+
+- ✅ **Voice AI Evaluation**: Test your voice AI agents with comprehensive evaluation metrics
+- ✅ **Persona Creation**: Design diverse voice personas with unique characteristics and behaviors
+- ✅ **Scenario Building**: Create comprehensive conversation flows and dialogue trees
+- ✅ **Automated Testing**: Execute tests automatically across all your voice agents
+- ✅ **Real-time Insights**: Get real-time insights on latency, accuracy, and quality metrics
+- ✅ **Batch Processing**: Process multiple audio files and evaluations efficiently
+- ✅ **Modern Web Interface**: Beautiful React-based UI for managing evaluations
+
+**Quick Navigation:** [Quick Start](#-quick-start) • [CLI Commands](#-cli-commands) • [Development](#-development)
+
+---
+
+## 🚀 Quick Start
+
+There are two ways to run the application:
+
+### Method 1: Using Docker Compose (Recommended)
+
+1. **Start all services**
+   ```bash
+   docker compose up -d
+   ```
+   
+   This will automatically:
+   - Pull pre-built images from GitHub Container Registry (no build required!)
+   - Start all services: `db`, `redis`, `api`, `media`, `worker`, `beat`, `worker-imports`, `worker-usage`
+   - Run database migrations automatically on startup
+
+   | Service | Purpose |
+   |---------|---------|
+   | `db` | PostgreSQL |
+   | `redis` | Redis (Celery broker + usage counters) |
+   | `api` | HTTP API + frontend |
+   | `media` | Live voice WebSocket media server |
+   | `worker` | Celery: `celery` (evaluator cron runs), `audio-metrics` queues |
+   | `beat` | Celery Beat scheduler + `platform` queue worker (alerts, FX, OSS prune) — **single replica** |
+   | `worker-imports` | Celery: `imports`, `diarization`, `eval-control`, `evaluations` |
+   | `worker-usage` | Celery: `usage` queue (flush Redis counters, cost recompute, evaluator cron dispatch) |
+
+   **Usage costs:** token/cost rollups stay stale without `beat`, `worker-usage`, and default `worker` (evaluator cron runs; or `eai start-all`).
+   
+   **Using a specific version:**
+   ```bash
+   # Pin to a specific release version
+   EFFICIENTAI_VERSION=1.0.0 docker compose up -d
+   
+   # Or add to your .env file
+   echo "EFFICIENTAI_VERSION=1.0.0" >> .env
+   docker compose up -d
+   ```
+
+2. **Configure your settings**
+   
+   Edit `config.yml` and `config.docker.yml` with your settings (S3, API keys, etc.). See the [Configuration](#️-configuration) section for details.
+
+   **Version note:** `EFFICIENTAI_VERSION` must match a published Docker image tag (for example `1.0.0`). If a tag is not available yet, use `latest`.
+
+3. **Optional: enable observability**
+
+   Observability is disabled by default. To start Loki, Prometheus, Grafana, and exporters, run Docker Compose with the observability override:
+
+   ```bash
+   docker compose -f docker-compose.yml -f docker-compose.observability.yml up -d
+   ```
+
+   To expose app metrics at `/metrics` and enable in-app Loki/org logging, also set `observability.enabled: true` in `config.docker.yml`. Set `observability.loki.enabled: true` when Loki logging should be active.
+
+4. **Create an account**
+
+   Option A — sign up in the browser (recommended):
+
+   ```bash
+   # Open the app and hit "Create account" on the login screen.
+   open http://localhost:8000/
+   ```
+
+   Option B — create an API key from the CLI:
+
+   ```bash
+   docker compose exec api python -m scripts.create_api_key \
+     --new-org "My Organization" --name "My API Key"
+   ```
+
+4. **Access the application**
+   - Frontend: http://localhost:8000/
+   - API Docs: http://localhost:8000/docs
+
+#### Building Locally (for development)
+
+If you want to build images locally instead of pulling pre-built ones:
+
+```bash
+# Edit docker-compose.yml to uncomment the 'build' sections, then:
+docker compose up -d --build
+
+# Or rebuild without cache for a clean build
+docker compose build --no-cache api worker
+docker compose up -d
+```
+
+### Method 2: Using Command Line (CLI)
+
+1. **Install the package**
+   ```bash
+   pip install -e .
+   ```
+
+2. **Generate configuration file**
+   ```bash
+   eai init-config
+   ```
+
+3. **Edit `config.yml`** with your database and Redis connection strings:
+   ```yaml
+   database:
+     url: "postgresql://efficientai:password@localhost:5432/efficientai"
+   
+   redis:
+     url: "redis://localhost:6379/0"
+   ```
+
+4. **Start the application and workers**
+
+   **Infra only (optional):** if Postgres/Redis run in Docker but the app runs locally:
+   ```bash
+   docker compose up -d db redis
+   ```
+
+   **Option A: Start everything together (Recommended)**
+   ```bash
+   eai start-all --config config.yml
+   ```
+   
+   This single command spawns:
+   - API server (uvicorn)
+   - Telephony media server (`media` port, default 8001)
+   - Celery worker (`celery`, `audio-metrics`)
+   - Celery worker (`imports`, `diarization`, `eval-control`, `evaluations`)
+   - Celery worker (`usage` — flush + cost recompute)
+   - Celery Beat (platform schedules: usage flush, alerts, FX refresh, OSS prune)
+   
+   It also runs database migrations and builds the frontend when needed.
+   
+   Press `Ctrl+C` to stop all processes.
+   
+   **Option B: Start separately (for advanced use)**
+   
+   In one terminal, start the application:
+   ```bash
+   eai start --config config.yml
+   ```
+   
+   In another terminal, start the Celery worker:
+   ```bash
+   eai worker --config config.yml
+   ```
+
+   For platform periodic tasks (usage flush, alerts, etc.), start Celery Beat in a separate terminal (single replica):
+   ```bash
+   eai beat --config config.yml
+   ```
+   
+   Or use the Celery command directly:
+   ```bash
+   celery -A app.workers.celery_app worker --loglevel=info
+   ```
+
+   The application will automatically:
+   - **Run database migrations** (ensures schema is up to date)
+   - Build the frontend (if needed)
+   - Start the API server
+   - Serve both API and frontend from the same server
+   
+   **Important:** Migrations run automatically before startup. If migrations fail, the app won't start.
+
+   **For development with hot reload:**
+   ```bash
+   # Enable auto-rebuild of frontend on file changes
+   eai start-all --config config.yml --watch-frontend
+   ```
+   
+   This will:
+   - Automatically rebuild the frontend when source files change
+   - Keep the backend hot-reload enabled (by default)
+   - Perfect for active frontend development
+
+5. **Access the application**
+   - Frontend: http://localhost:8000/
+   - API Docs: http://localhost:8000/docs
+
+### Prerequisites
+
+**For Docker Compose:**
+- Docker and Docker Compose installed
+- ~4GB disk space for pre-built images
+
+**For CLI:**
+- Python 3.11+
+- Node.js 18+ and npm
+- PostgreSQL running (locally or remote)
+- Redis running (locally or remote)
+
+### Test Commands (Make)
+
+If you prefer shorthand commands, use the root `Makefile`:
+
+```bash
+# Run all backend tests
+make test
+
+# Run tests against a running Docker Compose Postgres
+make test-docker-db
+
+# Run current Phase 1 suites
+make test-phase1
+
+# Run only unit or integration tests
+make test-unit
+make test-integration
+
+# Run a specific file
+make test-file FILE=tests/test_core/test_password.py
+
+# Run tests by keyword
+make test-k K=password
+```
+
+You can also pass extra pytest args:
+
+```bash
+make test PYTEST_ARGS="-x -vv"
+```
+
+To override DB connection values for `make test-docker-db`:
+
+```bash
+make test-docker-db TEST_DB_HOST=localhost TEST_DB_PORT=5432 TEST_DB_NAME=efficientai TEST_DB_USER=efficientai TEST_DB_PASSWORD=password
+```
+
+---
+
+## 💻 CLI Commands
+
+### Start Application and Worker Together (Recommended)
+```bash
+# Start API + all workers with default config.yml
+eai start-all
+
+# Start with custom config
+eai start-all --config production.yml
+
+# Start with frontend file watching (auto-rebuild on changes)
+eai start-all --watch-frontend
+
+# Start without building frontend (if already built)
+eai start-all --no-build-frontend
+
+# Start without auto-reload (production mode)
+eai start-all --no-reload --no-build-frontend
+
+# Customize worker log level
+eai start-all --worker-loglevel debug
+
+# Skip dedicated workers (not recommended for production)
+eai start-all --no-imports-worker
+eai start-all --no-usage-worker
+eai start-all --no-telephony-worker
+
+# Tune usage worker concurrency (default: 4, thread pool)
+eai start-all --usage-worker-concurrency 8
+```
+
+**Note:** This is the recommended local-dev workflow. One command spawns the API, telephony media server, three Celery workers (`celery,audio-metrics` · `imports,…` · `usage`), and Celery Beat. Press `Ctrl+C` to stop all processes. For Docker deployments, use `docker compose up -d` instead (separate containers per role; see Quick Start).
+
+### Start Application Only
+```bash
+# Start just the API server (worker must be started separately)
+eai start --config config.yml
+
+# Start with auto-reload for development
+eai start --reload
+
+# Start with frontend file watching
+eai start --watch-frontend
+```
+
+### Start Worker Only
+```bash
+# Start Celery worker with default config.yml
+eai worker
+
+# Start with custom config
+eai worker --config production.yml
+
+# Start with custom log level
+eai worker --loglevel debug
+
+# Or use Celery command directly
+celery -A app.workers.celery_app worker --loglevel=info
+```
+
+**Development Mode:**
+```bash
+# Full development setup with both backend and frontend hot reload
+eai start-all --watch-frontend --reload
+```
+
+### Start Application Only
+```bash
+# Start with default config.yml
+eai start
+
+# Start with custom config
+eai start --config production.yml
+
+# Start with frontend file watching (auto-rebuild on changes)
+eai start --watch-frontend
+
+# Start without building frontend (if already built)
+eai start --no-build-frontend
+
+# Start without auto-reload (production mode)
+eai start --no-reload --no-build-frontend
+```
+
+**Development Mode:**
+```bash
+# Full development setup with both backend and frontend hot reload
+eai start --watch-frontend --reload
+```
+
+### Start Worker Only
+```bash
+# Start Celery worker with default config.yml
+eai worker
+
+# Start with custom config
+eai worker --config production.yml
+
+# Start with custom log level
+eai worker --loglevel debug
+
+# Or use Celery command directly (equivalent to eai worker)
+celery -A app.workers.celery_app worker --loglevel=info
+```
+
+**Note:** Workers are required for background tasks (transcription, evaluation, usage cost flush, etc.). If you use `eai start-all`, they start automatically. Only use `eai worker` if you need to run a worker separately (e.g. `eai worker --queues usage` for the usage queue only).
+
+### Usage Pricing Ops
+Manage model pricing rates and backfill stored usage costs on `llm_usage_daily` rollups. Requires `beat`, `worker-usage`, and default `worker` (or `eai start-all`).
+
+```bash
+# Upsert model_pricing_rates from app/config/models.json
+eai usage seed-rates --config config.yml
+
+# Compare models.json pricing vs Postgres
+eai usage diff-rates --config config.yml
+
+# Backfill costs in-process (all orgs; use after migrate or catalog change)
+eai usage recompute --config config.yml --sync
+
+# Async recompute via usage queue (requires --organization-id)
+eai usage recompute --config config.yml --organization-id <org-uuid>
+
+# Optional scopes: --model, --usage-kind, --start-date, --end-date
+
+# Optional: fetch LiteLLM prices into pricing_catalog.json
+eai usage sync-litellm --local
+eai usage sync-litellm --local --write-models
+```
+
+**After migrations or catalog changes:**
+```bash
+eai migrate
+eai usage seed-rates --config config.yml
+eai usage recompute --config config.yml --sync
+```
+
+**Flush / Usage UI tuning** — set in `.env` (see `env.example`):
+
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `USAGE_FLUSH_BUCKET_BATCH_SIZE` | `500` | Buckets per DB transaction |
+| `USAGE_FLUSH_MAX_BATCHES_PER_RUN` | `30` | Batches per flush tick (≤ **15,000** buckets/run) |
+| `USAGE_FLUSH_BEAT_SECONDS` | `120` | Celery Beat flush interval (~2 min lag vs Redis) |
+| `USAGE_FLUSH_LOCK_TTL_SECONDS` | `300` | Per-org flush lock TTL |
+| `USAGE_READ_CACHE_TTL_SECONDS` | `90` | Redis cache TTL for usage summary/breakdown/filters |
+| `CRON_DISPATCH_INTERVAL_SECONDS` | `30` | Evaluator cron dispatch interval (Beat → worker-usage) |
+
+Usage UI reads Postgres only (summary/breakdown/filters); Redis counters flush on the Celery Beat schedule (~2 min eventual consistency). If Redis backlog grows, lower `USAGE_FLUSH_BEAT_SECONDS` or raise `USAGE_FLUSH_MAX_BATCHES_PER_RUN`.
+
+### Generate Config File
+```bash
+# Generate default config.yml
+eai init-config
+
+# Generate custom config file
+eai init-config --output my-config.yml
+```
+
+### Database Migrations
+```bash
+# Run pending migrations manually
+eai migrate
+
+# Run migrations with verbose output
+eai migrate --verbose
+```
+
+**Note:** Migrations run automatically on application startup. You only need to run them manually if you want to apply migrations before starting the server.
+
+---
+
+## ⚙️ Configuration
+
+### YAML Configuration
+
+EfficientAI uses YAML configuration files for both CLI and Docker deployments. Generate a default config with:
+
+```bash
+eai init-config
+```
+
+#### Complete Configuration Reference
+
+```yaml
+# Application Settings
+app:
+  name: "EfficientAI Voice AI Evaluation Platform"
+  version: "0.1.0"
+  debug: true
+  secret_key: "your-secret-key-here-change-in-production"
+
+# Server Settings
+server:
+  host: "0.0.0.0"
+  port: 8000
+
+# Database Configuration
+database:
+  url: "postgresql://user:password@host:port/dbname"
+
+# Redis Configuration
+redis:
+  url: "redis://host:port/db"
+
+# Celery Configuration (for background tasks)
+celery:
+  broker_url: "redis://host:port/db"
+  result_backend: "redis://host:port/db"
+
+# File Storage
+storage:
+  upload_dir: "./uploads"
+  max_file_size_mb: 500
+  blob_provider: s3  # s3 | gcs — single active cloud blob backend
+  allowed_audio_formats:
+    - "wav"
+    - "mp3"
+    - "flac"
+    - "m4a"
+
+# S3 Configuration (when storage.blob_provider is s3)
+s3:
+  enabled: false  # Set to true to enable S3 blob storage
+  bucket_name: "your-bucket-name"
+  region: "us-east-1"
+  access_key_id: "YOUR_ACCESS_KEY_ID"
+  secret_access_key: "YOUR_SECRET_ACCESS_KEY"
+  endpoint_url: null  # For S3-compatible services (MinIO, etc.)
+  prefix: "audio/"  # Optional prefix for all objects
+
+# GCS Configuration (when storage.blob_provider is gcs)
+gcs:
+  enabled: false
+  bucket_name: "your-gcs-bucket-name"
+  project_id: "your-gcp-project-id"
+  credentials_path: null  # Optional; falls back to GOOGLE_APPLICATION_CREDENTIALS / ADC
+  signing_service_account_email: null  # Optional override for IAM signBlob (GKE Workload Identity)
+  prefix: "audio/"  # Same object key layout as S3
+
+# CORS Settings
+cors:
+  origins:
+    - "http://localhost:3000"
+    - "http://localhost:8000"
+
+# API Settings
+api:
+  prefix: "/api/v1"
+  key_header: "X-API-Key"
+  rate_limit_per_minute: 60
+```
+
+### Environment Variables (Optional)
+
+You can use a `.env` file to override Docker Compose defaults:
+
+```env
+POSTGRES_USER=efficientai
+POSTGRES_PASSWORD=password
+POSTGRES_DB=efficientai
+SECRET_KEY=your-secret-key-here
+
+# Usage cost flush (see README "Usage Pricing Ops"; full list in env.example)
+# USAGE_FLUSH_BEAT_SECONDS=120
+# USAGE_FLUSH_MAX_BATCHES_PER_RUN=30
+
+# Optional: GCS blob storage (also set storage.blob_provider: gcs in config.yml)
+BLOB_STORAGE_PROVIDER=gcs
+GCS_BUCKET_NAME=your-gcs-bucket
+GCS_PROJECT_ID=your-gcp-project
+GOOGLE_APPLICATION_CREDENTIALS=/app/secrets/gcp-sa.json
+```
+
+---
+
+## 🔐 Authentication & Deployment Recipes
+
+EfficientAI ships with a pluggable authentication system that scales from a
+solo OSS install to an enterprise deployment behind your existing IdP.
+Configure it via `auth.providers` in `config.yml` (or `AUTH_PROVIDERS` in
+`.env`).
+
+| Deployment model          | Providers                     | License needed |
+| ------------------------- | ----------------------------- | -------------- |
+| OSS self-hosted (default) | `api_key`, `local_password`   | None           |
+| Enterprise SSO (BYO IdP)  | `api_key`, `external_oidc`    | `oidc_sso`     |
+
+> **Why no bundled IdP?** In practice every enterprise already runs one —
+> Okta, Azure AD / Entra ID, Google Workspace, AWS Cognito, Auth0, Ping,
+> JumpCloud. Shipping our own Keycloak alongside the app just added another
+> thing for you to operate and lock down. `external_oidc` talks to whatever
+> you already have.
+
+### Recipe 1 — OSS self-hosted
+
+Humans sign up with email + password, machines keep using API keys. No
+license required.
+
+```yaml
+# config.yml
+auth:
+  providers: [api_key, local_password]
+  local_password:
+    token_ttl_minutes: 720
+    allow_signup: true
+```
+
+### Recipe 2 — Enterprise SSO via your existing IdP
+
+Point the app at any OIDC-compliant identity provider. Drop
+`local_password` from `providers` to force humans through SSO while still
+allowing machines to authenticate with API keys.
+
+```yaml
+# config.yml
+auth:
+  providers: [api_key, external_oidc]
+  oidc:
+    issuer: "<see recipes below>"
+    audience: "efficientai"
+    client_id: "<SPA client id>"
+    default_org_name: "My Company"
+    # Optional: if your IdP emits an org claim, map it here so a single
+    # tenant can route users into different EfficientAI orgs.
+    # org_claim_path: ["https://efficientai.com/org"]
+```
+
+```bash
+echo "EFFICIENTAI_LICENSE=eyJ..." >> .env   # must include feature: oidc_sso
+```
+
+Register the SPA in your IdP as a **public OIDC client** with:
+
+- Redirect URI: `https://<your-app>/login/callback`
+- Grant type: `authorization_code` (+ PKCE if your IdP requires it)
+- Scopes: `openid profile email`
+
+The backend verifies incoming bearer tokens against the IdP's JWKS (auto-
+discovered from `<issuer>/.well-known/openid-configuration`), so you never
+need to copy public keys by hand.
+
+<details>
+<summary><b>Okta</b></summary>
+
+```yaml
+auth:
+  oidc:
+    issuer: "https://<your-tenant>.okta.com"
+    audience: "api://efficientai"        # or the Okta API "audience" value
+    client_id: "0oa..."                  # SPA application client id
+```
+
+Okta → *Applications* → *Create App Integration* → *OIDC · Single-Page App*,
+then add the redirect URI and assign the app to the users/groups that
+should be allowed in.
+
+</details>
+
+<details>
+<summary><b>Azure AD / Entra ID</b></summary>
+
+```yaml
+auth:
+  oidc:
+    issuer: "https://login.microsoftonline.com/<TENANT_ID>/v2.0"
+    audience: "<APP_CLIENT_ID>"
+    client_id: "<APP_CLIENT_ID>"
+```
+
+*Entra ID* → *App registrations* → *New registration* → SPA platform, add
+the redirect URI. Under *Token configuration* add the `email` optional
+claim. If you need multi-tenant access, use the `organizations` or
+`common` endpoint in the issuer URL.
+
+</details>
+
+<details>
+<summary><b>Google Workspace</b></summary>
+
+```yaml
+auth:
+  oidc:
+    issuer: "https://accounts.google.com"
+    audience: "<CLIENT_ID>.apps.googleusercontent.com"
+    client_id: "<CLIENT_ID>.apps.googleusercontent.com"
+    default_org_name: "Example Inc"
+```
+
+Google Cloud Console → *APIs & Services* → *Credentials* → *Create OAuth
+client ID* → *Web application*. Restrict the Workspace domain via the
+consent screen so only your employees can sign in.
+
+</details>
+
+<details>
+<summary><b>AWS Cognito</b></summary>
+
+```yaml
+auth:
+  oidc:
+    issuer: "https://cognito-idp.<REGION>.amazonaws.com/<USER_POOL_ID>"
+    audience: "<APP_CLIENT_ID>"
+    client_id: "<APP_CLIENT_ID>"
+```
+
+Cognito User Pool → *App integration* → *App client* (public, no secret),
+enable the Authorization code grant and `openid profile email` scopes, and
+register the callback URL.
+
+</details>
+
+<details>
+<summary><b>Auth0</b></summary>
+
+```yaml
+auth:
+  oidc:
+    issuer: "https://<your-tenant>.auth0.com/"
+    audience: "https://api.efficientai.local"
+    client_id: "<APP_CLIENT_ID>"
+```
+
+Auth0 *Applications* → *Single Page Application*. Define the API audience
+in *APIs* and reference it here — Auth0 issues access tokens for that
+audience which the backend then validates.
+
+</details>
+
+### How it works under the hood
+
+```mermaid
+flowchart LR
+    Client["Request<br/>(Bearer or X-API-Key)"]
+    Registry[ProviderRegistry]
+    ApiKey[ApiKeyProvider]
+    Local[LocalPasswordProvider]
+    OIDC["ExternalOIDCProvider<br/>(license-gated)"]
+    IdP["Your IdP<br/>(Okta / AAD / Google / Cognito / …)"]
+    Principal["Principal<br/>(org_id, user_id, auth_method)"]
+    Route[Protected route]
+
+    Client --> Registry
+    Registry -->|X-API-Key header| ApiKey
+    Registry -->|"bearer iss=efficientai-local"| Local
+    Registry -->|"bearer (any other issuer)"| OIDC
+    OIDC -.verify signature via JWKS.-> IdP
+    ApiKey --> Principal
+    Local --> Principal
+    OIDC --> Principal
+    Principal --> Route
+```
+
+Every route depends on `get_principal` (via `get_organization_id`), so the
+same endpoint serves all three credential types without any per-route code.
+See [`app/core/auth/`](app/core/auth/) for the implementation.
+
+---
+
+## 🗄️ Database Migrations
+
+The application includes an automatic migration system that runs database schema changes on startup.
+
+### How It Works
+
+- **Automatic Execution**: Migrations run automatically when the application starts
+- **Version Tracking**: Applied migrations are tracked in the `schema_migrations` table
+- **Idempotent**: Each migration only runs once, even if the application restarts
+- **Ordered Execution**: Migrations run in alphabetical order (use numbered prefixes like `001_`, `002_`, etc.)
+
+### Migration Files
+
+Migrations are stored in the `migrations/` directory. Each migration file should:
+
+1. Have a numeric prefix: `001_description.py`, `002_another.py`, etc.
+2. Include a `description` variable
+3. Have an `upgrade(db)` function that takes a SQLAlchemy Session
+
+Example migration:
+```python
+"""
+Migration: Add New Feature
+"""
+
+description = "Add new feature support"
+
+def upgrade(db):
+    """Apply this migration."""
+    from sqlalchemy import text
+    
+    db.execute(text("CREATE TABLE IF NOT EXISTS new_table (...)"))
+    db.commit()
+```
+
+### Running Migrations
+
+**Automatic (Recommended - Default Behavior):**
+- ✅ Migrations run **automatically** when you start the app with `eai start`
+- ✅ Migrations also run automatically when the application starts (via lifespan handler)
+- ✅ **If migrations fail, the application will NOT start** - this ensures database consistency
+- ✅ API requests are **blocked** if migrations are pending
+- ✅ When cloning from main, migrations will run automatically on first startup
+- ✅ Each migration only runs once (tracked in `schema_migrations` table)
+
+**Manual:**
+```bash
+# Run migrations manually
+eai migrate
+
+# With verbose output
+eai migrate --verbose
+```
+
+**Skip migrations (not recommended):**
+```bash
+# Only use this if you know what you're doing
+eai start --skip-migrations
+```
+
+### Creating New Migrations
+
+1. Create a new file in `migrations/` directory with the next sequential number
+2. Follow the format shown above
+3. Test the migration on a development database first
+4. Use `IF NOT EXISTS` checks for idempotent operations
+
+See `migrations/README.md` for detailed documentation.
+
+---
+
+## 📊 Database ER Diagram
+
+Generate a visual Entity-Relationship (ER) diagram of your database schema to visualize table structures and relationships.
+
+### Prerequisites
+
+Install the required system and Python packages:
+
+```bash
+# Install system graphviz package
+sudo apt-get update
+sudo apt-get install -y graphviz libgraphviz-dev pkg-config
+
+# Install Python packages
+pip install eralchemy graphviz
+```
+
+### Generating the ER Diagram
+
+Run the script to generate a PNG ER diagram:
+
+```bash
+python scripts/generate_er_diagram_simple.py
+```
+
+This will create `schema_er_diagram.png` in the project root directory, showing:
+- All database tables
+- Column names and types
+- Primary keys
+- Foreign key relationships
+- Indexes
+
+**Note:** The diagram is automatically generated from your current database schema, so make sure your database is running and migrations are up to date.
+
+---
+
+## 🛠️ Development
+
+### Running Locally
+
+1. **Start PostgreSQL and Redis**
+   ```bash
+   docker compose up -d db redis
+   ```
+
+2. **Run the application with hot reload**
+   ```bash
+   # Backend auto-reload + Frontend auto-rebuild on file changes
+   eai start --config config.yml --watch-frontend
+   ```
+   
+   The `--watch-frontend` flag automatically rebuilds the frontend whenever you modify source files (`.tsx`, `.ts`, `.css`, etc.), so you don't need to manually rebuild after each change.
+
+3. **Run Celery worker** (in separate terminal)
+   ```bash
+   celery -A app.workers.celery_app worker --loglevel=info
+   ```
+
+### Frontend Development
+
+**Option 1: Using CLI with watch mode (Recommended)**
+```bash
+# From project root - automatically rebuilds on changes
+eai start --watch-frontend
+```
+
+**Option 2: Using Vite dev server (for instant hot module replacement)**
+```bash
+cd frontend
+npm install
+npm run dev
+```
+This runs Vite dev server on `http://localhost:3000` with instant hot module replacement. Note: You'll need to run the backend separately on port 8000.
+
+---
+
+## 📦 Release Versioning
+
+EfficientAI uses automated semantic version releases for merged PRs to `main`/`master`.
+
+- Add a PR label to control the bump:
+  - `major` -> next `X.0.0`
+  - `minor` -> next `x.Y.0`
+  - `fix` (or `patch`) -> next `x.y.Z`
+- If no release label is provided, the release defaults to a patch bump.
+- On merge, CI automatically:
+  - creates the git tag and GitHub release (`vX.Y.Z`)
+  - publishes Docker images for both API and worker with tags:
+    - `X.Y.Z`
+    - `X.Y`
+    - `latest`
+
+This means you can deploy a specific release with:
+
+```bash
+EFFICIENTAI_VERSION=1.1.0 docker compose up -d
+```
+
+---
+
+## 🔧 Troubleshooting
+
+### Database Migration Issues
+
+**Problem:** After cloning the repository, you see errors like:
+```
+psycopg2.errors.UndefinedColumn: column "organization_id" of relation "api_keys" does not exist
+```
+
+**Cause:** The database schema is out of sync with the code. This happens when:
+- The database was created before migrations were added
+- Migrations failed to run on startup
+- The database was created using an older version of the code
+
+**Solution:**
+
+1. **Check migration status:**
+   ```bash
+   python scripts/check_migrations.py
+   ```
+   This will show which migrations have been applied and identify any schema issues.
+
+2. **Run migrations manually:**
+   ```bash
+   # Using CLI (recommended)
+   eai migrate --verbose
+   
+   # Or using Python directly
+   python -c "from app.core.migrations import run_migrations; run_migrations()"
+   ```
+
+3. **If you're using a fresh database (just created/nuked):**
+   - The migration system now handles fresh databases correctly
+   - If tables don't exist, migrations will skip them and `init_db()` will create them with the correct schema
+   - However, if you see this error on a fresh DB, try:
+     ```bash
+     # Stop the application
+     # Then run migrations explicitly
+     eai migrate --verbose
+     # Then start the application again
+     eai start
+     ```
+
+4. **If migrations still fail:**
+   - Ensure your database connection is correct in `config.yml` or `.env`
+   - Check that you have the necessary permissions on the database
+   - Review the migration logs for specific errors
+   - You may need to manually add missing columns (see migration files in `migrations/` directory)
+   - **For fresh databases**: Make sure migrations run BEFORE any tables are created
+
+5. **For Docker setups:**
+   ```bash
+   docker compose exec api eai migrate --verbose
+   ```
+   
+   **Important for Docker**: If you nuked the DB container and created a new one:
+   - The new container starts with an empty database
+   - Migrations should run automatically on startup
+   - If they don't, run them manually as shown above
+
+**Prevention:** Always ensure migrations run successfully before using the application. Check the startup logs for migration status messages.
+
+---
+
+## 🤝 Contributing
+
+See `CONTRIBUTING.md` for PR format, review expectations, and release label conventions.
+
+---
+
+## 📞 Support
+
+- 📧 **Email**: [tejas@efficientai.cloud](mailto:tejas@efficientai.cloud)
+- 📅 **Book a Demo**: [Schedule a call](https://cal.com/aadhar-singh-bhadauria/30min)
+- 💬 **LinkedIn**: [Connect with us](https://www.linkedin.com/company/efficientaicloud)
+- 🐦 **X (Twitter)**: [Follow us](https://x.com/AiEfficient)
+- 💻 **GitHub**: [View on GitHub](https://github.com/EfficientAI-tech/efficientAI)
+- 💬 **Discord**: [Join our community](https://discord.gg/Saz9b2NA7)
+
+---
+
+## 📄 License
+
+The open-source core is licensed under the **MIT License** — see [LICENSE](LICENSE).
+
+Content under the `enterprise/` directory is licensed separately under
+[enterprise/LICENSE.md](enterprise/LICENSE.md). Enterprise product capabilities
+(unlimited usage history, call imports, voice playground, alerts, and more) require
+a valid **`EFFICIENTAI_LICENSE`** JWT key. Contact
+[sales@efficientai.com](mailto:sales@efficientai.com) or visit
+[efficientai.cloud](https://efficientai.cloud).
