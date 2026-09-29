@@ -1,0 +1,10 @@
+{
+  "repository": "elevenlabs/cli",
+  "commit": "0f483a7c1250f8bc00b7d7286d1352d1f5b4321c",
+  "retrieved": "2026-09-29",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "cbdb95c4e402d7c23b6f8c134d5c55b8f2ca9dffe769d07822c20d31b3e0e3ac"
+}

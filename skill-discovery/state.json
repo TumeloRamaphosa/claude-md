@@ -50,6 +50,16 @@
       "retrieved": "2026-09-27",
       "status": "draft-not-installed"
     },
+    "YouMind-OpenLab/awesome-grok-imagine-prompts": {
+      "category": "content",
+      "commit": "4350fb4022ef14e93215ab281b51b63bc8e5fd09",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "f9a332a99571c61b528efb940b46b1c4b19655258b65b94a3c6eb540f6024f5c",
+      "repository": "YouMind-OpenLab/awesome-grok-imagine-prompts",
+      "retrieved": "2026-09-29",
+      "status": "draft-not-installed"
+    },
     "bluejay-ai-dev/mivas-bench": {
       "category": "voice",
       "commit": "77a593d9507b1a967852470f6ae35d9dfa01640c",
@@ -78,6 +88,16 @@
       "readme_sha256": "4012ccea529f8d5ef5eac18d32b4948891472c4708f0581eaba62f92728a6bac",
       "repository": "dgrauet/ltx-2-mlx",
       "retrieved": "2026-09-26",
+      "status": "draft-not-installed"
+    },
+    "elevenlabs/cli": {
+      "category": "voice",
+      "commit": "0f483a7c1250f8bc00b7d7286d1352d1f5b4321c",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "cbdb95c4e402d7c23b6f8c134d5c55b8f2ca9dffe769d07822c20d31b3e0e3ac",
+      "repository": "elevenlabs/cli",
+      "retrieved": "2026-09-29",
       "status": "draft-not-installed"
     },
     "huggingface/speech-to-speech": {
@@ -138,6 +158,16 @@
       "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
       "repository": "vectorize-io/hindsight",
       "retrieved": "2026-09-25",
+      "status": "draft-not-installed"
+    },
+    "volcengine/OpenViking": {
+      "category": "memory",
+      "commit": "42d9a7f1f4f99c574f6ee6ef5deebb7229d73f71",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "AGPL-3.0",
+      "readme_sha256": "0bda3106022ab40452d0f356904e2d7c5dc51df770e80b0a2bb26b5da16b13c0",
+      "repository": "volcengine/OpenViking",
+      "retrieved": "2026-09-29",
       "status": "draft-not-installed"
     },
     "xerj-org/xerj": {

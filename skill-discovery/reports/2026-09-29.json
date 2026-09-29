@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-29",
+  "created": [
+    {
+      "repository": "elevenlabs/cli",
+      "commit": "0f483a7c1250f8bc00b7d7286d1352d1f5b4321c",
+      "retrieved": "2026-09-29",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "cbdb95c4e402d7c23b6f8c134d5c55b8f2ca9dffe769d07822c20d31b3e0e3ac"
+    },
+    {
+      "repository": "YouMind-OpenLab/awesome-grok-imagine-prompts",
+      "commit": "4350fb4022ef14e93215ab281b51b63bc8e5fd09",
+      "retrieved": "2026-09-29",
+      "license": "NOASSERTION",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "f9a332a99571c61b528efb940b46b1c4b19655258b65b94a3c6eb540f6024f5c"
+    },
+    {
+      "repository": "volcengine/OpenViking",
+      "commit": "42d9a7f1f4f99c574f6ee6ef5deebb7229d73f71",
+      "retrieved": "2026-09-29",
+      "license": "AGPL-3.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "0bda3106022ab40452d0f356904e2d7c5dc51df770e80b0a2bb26b5da16b13c0"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

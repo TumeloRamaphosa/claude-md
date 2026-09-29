@@ -1,0 +1,10 @@
+{
+  "repository": "volcengine/OpenViking",
+  "commit": "42d9a7f1f4f99c574f6ee6ef5deebb7229d73f71",
+  "retrieved": "2026-09-29",
+  "license": "AGPL-3.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "0bda3106022ab40452d0f356904e2d7c5dc51df770e80b0a2bb26b5da16b13c0"
+}
