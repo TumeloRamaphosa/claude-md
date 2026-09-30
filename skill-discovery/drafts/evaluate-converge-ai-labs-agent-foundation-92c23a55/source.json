@@ -1,0 +1,10 @@
+{
+  "repository": "converge-ai-labs/agent-foundation",
+  "commit": "9e7c29086736e0e27a8ff3138013044fc82eedac",
+  "retrieved": "2026-09-30",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "b9d9ecee017ffe2d2468ea62e9fbce1cf98c46df6e32e977d17938127a2fb73a"
+}

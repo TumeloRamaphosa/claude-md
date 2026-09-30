@@ -1,0 +1,10 @@
+{
+  "repository": "egma-ai/egma",
+  "commit": "6297cb04d7e77b0925e8632e211113029f5a7392",
+  "retrieved": "2026-09-30",
+  "license": "NOASSERTION",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "c207b0fa27a62ec369a0a733bfc096b6eccfe064e04b829f274988ad7d3eccb9"
+}

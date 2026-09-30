@@ -80,6 +80,16 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "converge-ai-labs/agent-foundation": {
+      "category": "memory",
+      "commit": "9e7c29086736e0e27a8ff3138013044fc82eedac",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "b9d9ecee017ffe2d2468ea62e9fbce1cf98c46df6e32e977d17938127a2fb73a",
+      "repository": "converge-ai-labs/agent-foundation",
+      "retrieved": "2026-09-30",
+      "status": "draft-not-installed"
+    },
     "dgrauet/ltx-2-mlx": {
       "category": "content",
       "commit": "15e7f002f8944d5c647286ef801c595a4f28ac6f",
@@ -88,6 +98,16 @@
       "readme_sha256": "4012ccea529f8d5ef5eac18d32b4948891472c4708f0581eaba62f92728a6bac",
       "repository": "dgrauet/ltx-2-mlx",
       "retrieved": "2026-09-26",
+      "status": "draft-not-installed"
+    },
+    "egma-ai/egma": {
+      "category": "voice",
+      "commit": "6297cb04d7e77b0925e8632e211113029f5a7392",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "NOASSERTION",
+      "readme_sha256": "c207b0fa27a62ec369a0a733bfc096b6eccfe064e04b829f274988ad7d3eccb9",
+      "repository": "egma-ai/egma",
+      "retrieved": "2026-09-30",
       "status": "draft-not-installed"
     },
     "elevenlabs/cli": {
@@ -128,6 +148,16 @@
       "readme_sha256": "64b5771a69deb081c40fd9d4bec9d96cc86bd9f0aed5625e3cc9be7dc60d5221",
       "repository": "lktiep/cortex-hub",
       "retrieved": "2026-09-28",
+      "status": "draft-not-installed"
+    },
+    "nexscope-ai/ecommerce-ai-tools": {
+      "category": "content",
+      "commit": "cb6e7617efa9c2ca243dd7a631c6f127a63119d5",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "UNKNOWN",
+      "readme_sha256": "08d2c5f52a219260bdfea4844292781f59a7d6dc6225b37541cdb798a3fc912c",
+      "repository": "nexscope-ai/ecommerce-ai-tools",
+      "retrieved": "2026-09-30",
       "status": "draft-not-installed"
     },
     "pipecat-ai/pipecat": {

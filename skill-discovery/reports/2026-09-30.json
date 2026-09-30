@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-30",
+  "created": [
+    {
+      "repository": "nexscope-ai/ecommerce-ai-tools",
+      "commit": "cb6e7617efa9c2ca243dd7a631c6f127a63119d5",
+      "retrieved": "2026-09-30",
+      "license": "UNKNOWN",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "08d2c5f52a219260bdfea4844292781f59a7d6dc6225b37541cdb798a3fc912c"
+    },
+    {
+      "repository": "converge-ai-labs/agent-foundation",
+      "commit": "9e7c29086736e0e27a8ff3138013044fc82eedac",
+      "retrieved": "2026-09-30",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "b9d9ecee017ffe2d2468ea62e9fbce1cf98c46df6e32e977d17938127a2fb73a"
+    },
+    {
+      "repository": "egma-ai/egma",
+      "commit": "6297cb04d7e77b0925e8632e211113029f5a7392",
+      "retrieved": "2026-09-30",
+      "license": "NOASSERTION",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "c207b0fa27a62ec369a0a733bfc096b6eccfe064e04b829f274988ad7d3eccb9"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}
