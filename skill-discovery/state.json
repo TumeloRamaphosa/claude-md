@@ -10,6 +10,26 @@
       "retrieved": "2026-09-25",
       "status": "draft-not-installed"
     },
+    "Anil-matcha/AI-Voice-Agent": {
+      "category": "voice",
+      "commit": "8b04e0dafe8da7b586e5b92c4739deeb920c0033",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "ff6d62f5e51dc6ced36f419331d194cde3f1422e198298bacdf31b9f3f475373",
+      "repository": "Anil-matcha/AI-Voice-Agent",
+      "retrieved": "2026-10-01",
+      "status": "draft-not-installed"
+    },
+    "Anil-matcha/Wan-3.0-API": {
+      "category": "content",
+      "commit": "6e618b1bf00d5726d657149be57fbf4e14ea3a02",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "a16556ea1273d4ea12db7818f4d10ec1f935c0491e8189522c331b6755e0c8fa",
+      "repository": "Anil-matcha/Wan-3.0-API",
+      "retrieved": "2026-10-01",
+      "status": "draft-not-installed"
+    },
     "Ariestar/sivtr": {
       "category": "memory",
       "commit": "27b8d439e5185f153b1727fcb937b9f4f122fa6a",
@@ -148,6 +168,16 @@
       "readme_sha256": "64b5771a69deb081c40fd9d4bec9d96cc86bd9f0aed5625e3cc9be7dc60d5221",
       "repository": "lktiep/cortex-hub",
       "retrieved": "2026-09-28",
+      "status": "draft-not-installed"
+    },
+    "markhuangai/dense-mem": {
+      "category": "memory",
+      "commit": "33a687da85251a3a0204c74fabb28d465835c967",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "3d3a1df03fbeb56b6132b12eefe56fdbc99a17f784df3b8e6bc918524a6a744a",
+      "repository": "markhuangai/dense-mem",
+      "retrieved": "2026-10-01",
       "status": "draft-not-installed"
     },
     "nexscope-ai/ecommerce-ai-tools": {

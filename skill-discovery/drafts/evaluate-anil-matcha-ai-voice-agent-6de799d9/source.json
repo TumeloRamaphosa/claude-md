@@ -1,0 +1,10 @@
+{
+  "repository": "Anil-matcha/AI-Voice-Agent",
+  "commit": "8b04e0dafe8da7b586e5b92c4739deeb920c0033",
+  "retrieved": "2026-10-01",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "ff6d62f5e51dc6ced36f419331d194cde3f1422e198298bacdf31b9f3f475373"
+}

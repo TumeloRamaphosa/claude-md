@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-01",
+  "created": [
+    {
+      "repository": "Anil-matcha/Wan-3.0-API",
+      "commit": "6e618b1bf00d5726d657149be57fbf4e14ea3a02",
+      "retrieved": "2026-10-01",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "a16556ea1273d4ea12db7818f4d10ec1f935c0491e8189522c331b6755e0c8fa"
+    },
+    {
+      "repository": "markhuangai/dense-mem",
+      "commit": "33a687da85251a3a0204c74fabb28d465835c967",
+      "retrieved": "2026-10-01",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "3d3a1df03fbeb56b6132b12eefe56fdbc99a17f784df3b8e6bc918524a6a744a"
+    },
+    {
+      "repository": "Anil-matcha/AI-Voice-Agent",
+      "commit": "8b04e0dafe8da7b586e5b92c4739deeb920c0033",
+      "retrieved": "2026-10-01",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "ff6d62f5e51dc6ced36f419331d194cde3f1422e198298bacdf31b9f3f475373"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}
