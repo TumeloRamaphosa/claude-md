@@ -1,5 +1,15 @@
 {
   "seen": {
+    "AVIDS2/memorix": {
+      "category": "memory",
+      "commit": "82ff31519014a31c54509c0de0f3ea6539526d37",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "8fbc9e9f770c0135d5c2dee717561ed0d61fefa2d55f9c0c4b719122b05a9334",
+      "repository": "AVIDS2/memorix",
+      "retrieved": "2026-10-02",
+      "status": "draft-not-installed"
+    },
     "AceDataCloud/Nexior": {
       "category": "content",
       "commit": "1a684219d47febe7cac26c0b01db528bd7ab31a4",
@@ -110,6 +120,16 @@
       "retrieved": "2026-09-30",
       "status": "draft-not-installed"
     },
+    "czg86389-hub/muse2api": {
+      "category": "content",
+      "commit": "57dd7b8a79c32b721e78a57be3366027ad72115c",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "3280c820d0ddcd4741bb692fc4950565eb7ff935d6fe609afb8b3a7bd7752b6c",
+      "repository": "czg86389-hub/muse2api",
+      "retrieved": "2026-10-02",
+      "status": "draft-not-installed"
+    },
     "dgrauet/ltx-2-mlx": {
       "category": "content",
       "commit": "15e7f002f8944d5c647286ef801c595a4f28ac6f",
@@ -138,6 +158,16 @@
       "readme_sha256": "cbdb95c4e402d7c23b6f8c134d5c55b8f2ca9dffe769d07822c20d31b3e0e3ac",
       "repository": "elevenlabs/cli",
       "retrieved": "2026-09-29",
+      "status": "draft-not-installed"
+    },
+    "hkjarral/AVA-AI-Voice-Agent-for-Asterisk": {
+      "category": "voice",
+      "commit": "95a1faa346418a32a70eba068d72e5db189b858d",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "05d9750e950ef3af00ae6e1f177ea0a1dd7e36fe336290adb1a1b5f9db6c7e69",
+      "repository": "hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
+      "retrieved": "2026-10-02",
       "status": "draft-not-installed"
     },
     "huggingface/speech-to-speech": {

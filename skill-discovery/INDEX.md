@@ -2,6 +2,7 @@
 
 Draft evaluation skills only. Review before activation.
 
+- [AVIDS2/memorix](drafts/evaluate-avids2-memorix-429cf14a/SKILL.md) — memory; first found 2026-10-02
 - [AceDataCloud/Nexior](drafts/evaluate-acedatacloud-nexior-76650d8e/SKILL.md) — content; first found 2026-09-25
 - [Anil-matcha/AI-Voice-Agent](drafts/evaluate-anil-matcha-ai-voice-agent-6de799d9/SKILL.md) — voice; first found 2026-10-01
 - [Anil-matcha/Wan-3.0-API](drafts/evaluate-anil-matcha-wan-3-0-api-8d96d961/SKILL.md) — content; first found 2026-10-01
@@ -13,9 +14,11 @@ Draft evaluation skills only. Review before activation.
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
 - [converge-ai-labs/agent-foundation](drafts/evaluate-converge-ai-labs-agent-foundation-92c23a55/SKILL.md) — memory; first found 2026-09-30
+- [czg86389-hub/muse2api](drafts/evaluate-czg86389-hub-muse2api-13c6053d/SKILL.md) — content; first found 2026-10-02
 - [dgrauet/ltx-2-mlx](drafts/evaluate-dgrauet-ltx-2-mlx-e07b9a1d/SKILL.md) — content; first found 2026-09-26
 - [egma-ai/egma](drafts/evaluate-egma-ai-egma-409bbb08/SKILL.md) — voice; first found 2026-09-30
 - [elevenlabs/cli](drafts/evaluate-elevenlabs-cli-b90739ff/SKILL.md) — voice; first found 2026-09-29
+- [hkjarral/AVA-AI-Voice-Agent-for-Asterisk](drafts/evaluate-hkjarral-ava-ai-voice-agent-for-asterisk-6ae91283/SKILL.md) — voice; first found 2026-10-02
 - [huggingface/speech-to-speech](drafts/evaluate-huggingface-speech-to-speech-44ebd7c6/SKILL.md) — voice; first found 2026-09-25
 - [ldclabs/KIP](drafts/evaluate-ldclabs-kip-dda508d0/SKILL.md) — memory; first found 2026-09-27
 - [lktiep/cortex-hub](drafts/evaluate-lktiep-cortex-hub-73745065/SKILL.md) — memory; first found 2026-09-28

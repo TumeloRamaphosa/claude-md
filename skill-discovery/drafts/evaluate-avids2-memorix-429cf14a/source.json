@@ -1,0 +1,10 @@
+{
+  "repository": "AVIDS2/memorix",
+  "commit": "82ff31519014a31c54509c0de0f3ea6539526d37",
+  "retrieved": "2026-10-02",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "8fbc9e9f770c0135d5c2dee717561ed0d61fefa2d55f9c0c4b719122b05a9334"
+}

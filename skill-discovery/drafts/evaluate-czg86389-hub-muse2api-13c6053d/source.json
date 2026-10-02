@@ -1,0 +1,10 @@
+{
+  "repository": "czg86389-hub/muse2api",
+  "commit": "57dd7b8a79c32b721e78a57be3366027ad72115c",
+  "retrieved": "2026-10-02",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "3280c820d0ddcd4741bb692fc4950565eb7ff935d6fe609afb8b3a7bd7752b6c"
+}

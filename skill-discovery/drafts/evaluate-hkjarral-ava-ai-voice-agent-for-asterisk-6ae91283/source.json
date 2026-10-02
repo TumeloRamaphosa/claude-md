@@ -1,0 +1,10 @@
+{
+  "repository": "hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
+  "commit": "95a1faa346418a32a70eba068d72e5db189b858d",
+  "retrieved": "2026-10-02",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "05d9750e950ef3af00ae6e1f177ea0a1dd7e36fe336290adb1a1b5f9db6c7e69"
+}
