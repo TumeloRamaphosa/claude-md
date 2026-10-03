@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-03",
+  "created": [
+    {
+      "repository": "aicc2025/sip-to-ai",
+      "commit": "2664834f919050748a30623881f47c30f8ed27d8",
+      "retrieved": "2026-10-03",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "0e58eddfef79451739a33559cc449f706298c47a3ac216d4bcab1e10777ade75"
+    },
+    {
+      "repository": "Anil-matcha/Open-Generative-AI",
+      "commit": "ce82e99365ee25271427442e92310c6b0c05e94c",
+      "retrieved": "2026-10-03",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "40cd4a346cff4880f5f82cecb308e20b0766da235a4f9a540fb77759f1ead2b6"
+    },
+    {
+      "repository": "liliang-cn/cortexdb",
+      "commit": "fdbb960787873f7f4605b8d6594e3bd0138f4cea",
+      "retrieved": "2026-10-03",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "becca7fb0bd275d44e3a020529a0e10872633314b46dffc3da7556c4089a352d"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

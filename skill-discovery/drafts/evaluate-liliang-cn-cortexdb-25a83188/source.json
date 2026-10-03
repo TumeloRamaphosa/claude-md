@@ -1,0 +1,10 @@
+{
+  "repository": "liliang-cn/cortexdb",
+  "commit": "fdbb960787873f7f4605b8d6594e3bd0138f4cea",
+  "retrieved": "2026-10-03",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "becca7fb0bd275d44e3a020529a0e10872633314b46dffc3da7556c4089a352d"
+}

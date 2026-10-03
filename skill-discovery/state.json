@@ -30,6 +30,16 @@
       "retrieved": "2026-10-01",
       "status": "draft-not-installed"
     },
+    "Anil-matcha/Open-Generative-AI": {
+      "category": "content",
+      "commit": "ce82e99365ee25271427442e92310c6b0c05e94c",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "40cd4a346cff4880f5f82cecb308e20b0766da235a4f9a540fb77759f1ead2b6",
+      "repository": "Anil-matcha/Open-Generative-AI",
+      "retrieved": "2026-10-03",
+      "status": "draft-not-installed"
+    },
     "Anil-matcha/Wan-3.0-API": {
       "category": "content",
       "commit": "6e618b1bf00d5726d657149be57fbf4e14ea3a02",
@@ -88,6 +98,16 @@
       "readme_sha256": "f9a332a99571c61b528efb940b46b1c4b19655258b65b94a3c6eb540f6024f5c",
       "repository": "YouMind-OpenLab/awesome-grok-imagine-prompts",
       "retrieved": "2026-09-29",
+      "status": "draft-not-installed"
+    },
+    "aicc2025/sip-to-ai": {
+      "category": "voice",
+      "commit": "2664834f919050748a30623881f47c30f8ed27d8",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "0e58eddfef79451739a33559cc449f706298c47a3ac216d4bcab1e10777ade75",
+      "repository": "aicc2025/sip-to-ai",
+      "retrieved": "2026-10-03",
       "status": "draft-not-installed"
     },
     "bluejay-ai-dev/mivas-bench": {
@@ -188,6 +208,16 @@
       "readme_sha256": "cca2bbe463addf5a9f271b1ce39aeffa37a6d408ba50714f86f5c23e3fd46d88",
       "repository": "ldclabs/KIP",
       "retrieved": "2026-09-27",
+      "status": "draft-not-installed"
+    },
+    "liliang-cn/cortexdb": {
+      "category": "memory",
+      "commit": "fdbb960787873f7f4605b8d6594e3bd0138f4cea",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "becca7fb0bd275d44e3a020529a0e10872633314b46dffc3da7556c4089a352d",
+      "repository": "liliang-cn/cortexdb",
+      "retrieved": "2026-10-03",
       "status": "draft-not-installed"
     },
     "lktiep/cortex-hub": {

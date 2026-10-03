@@ -1,0 +1,10 @@
+{
+  "repository": "Anil-matcha/Open-Generative-AI",
+  "commit": "ce82e99365ee25271427442e92310c6b0c05e94c",
+  "retrieved": "2026-10-03",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "40cd4a346cff4880f5f82cecb308e20b0766da235a4f9a540fb77759f1ead2b6"
+}

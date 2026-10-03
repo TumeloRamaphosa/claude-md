@@ -1,0 +1,10 @@
+{
+  "repository": "aicc2025/sip-to-ai",
+  "commit": "2664834f919050748a30623881f47c30f8ed27d8",
+  "retrieved": "2026-10-03",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "0e58eddfef79451739a33559cc449f706298c47a3ac216d4bcab1e10777ade75"
+}
