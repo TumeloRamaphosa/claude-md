@@ -7,6 +7,7 @@ Draft evaluation skills only. Review before activation.
 - [Anil-matcha/AI-Voice-Agent](drafts/evaluate-anil-matcha-ai-voice-agent-6de799d9/SKILL.md) — voice; first found 2026-10-01
 - [Anil-matcha/Open-Generative-AI](drafts/evaluate-anil-matcha-open-generative-ai-c16129f9/SKILL.md) — content; first found 2026-10-03
 - [Anil-matcha/Wan-3.0-API](drafts/evaluate-anil-matcha-wan-3-0-api-8d96d961/SKILL.md) — content; first found 2026-10-01
+- [AnkitSaini491/SocialPulse-AI](drafts/evaluate-ankitsaini491-socialpulse-ai-3b2e366b/SKILL.md) — analytics; first found 2026-10-04
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
@@ -30,5 +31,7 @@ Draft evaluation skills only. Review before activation.
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [tetherto/qvac](drafts/evaluate-tetherto-qvac-78e9e46f/SKILL.md) — content; first found 2026-09-28
 - [vectorize-io/hindsight](drafts/evaluate-vectorize-io-hindsight-57687486/SKILL.md) — memory; first found 2026-09-25
+- [vericontext/vibeframe](drafts/evaluate-vericontext-vibeframe-00ab1c4d/SKILL.md) — content; first found 2026-10-04
 - [volcengine/OpenViking](drafts/evaluate-volcengine-openviking-8a8bbd40/SKILL.md) — memory; first found 2026-09-29
+- [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26

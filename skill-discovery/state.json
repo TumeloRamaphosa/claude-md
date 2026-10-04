@@ -50,6 +50,16 @@
       "retrieved": "2026-10-01",
       "status": "draft-not-installed"
     },
+    "AnkitSaini491/SocialPulse-AI": {
+      "category": "analytics",
+      "commit": "58896f57be1f77761ff83c000b29aa64f2fd3f49",
+      "goal": "Connect content decisions to measured audience response.",
+      "license": "UNKNOWN",
+      "readme_sha256": "34c1f567619da746c5f2e9425486724681aa9c74984c0299bf02d500c1fdc29d",
+      "repository": "AnkitSaini491/SocialPulse-AI",
+      "retrieved": "2026-10-04",
+      "status": "draft-not-installed"
+    },
     "Ariestar/sivtr": {
       "category": "memory",
       "commit": "27b8d439e5185f153b1727fcb937b9f4f122fa6a",
@@ -280,6 +290,16 @@
       "retrieved": "2026-09-25",
       "status": "draft-not-installed"
     },
+    "vericontext/vibeframe": {
+      "category": "content",
+      "commit": "ccdde177615024aeeadaa1ff0444bfff203e9e72",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "552b5e0e4bdbad908e2e675c62481b3344bc360b4e07b9be51bf8ec6f773533a",
+      "repository": "vericontext/vibeframe",
+      "retrieved": "2026-10-04",
+      "status": "draft-not-installed"
+    },
     "volcengine/OpenViking": {
       "category": "memory",
       "commit": "42d9a7f1f4f99c574f6ee6ef5deebb7229d73f71",
@@ -288,6 +308,16 @@
       "readme_sha256": "0bda3106022ab40452d0f356904e2d7c5dc51df770e80b0a2bb26b5da16b13c0",
       "repository": "volcengine/OpenViking",
       "retrieved": "2026-09-29",
+      "status": "draft-not-installed"
+    },
+    "wiringai/mod_earshot": {
+      "category": "voice",
+      "commit": "f1c6fcec75dec69bdbbdb30c3b6bf19b6fcef735",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "82bacd118b4a8f161bc12915f275c8807156c59f1ce72d8ffa8de81302d00f6d",
+      "repository": "wiringai/mod_earshot",
+      "retrieved": "2026-10-04",
       "status": "draft-not-installed"
     },
     "xerj-org/xerj": {

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-04",
+  "created": [
+    {
+      "repository": "AnkitSaini491/SocialPulse-AI",
+      "commit": "58896f57be1f77761ff83c000b29aa64f2fd3f49",
+      "retrieved": "2026-10-04",
+      "license": "UNKNOWN",
+      "category": "analytics",
+      "goal": "Connect content decisions to measured audience response.",
+      "status": "draft-not-installed",
+      "readme_sha256": "34c1f567619da746c5f2e9425486724681aa9c74984c0299bf02d500c1fdc29d"
+    },
+    {
+      "repository": "wiringai/mod_earshot",
+      "commit": "f1c6fcec75dec69bdbbdb30c3b6bf19b6fcef735",
+      "retrieved": "2026-10-04",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "82bacd118b4a8f161bc12915f275c8807156c59f1ce72d8ffa8de81302d00f6d"
+    },
+    {
+      "repository": "vericontext/vibeframe",
+      "commit": "ccdde177615024aeeadaa1ff0444bfff203e9e72",
+      "retrieved": "2026-10-04",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "552b5e0e4bdbad908e2e675c62481b3344bc360b4e07b9be51bf8ec6f773533a"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

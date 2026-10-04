@@ -1,0 +1,10 @@
+{
+  "repository": "vericontext/vibeframe",
+  "commit": "ccdde177615024aeeadaa1ff0444bfff203e9e72",
+  "retrieved": "2026-10-04",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "552b5e0e4bdbad908e2e675c62481b3344bc360b4e07b9be51bf8ec6f773533a"
+}

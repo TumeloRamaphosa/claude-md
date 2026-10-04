@@ -1,0 +1,10 @@
+{
+  "repository": "wiringai/mod_earshot",
+  "commit": "f1c6fcec75dec69bdbbdb30c3b6bf19b6fcef735",
+  "retrieved": "2026-10-04",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "82bacd118b4a8f161bc12915f275c8807156c59f1ce72d8ffa8de81302d00f6d"
+}
