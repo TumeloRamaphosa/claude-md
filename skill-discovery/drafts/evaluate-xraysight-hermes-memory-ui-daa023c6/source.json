@@ -1,0 +1,10 @@
+{
+  "repository": "xraysight/hermes-memory-ui",
+  "commit": "43da25d914f8281200ca3dc344435a42793441a4",
+  "retrieved": "2026-10-05",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "249e81cef6bc53684db48b0af018b3afc0dfd2e9b7ee12bfa59c1ae3edc4c288"
+}

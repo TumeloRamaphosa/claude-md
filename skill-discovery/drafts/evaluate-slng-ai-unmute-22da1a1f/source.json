@@ -1,0 +1,10 @@
+{
+  "repository": "slng-ai/unmute",
+  "commit": "957d1684d6beac609a0799bb202c253402cc028a",
+  "retrieved": "2026-10-05",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "615780f2bba9efab14fc05bb48b467450c5640ea1da26fe7b2d83956aab5215b"
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "created": [
+    {
+      "repository": "slng-ai/unmute",
+      "commit": "957d1684d6beac609a0799bb202c253402cc028a",
+      "retrieved": "2026-10-05",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "615780f2bba9efab14fc05bb48b467450c5640ea1da26fe7b2d83956aab5215b"
+    },
+    {
+      "repository": "Smite79/MiniMax-H3-LongVideos",
+      "commit": "75b846d9140e431db79a65a1c9770a7b9c7bd30c",
+      "retrieved": "2026-10-05",
+      "license": "NOASSERTION",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "c823bc57304bae1ee368e323bf5bc7b4edd996a3d4ef99e89e9f848545e5c0ed"
+    },
+    {
+      "repository": "xraysight/hermes-memory-ui",
+      "commit": "43da25d914f8281200ca3dc344435a42793441a4",
+      "retrieved": "2026-10-05",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "249e81cef6bc53684db48b0af018b3afc0dfd2e9b7ee12bfa59c1ae3edc4c288"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

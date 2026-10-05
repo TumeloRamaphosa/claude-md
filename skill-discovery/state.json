@@ -90,6 +90,16 @@
       "retrieved": "2026-09-27",
       "status": "draft-not-installed"
     },
+    "Smite79/MiniMax-H3-LongVideos": {
+      "category": "content",
+      "commit": "75b846d9140e431db79a65a1c9770a7b9c7bd30c",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "c823bc57304bae1ee368e323bf5bc7b4edd996a3d4ef99e89e9f848545e5c0ed",
+      "repository": "Smite79/MiniMax-H3-LongVideos",
+      "retrieved": "2026-10-05",
+      "status": "draft-not-installed"
+    },
     "TencentARC/SCoPE": {
       "category": "content",
       "commit": "2fa984036004fb564fc2b0e888ce2bd95ab03735",
@@ -270,6 +280,16 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "slng-ai/unmute": {
+      "category": "voice",
+      "commit": "957d1684d6beac609a0799bb202c253402cc028a",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "615780f2bba9efab14fc05bb48b467450c5640ea1da26fe7b2d83956aab5215b",
+      "repository": "slng-ai/unmute",
+      "retrieved": "2026-10-05",
+      "status": "draft-not-installed"
+    },
     "tetherto/qvac": {
       "category": "content",
       "commit": "ab3a5be659994d7d5b85a58624850a66113d7efe",
@@ -328,6 +348,16 @@
       "readme_sha256": "df6cbb4335b70f2cf1f294e24650a46ea8ade160a76168d4895c0f3953253a9a",
       "repository": "xerj-org/xerj",
       "retrieved": "2026-09-26",
+      "status": "draft-not-installed"
+    },
+    "xraysight/hermes-memory-ui": {
+      "category": "memory",
+      "commit": "43da25d914f8281200ca3dc344435a42793441a4",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "249e81cef6bc53684db48b0af018b3afc0dfd2e9b7ee12bfa59c1ae3edc4c288",
+      "repository": "xraysight/hermes-memory-ui",
+      "retrieved": "2026-10-05",
       "status": "draft-not-installed"
     }
   }
