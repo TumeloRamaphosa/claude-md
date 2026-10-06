@@ -4,6 +4,7 @@ Draft evaluation skills only. Review before activation.
 
 - [AVIDS2/memorix](drafts/evaluate-avids2-memorix-429cf14a/SKILL.md) — memory; first found 2026-10-02
 - [AceDataCloud/Nexior](drafts/evaluate-acedatacloud-nexior-76650d8e/SKILL.md) — content; first found 2026-09-25
+- [AgentLineHQ/AgentLine](drafts/evaluate-agentlinehq-agentline-bbb472e3/SKILL.md) — voice; first found 2026-10-06
 - [Anil-matcha/AI-Voice-Agent](drafts/evaluate-anil-matcha-ai-voice-agent-6de799d9/SKILL.md) — voice; first found 2026-10-01
 - [Anil-matcha/Open-Generative-AI](drafts/evaluate-anil-matcha-open-generative-ai-c16129f9/SKILL.md) — content; first found 2026-10-03
 - [Anil-matcha/Wan-3.0-API](drafts/evaluate-anil-matcha-wan-3-0-api-8d96d961/SKILL.md) — content; first found 2026-10-01
@@ -13,6 +14,7 @@ Draft evaluation skills only. Review before activation.
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
+- [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
 - [YouMind-OpenLab/awesome-grok-imagine-prompts](drafts/evaluate-youmind-openlab-awesome-grok-imagine-prompt-fd406d2b/SKILL.md) — content; first found 2026-09-29
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
@@ -20,6 +22,7 @@ Draft evaluation skills only. Review before activation.
 - [converge-ai-labs/agent-foundation](drafts/evaluate-converge-ai-labs-agent-foundation-92c23a55/SKILL.md) — memory; first found 2026-09-30
 - [czg86389-hub/muse2api](drafts/evaluate-czg86389-hub-muse2api-13c6053d/SKILL.md) — content; first found 2026-10-02
 - [dgrauet/ltx-2-mlx](drafts/evaluate-dgrauet-ltx-2-mlx-e07b9a1d/SKILL.md) — content; first found 2026-09-26
+- [diqierjia/StrataGate-AgentMemory](drafts/evaluate-diqierjia-stratagate-agentmemory-6d4187cc/SKILL.md) — memory; first found 2026-10-06
 - [egma-ai/egma](drafts/evaluate-egma-ai-egma-409bbb08/SKILL.md) — voice; first found 2026-09-30
 - [elevenlabs/cli](drafts/evaluate-elevenlabs-cli-b90739ff/SKILL.md) — voice; first found 2026-09-29
 - [hkjarral/AVA-AI-Voice-Agent-for-Asterisk](drafts/evaluate-hkjarral-ava-ai-voice-agent-for-asterisk-6ae91283/SKILL.md) — voice; first found 2026-10-02

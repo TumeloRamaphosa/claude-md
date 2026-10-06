@@ -1,0 +1,10 @@
+{
+  "repository": "diqierjia/StrataGate-AgentMemory",
+  "commit": "942777cecc57d703759cb87fe6f0aaea4b99d2a1",
+  "retrieved": "2026-10-06",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "7fd90036a4fbcc5c85ebc783827cedf33516c039f9054daf84deb569eeb2aa16"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "AgentLineHQ/AgentLine",
+  "commit": "151f50822e807609d47c21ff860fb8c21a1bd11e",
+  "retrieved": "2026-10-06",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "6c45395175cb77c80ef0337fcff0cbe830cc8215e691e756d423606119fef7c8"
+}

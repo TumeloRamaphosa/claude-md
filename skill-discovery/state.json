@@ -20,6 +20,16 @@
       "retrieved": "2026-09-25",
       "status": "draft-not-installed"
     },
+    "AgentLineHQ/AgentLine": {
+      "category": "voice",
+      "commit": "151f50822e807609d47c21ff860fb8c21a1bd11e",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "6c45395175cb77c80ef0337fcff0cbe830cc8215e691e756d423606119fef7c8",
+      "repository": "AgentLineHQ/AgentLine",
+      "retrieved": "2026-10-06",
+      "status": "draft-not-installed"
+    },
     "Anil-matcha/AI-Voice-Agent": {
       "category": "voice",
       "commit": "8b04e0dafe8da7b586e5b92c4739deeb920c0033",
@@ -110,6 +120,16 @@
       "retrieved": "2026-09-27",
       "status": "draft-not-installed"
     },
+    "Tenney95/AI-Canvas-tauri": {
+      "category": "content",
+      "commit": "8ece1258a120c40d3bafd26f2edb9876385c9ef4",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "dabce0b824577d489c437426b00a4d8adb6a17f472a215ff2646129224bd22c9",
+      "repository": "Tenney95/AI-Canvas-tauri",
+      "retrieved": "2026-10-06",
+      "status": "draft-not-installed"
+    },
     "YouMind-OpenLab/awesome-grok-imagine-prompts": {
       "category": "content",
       "commit": "4350fb4022ef14e93215ab281b51b63bc8e5fd09",
@@ -178,6 +198,16 @@
       "readme_sha256": "4012ccea529f8d5ef5eac18d32b4948891472c4708f0581eaba62f92728a6bac",
       "repository": "dgrauet/ltx-2-mlx",
       "retrieved": "2026-09-26",
+      "status": "draft-not-installed"
+    },
+    "diqierjia/StrataGate-AgentMemory": {
+      "category": "memory",
+      "commit": "942777cecc57d703759cb87fe6f0aaea4b99d2a1",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "7fd90036a4fbcc5c85ebc783827cedf33516c039f9054daf84deb569eeb2aa16",
+      "repository": "diqierjia/StrataGate-AgentMemory",
+      "retrieved": "2026-10-06",
       "status": "draft-not-installed"
     },
     "egma-ai/egma": {
