@@ -1,0 +1,10 @@
+{
+  "repository": "deepnovacore/NovaAudioAgent",
+  "commit": "4799b4095f444b06fb5f0e97f5f5de4b55d4ca1e",
+  "retrieved": "2026-10-07",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "56373ec0c526e14c40a4956dfb15c2155a929fc826c6d946df8dbc1e56f4dbb3"
+}

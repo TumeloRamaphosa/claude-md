@@ -190,6 +190,16 @@
       "retrieved": "2026-10-02",
       "status": "draft-not-installed"
     },
+    "deepnovacore/NovaAudioAgent": {
+      "category": "voice",
+      "commit": "4799b4095f444b06fb5f0e97f5f5de4b55d4ca1e",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "56373ec0c526e14c40a4956dfb15c2155a929fc826c6d946df8dbc1e56f4dbb3",
+      "repository": "deepnovacore/NovaAudioAgent",
+      "retrieved": "2026-10-07",
+      "status": "draft-not-installed"
+    },
     "dgrauet/ltx-2-mlx": {
       "category": "content",
       "commit": "15e7f002f8944d5c647286ef801c595a4f28ac6f",
@@ -228,6 +238,16 @@
       "readme_sha256": "cbdb95c4e402d7c23b6f8c134d5c55b8f2ca9dffe769d07822c20d31b3e0e3ac",
       "repository": "elevenlabs/cli",
       "retrieved": "2026-09-29",
+      "status": "draft-not-installed"
+    },
+    "hao-ai-lab/FastVideo": {
+      "category": "content",
+      "commit": "3467f8befbd77c40cc5941fdfa37bd3e2c069eb2",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "Apache-2.0",
+      "readme_sha256": "01cf3d1bfb3047582aab360913d0a21eec6318dc6e85669e9b261a9cadc623e0",
+      "repository": "hao-ai-lab/FastVideo",
+      "retrieved": "2026-10-07",
       "status": "draft-not-installed"
     },
     "hkjarral/AVA-AI-Voice-Agent-for-Asterisk": {
@@ -288,6 +308,16 @@
       "readme_sha256": "3d3a1df03fbeb56b6132b12eefe56fdbc99a17f784df3b8e6bc918524a6a744a",
       "repository": "markhuangai/dense-mem",
       "retrieved": "2026-10-01",
+      "status": "draft-not-installed"
+    },
+    "mtrnix/metronix-memory": {
+      "category": "memory",
+      "commit": "67b2b9af4b8d4e673cd834e6b7f9272bc85b8156",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "1ec6dbe875a7a388642c17d8a1e0bfce7c7fff5b93af6cdb7e74125b77275348",
+      "repository": "mtrnix/metronix-memory",
+      "retrieved": "2026-10-07",
       "status": "draft-not-installed"
     },
     "nexscope-ai/ecommerce-ai-tools": {

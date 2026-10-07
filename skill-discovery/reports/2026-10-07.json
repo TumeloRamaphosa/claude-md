@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-07",
+  "created": [
+    {
+      "repository": "hao-ai-lab/FastVideo",
+      "commit": "3467f8befbd77c40cc5941fdfa37bd3e2c069eb2",
+      "retrieved": "2026-10-07",
+      "license": "Apache-2.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "01cf3d1bfb3047582aab360913d0a21eec6318dc6e85669e9b261a9cadc623e0"
+    },
+    {
+      "repository": "mtrnix/metronix-memory",
+      "commit": "67b2b9af4b8d4e673cd834e6b7f9272bc85b8156",
+      "retrieved": "2026-10-07",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "1ec6dbe875a7a388642c17d8a1e0bfce7c7fff5b93af6cdb7e74125b77275348"
+    },
+    {
+      "repository": "deepnovacore/NovaAudioAgent",
+      "commit": "4799b4095f444b06fb5f0e97f5f5de4b55d4ca1e",
+      "retrieved": "2026-10-07",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "56373ec0c526e14c40a4956dfb15c2155a929fc826c6d946df8dbc1e56f4dbb3"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "hao-ai-lab/FastVideo",
+  "commit": "3467f8befbd77c40cc5941fdfa37bd3e2c069eb2",
+  "retrieved": "2026-10-07",
+  "license": "Apache-2.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "01cf3d1bfb3047582aab360913d0a21eec6318dc6e85669e9b261a9cadc623e0"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "mtrnix/metronix-memory",
+  "commit": "67b2b9af4b8d4e673cd834e6b7f9272bc85b8156",
+  "retrieved": "2026-10-07",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "1ec6dbe875a7a388642c17d8a1e0bfce7c7fff5b93af6cdb7e74125b77275348"
+}
