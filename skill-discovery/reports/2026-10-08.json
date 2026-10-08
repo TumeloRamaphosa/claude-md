@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-08",
+  "created": [
+    {
+      "repository": "neoneye/agent-memory-atlas",
+      "commit": "58290c808075aebba39f50dc9e3d9582f967ab48",
+      "retrieved": "2026-10-08",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "4aac2b486f6104fa154874e40feb525ba01c68b9c566989dbc504724fb28f21a"
+    },
+    {
+      "repository": "zavora-ai/adk-rust",
+      "commit": "3f35b9f540891cd0de8e9ccd36f9326f4826cb73",
+      "retrieved": "2026-10-08",
+      "license": "NOASSERTION",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "e1f3d5b2a27672aad3561df40d28b81044210323104428f5a41c7ac2f109a2fb"
+    },
+    {
+      "repository": "PurpleDoubleD/locally-uncensored",
+      "commit": "958c891981e50d7c8a62ad060db523e2a67b7b50",
+      "retrieved": "2026-10-08",
+      "license": "AGPL-3.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "9affa631a3b1ea7eeb3a74972da9299670d2916ec1f2d031e4a11e8851fa190f"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

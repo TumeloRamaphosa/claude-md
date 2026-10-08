@@ -1,0 +1,10 @@
+{
+  "repository": "zavora-ai/adk-rust",
+  "commit": "3f35b9f540891cd0de8e9ccd36f9326f4826cb73",
+  "retrieved": "2026-10-08",
+  "license": "NOASSERTION",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "e1f3d5b2a27672aad3561df40d28b81044210323104428f5a41c7ac2f109a2fb"
+}

@@ -12,6 +12,7 @@ Draft evaluation skills only. Review before activation.
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
+- [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
 - [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
@@ -34,6 +35,7 @@ Draft evaluation skills only. Review before activation.
 - [lktiep/cortex-hub](drafts/evaluate-lktiep-cortex-hub-73745065/SKILL.md) — memory; first found 2026-09-28
 - [markhuangai/dense-mem](drafts/evaluate-markhuangai-dense-mem-dd6ba377/SKILL.md) — memory; first found 2026-10-01
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07
+- [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
@@ -44,3 +46,4 @@ Draft evaluation skills only. Review before activation.
 - [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
+- [zavora-ai/adk-rust](drafts/evaluate-zavora-ai-adk-rust-204a579e/SKILL.md) — voice; first found 2026-10-08

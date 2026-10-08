@@ -100,6 +100,16 @@
       "retrieved": "2026-09-27",
       "status": "draft-not-installed"
     },
+    "PurpleDoubleD/locally-uncensored": {
+      "category": "content",
+      "commit": "958c891981e50d7c8a62ad060db523e2a67b7b50",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "AGPL-3.0",
+      "readme_sha256": "9affa631a3b1ea7eeb3a74972da9299670d2916ec1f2d031e4a11e8851fa190f",
+      "repository": "PurpleDoubleD/locally-uncensored",
+      "retrieved": "2026-10-08",
+      "status": "draft-not-installed"
+    },
     "Smite79/MiniMax-H3-LongVideos": {
       "category": "content",
       "commit": "75b846d9140e431db79a65a1c9770a7b9c7bd30c",
@@ -320,6 +330,16 @@
       "retrieved": "2026-10-07",
       "status": "draft-not-installed"
     },
+    "neoneye/agent-memory-atlas": {
+      "category": "memory",
+      "commit": "58290c808075aebba39f50dc9e3d9582f967ab48",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "4aac2b486f6104fa154874e40feb525ba01c68b9c566989dbc504724fb28f21a",
+      "repository": "neoneye/agent-memory-atlas",
+      "retrieved": "2026-10-08",
+      "status": "draft-not-installed"
+    },
     "nexscope-ai/ecommerce-ai-tools": {
       "category": "content",
       "commit": "cb6e7617efa9c2ca243dd7a631c6f127a63119d5",
@@ -418,6 +438,16 @@
       "readme_sha256": "249e81cef6bc53684db48b0af018b3afc0dfd2e9b7ee12bfa59c1ae3edc4c288",
       "repository": "xraysight/hermes-memory-ui",
       "retrieved": "2026-10-05",
+      "status": "draft-not-installed"
+    },
+    "zavora-ai/adk-rust": {
+      "category": "voice",
+      "commit": "3f35b9f540891cd0de8e9ccd36f9326f4826cb73",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "NOASSERTION",
+      "readme_sha256": "e1f3d5b2a27672aad3561df40d28b81044210323104428f5a41c7ac2f109a2fb",
+      "repository": "zavora-ai/adk-rust",
+      "retrieved": "2026-10-08",
       "status": "draft-not-installed"
     }
   }

@@ -1,0 +1,10 @@
+{
+  "repository": "neoneye/agent-memory-atlas",
+  "commit": "58290c808075aebba39f50dc9e3d9582f967ab48",
+  "retrieved": "2026-10-08",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "4aac2b486f6104fa154874e40feb525ba01c68b9c566989dbc504724fb28f21a"
+}

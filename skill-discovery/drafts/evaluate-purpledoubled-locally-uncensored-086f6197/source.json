@@ -1,0 +1,10 @@
+{
+  "repository": "PurpleDoubleD/locally-uncensored",
+  "commit": "958c891981e50d7c8a62ad060db523e2a67b7b50",
+  "retrieved": "2026-10-08",
+  "license": "AGPL-3.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "9affa631a3b1ea7eeb3a74972da9299670d2916ec1f2d031e4a11e8851fa190f"
+}
