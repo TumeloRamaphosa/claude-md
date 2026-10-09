@@ -90,6 +90,16 @@
       "retrieved": "2026-09-28",
       "status": "draft-not-installed"
     },
+    "HBAI-Ltd/Toonflow-app": {
+      "category": "content",
+      "commit": "72a895c26aab3f54c5a914517615362208fa6008",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "ab95f20d6705704947379aa4e2b061230d7f1f94319094e2bac7521823aad4d7",
+      "repository": "HBAI-Ltd/Toonflow-app",
+      "retrieved": "2026-10-09",
+      "status": "draft-not-installed"
+    },
     "PersonalJarvis/PersonalJarvis": {
       "category": "voice",
       "commit": "62e318ff46b4e111cb7c8d624bf68525b4a1ce7e",
@@ -128,6 +138,16 @@
       "readme_sha256": "c88fe1631eb5a137d12005d06a2a166788bd58c732eb19eb74525faf44420d82",
       "repository": "TencentARC/SCoPE",
       "retrieved": "2026-09-27",
+      "status": "draft-not-installed"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "category": "memory",
+      "commit": "99a1a2c251741658917e3fa700bf8e337ad15a5f",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "NOASSERTION",
+      "readme_sha256": "55a3b3356ebd41266c152a171be8f1b7b5d2007ad16e5da42b6c0197fd20d6b8",
+      "repository": "TencentCloud/TencentDB-Agent-Memory",
+      "retrieved": "2026-10-09",
       "status": "draft-not-installed"
     },
     "Tenney95/AI-Canvas-tauri": {
@@ -318,6 +338,16 @@
       "readme_sha256": "3d3a1df03fbeb56b6132b12eefe56fdbc99a17f784df3b8e6bc918524a6a744a",
       "repository": "markhuangai/dense-mem",
       "retrieved": "2026-10-01",
+      "status": "draft-not-installed"
+    },
+    "miuda-ai/active-call": {
+      "category": "voice",
+      "commit": "724a7e45b58be14af0d19df1c19b288268370894",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "UNKNOWN",
+      "readme_sha256": "af2c15c3687b6e81e2ddda298ac0b8a5cd57385d82bd4cbae4495b2115b51ea2",
+      "repository": "miuda-ai/active-call",
+      "retrieved": "2026-10-09",
       "status": "draft-not-installed"
     },
     "mtrnix/metronix-memory": {

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-09",
+  "created": [
+    {
+      "repository": "miuda-ai/active-call",
+      "commit": "724a7e45b58be14af0d19df1c19b288268370894",
+      "retrieved": "2026-10-09",
+      "license": "UNKNOWN",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "af2c15c3687b6e81e2ddda298ac0b8a5cd57385d82bd4cbae4495b2115b51ea2"
+    },
+    {
+      "repository": "HBAI-Ltd/Toonflow-app",
+      "commit": "72a895c26aab3f54c5a914517615362208fa6008",
+      "retrieved": "2026-10-09",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "ab95f20d6705704947379aa4e2b061230d7f1f94319094e2bac7521823aad4d7"
+    },
+    {
+      "repository": "TencentCloud/TencentDB-Agent-Memory",
+      "commit": "99a1a2c251741658917e3fa700bf8e337ad15a5f",
+      "retrieved": "2026-10-09",
+      "license": "NOASSERTION",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "55a3b3356ebd41266c152a171be8f1b7b5d2007ad16e5da42b6c0197fd20d6b8"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

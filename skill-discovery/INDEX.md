@@ -11,10 +11,12 @@ Draft evaluation skills only. Review before activation.
 - [AnkitSaini491/SocialPulse-AI](drafts/evaluate-ankitsaini491-socialpulse-ai-3b2e366b/SKILL.md) — analytics; first found 2026-10-04
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
+- [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
 - [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
+- [TencentCloud/TencentDB-Agent-Memory](drafts/evaluate-tencentcloud-tencentdb-agent-memory-38ae38ec/SKILL.md) — memory; first found 2026-10-09
 - [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
 - [YouMind-OpenLab/awesome-grok-imagine-prompts](drafts/evaluate-youmind-openlab-awesome-grok-imagine-prompt-fd406d2b/SKILL.md) — content; first found 2026-09-29
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
@@ -34,6 +36,7 @@ Draft evaluation skills only. Review before activation.
 - [liliang-cn/cortexdb](drafts/evaluate-liliang-cn-cortexdb-25a83188/SKILL.md) — memory; first found 2026-10-03
 - [lktiep/cortex-hub](drafts/evaluate-lktiep-cortex-hub-73745065/SKILL.md) — memory; first found 2026-09-28
 - [markhuangai/dense-mem](drafts/evaluate-markhuangai-dense-mem-dd6ba377/SKILL.md) — memory; first found 2026-10-01
+- [miuda-ai/active-call](drafts/evaluate-miuda-ai-active-call-a5046e64/SKILL.md) — voice; first found 2026-10-09
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
