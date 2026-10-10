@@ -210,6 +210,16 @@
       "retrieved": "2026-09-30",
       "status": "draft-not-installed"
     },
+    "cvlab-kaist/GRACE": {
+      "category": "content",
+      "commit": "bd45ff6f7b6130d74ed32bb9df11cc315ed218d4",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "4f303e0d3d16ada3d5cdb0645ce60126ac87c41b8529242042688158ccb5af8d",
+      "repository": "cvlab-kaist/GRACE",
+      "retrieved": "2026-10-10",
+      "status": "draft-not-installed"
+    },
     "czg86389-hub/muse2api": {
       "category": "content",
       "commit": "57dd7b8a79c32b721e78a57be3366027ad72115c",
@@ -298,6 +308,16 @@
       "readme_sha256": "0a15c2e099f9060b4e6839e5f1fda3e224bc52e2c2255c853b22f508927d10c6",
       "repository": "huggingface/speech-to-speech",
       "retrieved": "2026-09-25",
+      "status": "draft-not-installed"
+    },
+    "hyperb1iss/sibyl": {
+      "category": "memory",
+      "commit": "701dcdbcf417fd5a1aa601aed0f75e3f2bdc4746",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "377abbca2e92c7a24a02aba11feff5ca003457941931b0cb5114afaf7f7b6f00",
+      "repository": "hyperb1iss/sibyl",
+      "retrieved": "2026-10-10",
       "status": "draft-not-installed"
     },
     "ldclabs/KIP": {
@@ -398,6 +418,16 @@
       "readme_sha256": "615780f2bba9efab14fc05bb48b467450c5640ea1da26fe7b2d83956aab5215b",
       "repository": "slng-ai/unmute",
       "retrieved": "2026-10-05",
+      "status": "draft-not-installed"
+    },
+    "soniqo/speech-core": {
+      "category": "voice",
+      "commit": "a15d2e4de7d3c3ceb2297f593c232e5c82132fb0",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "8f1547215ecfe32bb214026b39bed7e0697606218115dc99c2cb336291370a5f",
+      "repository": "soniqo/speech-core",
+      "retrieved": "2026-10-10",
       "status": "draft-not-installed"
     },
     "tetherto/qvac": {

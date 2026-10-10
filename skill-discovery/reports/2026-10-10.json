@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "created": [
+    {
+      "repository": "soniqo/speech-core",
+      "commit": "a15d2e4de7d3c3ceb2297f593c232e5c82132fb0",
+      "retrieved": "2026-10-10",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "8f1547215ecfe32bb214026b39bed7e0697606218115dc99c2cb336291370a5f"
+    },
+    {
+      "repository": "cvlab-kaist/GRACE",
+      "commit": "bd45ff6f7b6130d74ed32bb9df11cc315ed218d4",
+      "retrieved": "2026-10-10",
+      "license": "NOASSERTION",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "4f303e0d3d16ada3d5cdb0645ce60126ac87c41b8529242042688158ccb5af8d"
+    },
+    {
+      "repository": "hyperb1iss/sibyl",
+      "commit": "701dcdbcf417fd5a1aa601aed0f75e3f2bdc4746",
+      "retrieved": "2026-10-10",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "377abbca2e92c7a24a02aba11feff5ca003457941931b0cb5114afaf7f7b6f00"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

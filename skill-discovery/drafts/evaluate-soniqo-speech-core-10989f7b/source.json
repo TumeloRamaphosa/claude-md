@@ -1,0 +1,10 @@
+{
+  "repository": "soniqo/speech-core",
+  "commit": "a15d2e4de7d3c3ceb2297f593c232e5c82132fb0",
+  "retrieved": "2026-10-10",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "8f1547215ecfe32bb214026b39bed7e0697606218115dc99c2cb336291370a5f"
+}

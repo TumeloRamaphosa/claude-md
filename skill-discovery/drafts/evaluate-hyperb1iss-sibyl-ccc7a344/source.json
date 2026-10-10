@@ -1,0 +1,10 @@
+{
+  "repository": "hyperb1iss/sibyl",
+  "commit": "701dcdbcf417fd5a1aa601aed0f75e3f2bdc4746",
+  "retrieved": "2026-10-10",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "377abbca2e92c7a24a02aba11feff5ca003457941931b0cb5114afaf7f7b6f00"
+}

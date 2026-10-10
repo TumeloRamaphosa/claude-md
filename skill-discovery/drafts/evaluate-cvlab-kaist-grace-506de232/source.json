@@ -1,0 +1,10 @@
+{
+  "repository": "cvlab-kaist/GRACE",
+  "commit": "bd45ff6f7b6130d74ed32bb9df11cc315ed218d4",
+  "retrieved": "2026-10-10",
+  "license": "NOASSERTION",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "4f303e0d3d16ada3d5cdb0645ce60126ac87c41b8529242042688158ccb5af8d"
+}
