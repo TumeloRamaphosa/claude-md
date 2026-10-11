@@ -1,0 +1,10 @@
+{
+  "repository": "mahimailabs/voicegateway",
+  "commit": "073aaab0fffeda66a9c69d0cb5963322185023cc",
+  "retrieved": "2026-10-11",
+  "license": "NOASSERTION",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "4a8ab85d9d6d46f07b66f34f017334a2f4d549db7eaa8f946c64668693dcdb4b"
+}

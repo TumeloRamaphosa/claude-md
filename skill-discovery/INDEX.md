@@ -12,9 +12,11 @@ Draft evaluation skills only. Review before activation.
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
+- [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
 - [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
+- [TeleAI-UAGI/Awesome-Agent-Memory](drafts/evaluate-teleai-uagi-awesome-agent-memory-b21b10ee/SKILL.md) — memory; first found 2026-10-11
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
 - [TencentCloud/TencentDB-Agent-Memory](drafts/evaluate-tencentcloud-tencentdb-agent-memory-38ae38ec/SKILL.md) — memory; first found 2026-10-09
 - [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
@@ -37,6 +39,7 @@ Draft evaluation skills only. Review before activation.
 - [ldclabs/KIP](drafts/evaluate-ldclabs-kip-dda508d0/SKILL.md) — memory; first found 2026-09-27
 - [liliang-cn/cortexdb](drafts/evaluate-liliang-cn-cortexdb-25a83188/SKILL.md) — memory; first found 2026-10-03
 - [lktiep/cortex-hub](drafts/evaluate-lktiep-cortex-hub-73745065/SKILL.md) — memory; first found 2026-09-28
+- [mahimailabs/voicegateway](drafts/evaluate-mahimailabs-voicegateway-ff546bfe/SKILL.md) — voice; first found 2026-10-11
 - [markhuangai/dense-mem](drafts/evaluate-markhuangai-dense-mem-dd6ba377/SKILL.md) — memory; first found 2026-10-01
 - [miuda-ai/active-call](drafts/evaluate-miuda-ai-active-call-a5046e64/SKILL.md) — voice; first found 2026-10-09
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07

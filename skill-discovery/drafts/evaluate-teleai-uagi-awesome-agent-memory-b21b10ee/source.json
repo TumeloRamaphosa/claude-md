@@ -1,0 +1,10 @@
+{
+  "repository": "TeleAI-UAGI/Awesome-Agent-Memory",
+  "commit": "b8ef8f87df73ff3cc86c6294c6d7f4c8a3774d1e",
+  "retrieved": "2026-10-11",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "e34a4e6d1733c9cafb287a0b56f443ffdbbcda1c8d03a06f099d0792f17acf5b"
+}
