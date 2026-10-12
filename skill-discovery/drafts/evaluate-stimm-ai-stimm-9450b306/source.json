@@ -1,0 +1,10 @@
+{
+  "repository": "stimm-ai/stimm",
+  "commit": "9af17a3af33b3844381839c80fb68a8698127707",
+  "retrieved": "2026-10-12",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "98926868ae0d7371b1380cb70433861bbd1b4259a8e9ac112065c2c3d6ee56ed"
+}

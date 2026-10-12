@@ -130,6 +130,16 @@
       "retrieved": "2026-10-08",
       "status": "draft-not-installed"
     },
+    "RapierCraftStudios/ForgeDock": {
+      "category": "memory",
+      "commit": "a14992dcab961d79e2b5cd03676716c7aca37068",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "AGPL-3.0",
+      "readme_sha256": "7a8851c5bca2d0636098caf8cae6e0866edd4aa4c2a6fd9f16e3360dc1612d66",
+      "repository": "RapierCraftStudios/ForgeDock",
+      "retrieved": "2026-10-12",
+      "status": "draft-not-installed"
+    },
     "Smite79/MiniMax-H3-LongVideos": {
       "category": "content",
       "commit": "75b846d9140e431db79a65a1c9770a7b9c7bd30c",
@@ -188,6 +198,16 @@
       "readme_sha256": "f9a332a99571c61b528efb940b46b1c4b19655258b65b94a3c6eb540f6024f5c",
       "repository": "YouMind-OpenLab/awesome-grok-imagine-prompts",
       "retrieved": "2026-09-29",
+      "status": "draft-not-installed"
+    },
+    "ZeroLu/awesome-seedance": {
+      "category": "content",
+      "commit": "ea0d373800dfa4c8d6313682dda322537bcd13ab",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "dafa0e6bfbfc5037a09e149e96a3b5819b4c4b8e391b9e55ff501953c7bb1767",
+      "repository": "ZeroLu/awesome-seedance",
+      "retrieved": "2026-10-12",
       "status": "draft-not-installed"
     },
     "aicc2025/sip-to-ai": {
@@ -458,6 +478,16 @@
       "readme_sha256": "8f1547215ecfe32bb214026b39bed7e0697606218115dc99c2cb336291370a5f",
       "repository": "soniqo/speech-core",
       "retrieved": "2026-10-10",
+      "status": "draft-not-installed"
+    },
+    "stimm-ai/stimm": {
+      "category": "voice",
+      "commit": "9af17a3af33b3844381839c80fb68a8698127707",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "98926868ae0d7371b1380cb70433861bbd1b4259a8e9ac112065c2c3d6ee56ed",
+      "repository": "stimm-ai/stimm",
+      "retrieved": "2026-10-12",
       "status": "draft-not-installed"
     },
     "tetherto/qvac": {

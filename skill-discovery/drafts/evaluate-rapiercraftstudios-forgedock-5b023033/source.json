@@ -1,0 +1,10 @@
+{
+  "repository": "RapierCraftStudios/ForgeDock",
+  "commit": "a14992dcab961d79e2b5cd03676716c7aca37068",
+  "retrieved": "2026-10-12",
+  "license": "AGPL-3.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "7a8851c5bca2d0636098caf8cae6e0866edd4aa4c2a6fd9f16e3360dc1612d66"
+}

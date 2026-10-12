@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-12",
+  "created": [
+    {
+      "repository": "ZeroLu/awesome-seedance",
+      "commit": "ea0d373800dfa4c8d6313682dda322537bcd13ab",
+      "retrieved": "2026-10-12",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "dafa0e6bfbfc5037a09e149e96a3b5819b4c4b8e391b9e55ff501953c7bb1767"
+    },
+    {
+      "repository": "RapierCraftStudios/ForgeDock",
+      "commit": "a14992dcab961d79e2b5cd03676716c7aca37068",
+      "retrieved": "2026-10-12",
+      "license": "AGPL-3.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "7a8851c5bca2d0636098caf8cae6e0866edd4aa4c2a6fd9f16e3360dc1612d66"
+    },
+    {
+      "repository": "stimm-ai/stimm",
+      "commit": "9af17a3af33b3844381839c80fb68a8698127707",
+      "retrieved": "2026-10-12",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "98926868ae0d7371b1380cb70433861bbd1b4259a8e9ac112065c2c3d6ee56ed"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

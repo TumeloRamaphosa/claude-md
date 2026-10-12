@@ -15,12 +15,14 @@ Draft evaluation skills only. Review before activation.
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
 - [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
+- [RapierCraftStudios/ForgeDock](drafts/evaluate-rapiercraftstudios-forgedock-5b023033/SKILL.md) — memory; first found 2026-10-12
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
 - [TeleAI-UAGI/Awesome-Agent-Memory](drafts/evaluate-teleai-uagi-awesome-agent-memory-b21b10ee/SKILL.md) — memory; first found 2026-10-11
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
 - [TencentCloud/TencentDB-Agent-Memory](drafts/evaluate-tencentcloud-tencentdb-agent-memory-38ae38ec/SKILL.md) — memory; first found 2026-10-09
 - [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
 - [YouMind-OpenLab/awesome-grok-imagine-prompts](drafts/evaluate-youmind-openlab-awesome-grok-imagine-prompt-fd406d2b/SKILL.md) — content; first found 2026-09-29
+- [ZeroLu/awesome-seedance](drafts/evaluate-zerolu-awesome-seedance-061cd66d/SKILL.md) — content; first found 2026-10-12
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
@@ -48,6 +50,7 @@ Draft evaluation skills only. Review before activation.
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
+- [stimm-ai/stimm](drafts/evaluate-stimm-ai-stimm-9450b306/SKILL.md) — voice; first found 2026-10-12
 - [tetherto/qvac](drafts/evaluate-tetherto-qvac-78e9e46f/SKILL.md) — content; first found 2026-09-28
 - [vectorize-io/hindsight](drafts/evaluate-vectorize-io-hindsight-57687486/SKILL.md) — memory; first found 2026-09-25
 - [vericontext/vibeframe](drafts/evaluate-vericontext-vibeframe-00ab1c4d/SKILL.md) — content; first found 2026-10-04
