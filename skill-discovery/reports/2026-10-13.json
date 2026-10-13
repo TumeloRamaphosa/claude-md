@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "created": [
+    {
+      "repository": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "commit": "d8fbf287a9311223762da2bcbfbc1c15ec2c40ee",
+      "retrieved": "2026-10-13",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "c1a40d0ed6ffb2cbe893b92677de50e871bcfc8456753656b466540129224174"
+    },
+    {
+      "repository": "The-AI-Alliance/semiont",
+      "commit": "ef1737e403cf4c24e9749d5095838f6dc8a5d8e3",
+      "retrieved": "2026-10-13",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "58ad2fd3b80cd965e47944f80263fcb63dc80bf5952d989dcba9fd39b5a2cc8c"
+    },
+    {
+      "repository": "adventists-ai/duplexjev",
+      "commit": "883986d7d09ed5279a2649fd761afc3d37673519",
+      "retrieved": "2026-10-13",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "e5f388074b4616c1bd5184939ce27aeec1ba4dac42cfd67bf8127cd685acde27"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

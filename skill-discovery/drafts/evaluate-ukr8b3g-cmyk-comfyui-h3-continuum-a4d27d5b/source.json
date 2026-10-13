@@ -1,0 +1,10 @@
+{
+  "repository": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+  "commit": "d8fbf287a9311223762da2bcbfbc1c15ec2c40ee",
+  "retrieved": "2026-10-13",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "c1a40d0ed6ffb2cbe893b92677de50e871bcfc8456753656b466540129224174"
+}

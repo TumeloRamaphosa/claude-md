@@ -1,0 +1,10 @@
+{
+  "repository": "adventists-ai/duplexjev",
+  "commit": "883986d7d09ed5279a2649fd761afc3d37673519",
+  "retrieved": "2026-10-13",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "e5f388074b4616c1bd5184939ce27aeec1ba4dac42cfd67bf8127cd685acde27"
+}

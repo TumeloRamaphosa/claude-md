@@ -190,6 +190,16 @@
       "retrieved": "2026-10-06",
       "status": "draft-not-installed"
     },
+    "The-AI-Alliance/semiont": {
+      "category": "memory",
+      "commit": "ef1737e403cf4c24e9749d5095838f6dc8a5d8e3",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "58ad2fd3b80cd965e47944f80263fcb63dc80bf5952d989dcba9fd39b5a2cc8c",
+      "repository": "The-AI-Alliance/semiont",
+      "retrieved": "2026-10-13",
+      "status": "draft-not-installed"
+    },
     "YouMind-OpenLab/awesome-grok-imagine-prompts": {
       "category": "content",
       "commit": "4350fb4022ef14e93215ab281b51b63bc8e5fd09",
@@ -208,6 +218,16 @@
       "readme_sha256": "dafa0e6bfbfc5037a09e149e96a3b5819b4c4b8e391b9e55ff501953c7bb1767",
       "repository": "ZeroLu/awesome-seedance",
       "retrieved": "2026-10-12",
+      "status": "draft-not-installed"
+    },
+    "adventists-ai/duplexjev": {
+      "category": "voice",
+      "commit": "883986d7d09ed5279a2649fd761afc3d37673519",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "e5f388074b4616c1bd5184939ce27aeec1ba4dac42cfd67bf8127cd685acde27",
+      "repository": "adventists-ai/duplexjev",
+      "retrieved": "2026-10-13",
       "status": "draft-not-installed"
     },
     "aicc2025/sip-to-ai": {
@@ -498,6 +518,16 @@
       "readme_sha256": "d63f1c78a997dd2cbcf6a976b05c492143f533ab2db7f29b00e6f43a2fe0c387",
       "repository": "tetherto/qvac",
       "retrieved": "2026-09-28",
+      "status": "draft-not-installed"
+    },
+    "ukr8b3g-cmyk/ComfyUI-H3-Continuum": {
+      "category": "content",
+      "commit": "d8fbf287a9311223762da2bcbfbc1c15ec2c40ee",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "c1a40d0ed6ffb2cbe893b92677de50e871bcfc8456753656b466540129224174",
+      "repository": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
+      "retrieved": "2026-10-13",
       "status": "draft-not-installed"
     },
     "vectorize-io/hindsight": {

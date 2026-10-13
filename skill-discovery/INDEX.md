@@ -21,8 +21,10 @@ Draft evaluation skills only. Review before activation.
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
 - [TencentCloud/TencentDB-Agent-Memory](drafts/evaluate-tencentcloud-tencentdb-agent-memory-38ae38ec/SKILL.md) — memory; first found 2026-10-09
 - [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
+- [The-AI-Alliance/semiont](drafts/evaluate-the-ai-alliance-semiont-5ecd2c4b/SKILL.md) — memory; first found 2026-10-13
 - [YouMind-OpenLab/awesome-grok-imagine-prompts](drafts/evaluate-youmind-openlab-awesome-grok-imagine-prompt-fd406d2b/SKILL.md) — content; first found 2026-09-29
 - [ZeroLu/awesome-seedance](drafts/evaluate-zerolu-awesome-seedance-061cd66d/SKILL.md) — content; first found 2026-10-12
+- [adventists-ai/duplexjev](drafts/evaluate-adventists-ai-duplexjev-cc019b1e/SKILL.md) — voice; first found 2026-10-13
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
@@ -52,6 +54,7 @@ Draft evaluation skills only. Review before activation.
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
 - [stimm-ai/stimm](drafts/evaluate-stimm-ai-stimm-9450b306/SKILL.md) — voice; first found 2026-10-12
 - [tetherto/qvac](drafts/evaluate-tetherto-qvac-78e9e46f/SKILL.md) — content; first found 2026-09-28
+- [ukr8b3g-cmyk/ComfyUI-H3-Continuum](drafts/evaluate-ukr8b3g-cmyk-comfyui-h3-continuum-a4d27d5b/SKILL.md) — content; first found 2026-10-13
 - [vectorize-io/hindsight](drafts/evaluate-vectorize-io-hindsight-57687486/SKILL.md) — memory; first found 2026-09-25
 - [vericontext/vibeframe](drafts/evaluate-vericontext-vibeframe-00ab1c4d/SKILL.md) — content; first found 2026-10-04
 - [volcengine/OpenViking](drafts/evaluate-volcengine-openviking-8a8bbd40/SKILL.md) — memory; first found 2026-09-29

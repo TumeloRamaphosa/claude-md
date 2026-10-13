@@ -1,0 +1,10 @@
+{
+  "repository": "The-AI-Alliance/semiont",
+  "commit": "ef1737e403cf4c24e9749d5095838f6dc8a5d8e3",
+  "retrieved": "2026-10-13",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "58ad2fd3b80cd965e47944f80263fcb63dc80bf5952d989dcba9fd39b5a2cc8c"
+}
