@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "created": [
+    {
+      "repository": "vectorize-io/agent-memory-benchmark",
+      "commit": "aef3702e0586a959c845cc2c61f10d5e8ff0f94a",
+      "retrieved": "2026-10-14",
+      "license": "UNKNOWN",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "6011f8dd3629e00f5fb987d3e95373403cc61d05c1da5aa021640a2efab0db0a"
+    },
+    {
+      "repository": "voicetestdev/voicetest",
+      "commit": "cd4a677774ac8a79f547fd0d56a00e07bf6b27fe",
+      "retrieved": "2026-10-14",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "6b0e4c95aeca1b3c494ee50be5e82971ecbf8db1c117c51aac75e6d346d3405a"
+    },
+    {
+      "repository": "trilogy-group/ttv-pipeline",
+      "commit": "8581c7ef05ff1199b99aadc7b690f223a3325a6a",
+      "retrieved": "2026-10-14",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "e2bcd296064347c0d4aeb233c05fb22394bee80ce7c36d548a15b5878ebc69a3"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

@@ -54,9 +54,12 @@ Draft evaluation skills only. Review before activation.
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
 - [stimm-ai/stimm](drafts/evaluate-stimm-ai-stimm-9450b306/SKILL.md) — voice; first found 2026-10-12
 - [tetherto/qvac](drafts/evaluate-tetherto-qvac-78e9e46f/SKILL.md) — content; first found 2026-09-28
+- [trilogy-group/ttv-pipeline](drafts/evaluate-trilogy-group-ttv-pipeline-5b571ab2/SKILL.md) — content; first found 2026-10-14
 - [ukr8b3g-cmyk/ComfyUI-H3-Continuum](drafts/evaluate-ukr8b3g-cmyk-comfyui-h3-continuum-a4d27d5b/SKILL.md) — content; first found 2026-10-13
+- [vectorize-io/agent-memory-benchmark](drafts/evaluate-vectorize-io-agent-memory-benchmark-6a5440e5/SKILL.md) — memory; first found 2026-10-14
 - [vectorize-io/hindsight](drafts/evaluate-vectorize-io-hindsight-57687486/SKILL.md) — memory; first found 2026-09-25
 - [vericontext/vibeframe](drafts/evaluate-vericontext-vibeframe-00ab1c4d/SKILL.md) — content; first found 2026-10-04
+- [voicetestdev/voicetest](drafts/evaluate-voicetestdev-voicetest-88d25ded/SKILL.md) — voice; first found 2026-10-14
 - [volcengine/OpenViking](drafts/evaluate-volcengine-openviking-8a8bbd40/SKILL.md) — memory; first found 2026-09-29
 - [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26

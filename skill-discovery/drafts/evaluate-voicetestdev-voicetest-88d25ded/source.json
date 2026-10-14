@@ -1,0 +1,10 @@
+{
+  "repository": "voicetestdev/voicetest",
+  "commit": "cd4a677774ac8a79f547fd0d56a00e07bf6b27fe",
+  "retrieved": "2026-10-14",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "6b0e4c95aeca1b3c494ee50be5e82971ecbf8db1c117c51aac75e6d346d3405a"
+}

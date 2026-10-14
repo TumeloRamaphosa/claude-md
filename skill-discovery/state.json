@@ -520,6 +520,16 @@
       "retrieved": "2026-09-28",
       "status": "draft-not-installed"
     },
+    "trilogy-group/ttv-pipeline": {
+      "category": "content",
+      "commit": "8581c7ef05ff1199b99aadc7b690f223a3325a6a",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "e2bcd296064347c0d4aeb233c05fb22394bee80ce7c36d548a15b5878ebc69a3",
+      "repository": "trilogy-group/ttv-pipeline",
+      "retrieved": "2026-10-14",
+      "status": "draft-not-installed"
+    },
     "ukr8b3g-cmyk/ComfyUI-H3-Continuum": {
       "category": "content",
       "commit": "d8fbf287a9311223762da2bcbfbc1c15ec2c40ee",
@@ -528,6 +538,16 @@
       "readme_sha256": "c1a40d0ed6ffb2cbe893b92677de50e871bcfc8456753656b466540129224174",
       "repository": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
       "retrieved": "2026-10-13",
+      "status": "draft-not-installed"
+    },
+    "vectorize-io/agent-memory-benchmark": {
+      "category": "memory",
+      "commit": "aef3702e0586a959c845cc2c61f10d5e8ff0f94a",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "UNKNOWN",
+      "readme_sha256": "6011f8dd3629e00f5fb987d3e95373403cc61d05c1da5aa021640a2efab0db0a",
+      "repository": "vectorize-io/agent-memory-benchmark",
+      "retrieved": "2026-10-14",
       "status": "draft-not-installed"
     },
     "vectorize-io/hindsight": {
@@ -548,6 +568,16 @@
       "readme_sha256": "552b5e0e4bdbad908e2e675c62481b3344bc360b4e07b9be51bf8ec6f773533a",
       "repository": "vericontext/vibeframe",
       "retrieved": "2026-10-04",
+      "status": "draft-not-installed"
+    },
+    "voicetestdev/voicetest": {
+      "category": "voice",
+      "commit": "cd4a677774ac8a79f547fd0d56a00e07bf6b27fe",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "6b0e4c95aeca1b3c494ee50be5e82971ecbf8db1c117c51aac75e6d346d3405a",
+      "repository": "voicetestdev/voicetest",
+      "retrieved": "2026-10-14",
       "status": "draft-not-installed"
     },
     "volcengine/OpenViking": {

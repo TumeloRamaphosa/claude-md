@@ -1,0 +1,10 @@
+{
+  "repository": "trilogy-group/ttv-pipeline",
+  "commit": "8581c7ef05ff1199b99aadc7b690f223a3325a6a",
+  "retrieved": "2026-10-14",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "e2bcd296064347c0d4aeb233c05fb22394bee80ce7c36d548a15b5878ebc69a3"
+}

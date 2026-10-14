@@ -1,0 +1,10 @@
+{
+  "repository": "vectorize-io/agent-memory-benchmark",
+  "commit": "aef3702e0586a959c845cc2c61f10d5e8ff0f94a",
+  "retrieved": "2026-10-14",
+  "license": "UNKNOWN",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "6011f8dd3629e00f5fb987d3e95373403cc61d05c1da5aa021640a2efab0db0a"
+}
