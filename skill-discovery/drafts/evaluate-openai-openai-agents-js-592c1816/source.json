@@ -1,0 +1,10 @@
+{
+  "repository": "openai/openai-agents-js",
+  "commit": "89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
+  "retrieved": "2026-10-15",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "3c7ba935ab6f062de05d771d0edd3a244a28c24a868e5f67bb1c5c65d7d49190"
+}

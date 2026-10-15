@@ -1,0 +1,10 @@
+{
+  "repository": "vshulcz/deja-vu",
+  "commit": "0325357ed2d39d125f1183e81e4658c48d5081c1",
+  "retrieved": "2026-10-15",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "eb9dbf8fd21204741324cfe4f554d3eefc1c1699a5b7950c362d602dc0ed7088"
+}

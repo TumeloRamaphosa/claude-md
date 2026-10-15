@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-15",
+  "created": [
+    {
+      "repository": "openai/openai-agents-js",
+      "commit": "89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
+      "retrieved": "2026-10-15",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "3c7ba935ab6f062de05d771d0edd3a244a28c24a868e5f67bb1c5c65d7d49190"
+    },
+    {
+      "repository": "Zihan-Su/Self_Gradient_Forcing_Plus",
+      "commit": "7a7734f592f1bdb51edd28f1c42ca95b9f652453",
+      "retrieved": "2026-10-15",
+      "license": "Apache-2.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "d2d9f8127ee742d39d47e122375f2df1b9095a91053193eabf3ea89ab1cdf68e"
+    },
+    {
+      "repository": "vshulcz/deja-vu",
+      "commit": "0325357ed2d39d125f1183e81e4658c48d5081c1",
+      "retrieved": "2026-10-15",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "eb9dbf8fd21204741324cfe4f554d3eefc1c1699a5b7950c362d602dc0ed7088"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

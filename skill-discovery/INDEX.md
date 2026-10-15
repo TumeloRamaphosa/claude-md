@@ -24,6 +24,7 @@ Draft evaluation skills only. Review before activation.
 - [The-AI-Alliance/semiont](drafts/evaluate-the-ai-alliance-semiont-5ecd2c4b/SKILL.md) — memory; first found 2026-10-13
 - [YouMind-OpenLab/awesome-grok-imagine-prompts](drafts/evaluate-youmind-openlab-awesome-grok-imagine-prompt-fd406d2b/SKILL.md) — content; first found 2026-09-29
 - [ZeroLu/awesome-seedance](drafts/evaluate-zerolu-awesome-seedance-061cd66d/SKILL.md) — content; first found 2026-10-12
+- [Zihan-Su/Self_Gradient_Forcing_Plus](drafts/evaluate-zihan-su-self-gradient-forcing-plus-53a2e496/SKILL.md) — content; first found 2026-10-15
 - [adventists-ai/duplexjev](drafts/evaluate-adventists-ai-duplexjev-cc019b1e/SKILL.md) — voice; first found 2026-10-13
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
@@ -49,6 +50,7 @@ Draft evaluation skills only. Review before activation.
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
+- [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
@@ -61,6 +63,7 @@ Draft evaluation skills only. Review before activation.
 - [vericontext/vibeframe](drafts/evaluate-vericontext-vibeframe-00ab1c4d/SKILL.md) — content; first found 2026-10-04
 - [voicetestdev/voicetest](drafts/evaluate-voicetestdev-voicetest-88d25ded/SKILL.md) — voice; first found 2026-10-14
 - [volcengine/OpenViking](drafts/evaluate-volcengine-openviking-8a8bbd40/SKILL.md) — memory; first found 2026-09-29
+- [vshulcz/deja-vu](drafts/evaluate-vshulcz-deja-vu-5ab6ae46/SKILL.md) — memory; first found 2026-10-15
 - [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
