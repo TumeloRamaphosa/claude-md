@@ -1,0 +1,10 @@
+{
+  "repository": "oceanbase/powercontext",
+  "commit": "853b5b6370eca4c8e6eb0785e5a93a12b0ebd829",
+  "retrieved": "2026-10-16",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "65493e306f9f4a54a01b9f506e98bde0c7a3df36a2cc89f8c2f28ab6094304bd"
+}

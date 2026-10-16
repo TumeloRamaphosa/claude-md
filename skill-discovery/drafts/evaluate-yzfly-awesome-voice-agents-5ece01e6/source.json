@@ -1,0 +1,10 @@
+{
+  "repository": "yzfly/awesome-voice-agents",
+  "commit": "36e6306e48dcfe599792e7dc4aa28c80cdfe5773",
+  "retrieved": "2026-10-16",
+  "license": "CC0-1.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "1e4c70d5dc5e8cf1ed812261e1daa9633d49dc7eae1fc1430bdebdb743bb235f"
+}

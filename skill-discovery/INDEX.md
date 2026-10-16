@@ -2,6 +2,7 @@
 
 Draft evaluation skills only. Review before activation.
 
+- [ABU121111/DreamWorld](drafts/evaluate-abu121111-dreamworld-9cd09430/SKILL.md) — content; first found 2026-10-16
 - [AVIDS2/memorix](drafts/evaluate-avids2-memorix-429cf14a/SKILL.md) — memory; first found 2026-10-02
 - [AceDataCloud/Nexior](drafts/evaluate-acedatacloud-nexior-76650d8e/SKILL.md) — content; first found 2026-09-25
 - [AgentLineHQ/AgentLine](drafts/evaluate-agentlinehq-agentline-bbb472e3/SKILL.md) — voice; first found 2026-10-06
@@ -50,6 +51,7 @@ Draft evaluation skills only. Review before activation.
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
+- [oceanbase/powercontext](drafts/evaluate-oceanbase-powercontext-3a79551d/SKILL.md) — memory; first found 2026-10-16
 - [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
@@ -67,4 +69,5 @@ Draft evaluation skills only. Review before activation.
 - [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
+- [yzfly/awesome-voice-agents](drafts/evaluate-yzfly-awesome-voice-agents-5ece01e6/SKILL.md) — voice; first found 2026-10-16
 - [zavora-ai/adk-rust](drafts/evaluate-zavora-ai-adk-rust-204a579e/SKILL.md) — voice; first found 2026-10-08

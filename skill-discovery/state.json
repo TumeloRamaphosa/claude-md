@@ -1,5 +1,15 @@
 {
   "seen": {
+    "ABU121111/DreamWorld": {
+      "category": "content",
+      "commit": "c5ad8b6b274977992c60c2df7755044f0ce100df",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "UNKNOWN",
+      "readme_sha256": "58e54591b5b1f4a110d308635eee3f2a33a444fa0c416db794566bbd93b530cb",
+      "repository": "ABU121111/DreamWorld",
+      "retrieved": "2026-10-16",
+      "status": "draft-not-installed"
+    },
     "AVIDS2/memorix": {
       "category": "memory",
       "commit": "82ff31519014a31c54509c0de0f3ea6539526d37",
@@ -480,6 +490,16 @@
       "retrieved": "2026-09-30",
       "status": "draft-not-installed"
     },
+    "oceanbase/powercontext": {
+      "category": "memory",
+      "commit": "853b5b6370eca4c8e6eb0785e5a93a12b0ebd829",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "65493e306f9f4a54a01b9f506e98bde0c7a3df36a2cc89f8c2f28ab6094304bd",
+      "repository": "oceanbase/powercontext",
+      "retrieved": "2026-10-16",
+      "status": "draft-not-installed"
+    },
     "openai/openai-agents-js": {
       "category": "voice",
       "commit": "89a9ddf1e241e75f2e0ad4c15d89de9e215ebac6",
@@ -648,6 +668,16 @@
       "readme_sha256": "249e81cef6bc53684db48b0af018b3afc0dfd2e9b7ee12bfa59c1ae3edc4c288",
       "repository": "xraysight/hermes-memory-ui",
       "retrieved": "2026-10-05",
+      "status": "draft-not-installed"
+    },
+    "yzfly/awesome-voice-agents": {
+      "category": "voice",
+      "commit": "36e6306e48dcfe599792e7dc4aa28c80cdfe5773",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "CC0-1.0",
+      "readme_sha256": "1e4c70d5dc5e8cf1ed812261e1daa9633d49dc7eae1fc1430bdebdb743bb235f",
+      "repository": "yzfly/awesome-voice-agents",
+      "retrieved": "2026-10-16",
       "status": "draft-not-installed"
     },
     "zavora-ai/adk-rust": {
