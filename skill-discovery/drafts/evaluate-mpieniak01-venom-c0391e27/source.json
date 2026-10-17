@@ -1,0 +1,10 @@
+{
+  "repository": "mpieniak01/Venom",
+  "commit": "b5bdc5f3dafc3ed67d6301763e6a7b20f8b2ac1f",
+  "retrieved": "2026-10-17",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "2685e27fcbee1d02dd533391af295a2e1f231270b801747176b73ecc0c08123f"
+}

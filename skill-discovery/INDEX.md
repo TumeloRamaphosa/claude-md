@@ -48,12 +48,14 @@ Draft evaluation skills only. Review before activation.
 - [mahimailabs/voicegateway](drafts/evaluate-mahimailabs-voicegateway-ff546bfe/SKILL.md) — voice; first found 2026-10-11
 - [markhuangai/dense-mem](drafts/evaluate-markhuangai-dense-mem-dd6ba377/SKILL.md) — memory; first found 2026-10-01
 - [miuda-ai/active-call](drafts/evaluate-miuda-ai-active-call-a5046e64/SKILL.md) — voice; first found 2026-10-09
+- [mpieniak01/Venom](drafts/evaluate-mpieniak01-venom-c0391e27/SKILL.md) — memory; first found 2026-10-17
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
 - [oceanbase/powercontext](drafts/evaluate-oceanbase-powercontext-3a79551d/SKILL.md) — memory; first found 2026-10-16
 - [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
+- [rapidaai/voice-ai](drafts/evaluate-rapidaai-voice-ai-4292ab18/SKILL.md) — voice; first found 2026-10-17
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
 - [stimm-ai/stimm](drafts/evaluate-stimm-ai-stimm-9450b306/SKILL.md) — voice; first found 2026-10-12
@@ -68,6 +70,7 @@ Draft evaluation skills only. Review before activation.
 - [vshulcz/deja-vu](drafts/evaluate-vshulcz-deja-vu-5ab6ae46/SKILL.md) — memory; first found 2026-10-15
 - [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26
+- [xin1u/UltraFlash](drafts/evaluate-xin1u-ultraflash-71a5175f/SKILL.md) — content; first found 2026-10-17
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
 - [yzfly/awesome-voice-agents](drafts/evaluate-yzfly-awesome-voice-agents-5ece01e6/SKILL.md) — voice; first found 2026-10-16
 - [zavora-ai/adk-rust](drafts/evaluate-zavora-ai-adk-rust-204a579e/SKILL.md) — voice; first found 2026-10-08
