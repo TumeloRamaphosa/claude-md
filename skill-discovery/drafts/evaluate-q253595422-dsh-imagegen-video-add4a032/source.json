@@ -1,0 +1,10 @@
+{
+  "repository": "q253595422/dsh-imagegen-video",
+  "commit": "6350a3a8fd952a43ae0e1cd022dd3fb3323af56e",
+  "retrieved": "2026-10-18",
+  "license": "Apache-2.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "eca8e7c632f20ef57f371c1ded866628cb103366117b512311dbe5ee97b6af83"
+}

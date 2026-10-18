@@ -1,0 +1,10 @@
+{
+  "repository": "Rick1330/ibex-harness",
+  "commit": "f05eadb3176ce9bd22a82065d0266d1ee0ecab7b",
+  "retrieved": "2026-10-18",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "e0dfc682c491a8d809864455cf2ee2b2746e9856564a94d83fc4d4048de5d912"
+}

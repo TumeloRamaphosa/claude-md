@@ -1,0 +1,10 @@
+{
+  "repository": "ictinnovations/asterisk-ai-voice-agent",
+  "commit": "4f577fc627b46c09a8b9f044455900e5f7fc1667",
+  "retrieved": "2026-10-18",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "58eeb932fdbff6af6de26d58a6625819f1bc9f37293cb3b232e9f5ae94eb90be"
+}
