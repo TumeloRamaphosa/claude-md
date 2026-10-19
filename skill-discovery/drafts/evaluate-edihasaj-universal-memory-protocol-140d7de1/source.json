@@ -1,0 +1,10 @@
+{
+  "repository": "edihasaj/universal-memory-protocol",
+  "commit": "b5243635d76bc7e5bf487660ce3dd928cf6a5258",
+  "retrieved": "2026-10-19",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "18315f321bf00f6affc3554eb79ca01ec783c39a572ba1751cc4f319a9a4ce45"
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "Azure-Samples/art-voice-agent-accelerator",
+  "commit": "a2e1ce2edbf103661c56a861cccef73c30acacee",
+  "retrieved": "2026-10-19",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "bde036ce5051e095235b4ccc8ae512a850eacb963d1d5578c16f1e517678f2a8"
+}

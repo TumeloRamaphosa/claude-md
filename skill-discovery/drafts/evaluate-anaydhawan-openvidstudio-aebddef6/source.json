@@ -1,0 +1,10 @@
+{
+  "repository": "AnayDhawan/openvidstudio",
+  "commit": "1307e82c88468ab14ecde11880d768a278b49f86",
+  "retrieved": "2026-10-19",
+  "license": "Apache-2.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "6f26cf9952acc6f138f1f841adfbba421e8e66cc2aa8b955e881be6da4291798"
+}

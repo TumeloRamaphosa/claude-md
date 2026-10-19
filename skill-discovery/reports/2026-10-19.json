@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-19",
+  "created": [
+    {
+      "repository": "AnayDhawan/openvidstudio",
+      "commit": "1307e82c88468ab14ecde11880d768a278b49f86",
+      "retrieved": "2026-10-19",
+      "license": "Apache-2.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "6f26cf9952acc6f138f1f841adfbba421e8e66cc2aa8b955e881be6da4291798"
+    },
+    {
+      "repository": "edihasaj/universal-memory-protocol",
+      "commit": "b5243635d76bc7e5bf487660ce3dd928cf6a5258",
+      "retrieved": "2026-10-19",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "18315f321bf00f6affc3554eb79ca01ec783c39a572ba1751cc4f319a9a4ce45"
+    },
+    {
+      "repository": "Azure-Samples/art-voice-agent-accelerator",
+      "commit": "a2e1ce2edbf103661c56a861cccef73c30acacee",
+      "retrieved": "2026-10-19",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "bde036ce5051e095235b4ccc8ae512a850eacb963d1d5578c16f1e517678f2a8"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

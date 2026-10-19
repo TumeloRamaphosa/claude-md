@@ -6,11 +6,13 @@ Draft evaluation skills only. Review before activation.
 - [AVIDS2/memorix](drafts/evaluate-avids2-memorix-429cf14a/SKILL.md) — memory; first found 2026-10-02
 - [AceDataCloud/Nexior](drafts/evaluate-acedatacloud-nexior-76650d8e/SKILL.md) — content; first found 2026-09-25
 - [AgentLineHQ/AgentLine](drafts/evaluate-agentlinehq-agentline-bbb472e3/SKILL.md) — voice; first found 2026-10-06
+- [AnayDhawan/openvidstudio](drafts/evaluate-anaydhawan-openvidstudio-aebddef6/SKILL.md) — content; first found 2026-10-19
 - [Anil-matcha/AI-Voice-Agent](drafts/evaluate-anil-matcha-ai-voice-agent-6de799d9/SKILL.md) — voice; first found 2026-10-01
 - [Anil-matcha/Open-Generative-AI](drafts/evaluate-anil-matcha-open-generative-ai-c16129f9/SKILL.md) — content; first found 2026-10-03
 - [Anil-matcha/Wan-3.0-API](drafts/evaluate-anil-matcha-wan-3-0-api-8d96d961/SKILL.md) — content; first found 2026-10-01
 - [AnkitSaini491/SocialPulse-AI](drafts/evaluate-ankitsaini491-socialpulse-ai-3b2e366b/SKILL.md) — analytics; first found 2026-10-04
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
+- [Azure-Samples/art-voice-agent-accelerator](drafts/evaluate-azure-samples-art-voice-agent-accelerator-b92a4a4d/SKILL.md) — voice; first found 2026-10-19
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
@@ -37,6 +39,7 @@ Draft evaluation skills only. Review before activation.
 - [deepnovacore/NovaAudioAgent](drafts/evaluate-deepnovacore-novaaudioagent-a88c811e/SKILL.md) — voice; first found 2026-10-07
 - [dgrauet/ltx-2-mlx](drafts/evaluate-dgrauet-ltx-2-mlx-e07b9a1d/SKILL.md) — content; first found 2026-09-26
 - [diqierjia/StrataGate-AgentMemory](drafts/evaluate-diqierjia-stratagate-agentmemory-6d4187cc/SKILL.md) — memory; first found 2026-10-06
+- [edihasaj/universal-memory-protocol](drafts/evaluate-edihasaj-universal-memory-protocol-140d7de1/SKILL.md) — memory; first found 2026-10-19
 - [egma-ai/egma](drafts/evaluate-egma-ai-egma-409bbb08/SKILL.md) — voice; first found 2026-09-30
 - [elevenlabs/cli](drafts/evaluate-elevenlabs-cli-b90739ff/SKILL.md) — voice; first found 2026-09-29
 - [hao-ai-lab/FastVideo](drafts/evaluate-hao-ai-lab-fastvideo-5261b517/SKILL.md) — content; first found 2026-10-07
