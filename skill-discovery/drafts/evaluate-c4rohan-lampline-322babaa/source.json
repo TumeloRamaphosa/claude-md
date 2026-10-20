@@ -1,0 +1,10 @@
+{
+  "repository": "C4rohan/Lampline",
+  "commit": "d7564dcfbe1ea807cc5c59e23f69f1a570d8430f",
+  "retrieved": "2026-10-20",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "d41c0f7cda900f9972598b36a5889076eca1ce1e27010e2c13d4a30ff430e8ad"
+}

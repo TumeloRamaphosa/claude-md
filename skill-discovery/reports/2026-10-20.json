@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-20",
+  "created": [
+    {
+      "repository": "Percolation-Labs/percolate",
+      "commit": "bb8853a617c575b8d828668980a8eb97bf165711",
+      "retrieved": "2026-10-20",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "0ca9d6aba869582da468b4dd5a3bcd2368dcab8689b6b3a3e7cf1f28379bd476"
+    },
+    {
+      "repository": "C4rohan/Lampline",
+      "commit": "d7564dcfbe1ea807cc5c59e23f69f1a570d8430f",
+      "retrieved": "2026-10-20",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "d41c0f7cda900f9972598b36a5889076eca1ce1e27010e2c13d4a30ff430e8ad"
+    },
+    {
+      "repository": "zexadev/gemini-web2api-go",
+      "commit": "64b2d2c549c37b91f4c3dcbacaa720f604eb69e1",
+      "retrieved": "2026-10-20",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "19000377717e5e5ffc64e8c8221c0a586f270c70779471d44841810c0e5e56e1"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

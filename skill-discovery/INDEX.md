@@ -13,9 +13,11 @@ Draft evaluation skills only. Review before activation.
 - [AnkitSaini491/SocialPulse-AI](drafts/evaluate-ankitsaini491-socialpulse-ai-3b2e366b/SKILL.md) — analytics; first found 2026-10-04
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
 - [Azure-Samples/art-voice-agent-accelerator](drafts/evaluate-azure-samples-art-voice-agent-accelerator-b92a4a4d/SKILL.md) — voice; first found 2026-10-19
+- [C4rohan/Lampline](drafts/evaluate-c4rohan-lampline-322babaa/SKILL.md) — voice; first found 2026-10-20
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
+- [Percolation-Labs/percolate](drafts/evaluate-percolation-labs-percolate-e16e8680/SKILL.md) — memory; first found 2026-10-20
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
 - [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
 - [RapierCraftStudios/ForgeDock](drafts/evaluate-rapiercraftstudios-forgedock-5b023033/SKILL.md) — memory; first found 2026-10-12
@@ -80,3 +82,4 @@ Draft evaluation skills only. Review before activation.
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
 - [yzfly/awesome-voice-agents](drafts/evaluate-yzfly-awesome-voice-agents-5ece01e6/SKILL.md) — voice; first found 2026-10-16
 - [zavora-ai/adk-rust](drafts/evaluate-zavora-ai-adk-rust-204a579e/SKILL.md) — voice; first found 2026-10-08
+- [zexadev/gemini-web2api-go](drafts/evaluate-zexadev-gemini-web2api-go-7f450c12/SKILL.md) — content; first found 2026-10-20

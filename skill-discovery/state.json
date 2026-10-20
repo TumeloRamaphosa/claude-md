@@ -110,6 +110,16 @@
       "retrieved": "2026-10-19",
       "status": "draft-not-installed"
     },
+    "C4rohan/Lampline": {
+      "category": "voice",
+      "commit": "d7564dcfbe1ea807cc5c59e23f69f1a570d8430f",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "d41c0f7cda900f9972598b36a5889076eca1ce1e27010e2c13d4a30ff430e8ad",
+      "repository": "C4rohan/Lampline",
+      "retrieved": "2026-10-20",
+      "status": "draft-not-installed"
+    },
     "EfficientAI-tech/efficientAI": {
       "category": "voice",
       "commit": "d25adcd5fece98fe37ebb405c1f2217b2dbc3528",
@@ -138,6 +148,16 @@
       "readme_sha256": "4643f156cc23521a5738b368ef5fa2b84e513ab6784326e7f471fe7d286c15ca",
       "repository": "Mrkomiljon/awesome-generative-ai",
       "retrieved": "2026-10-11",
+      "status": "draft-not-installed"
+    },
+    "Percolation-Labs/percolate": {
+      "category": "memory",
+      "commit": "bb8853a617c575b8d828668980a8eb97bf165711",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "0ca9d6aba869582da468b4dd5a3bcd2368dcab8689b6b3a3e7cf1f28379bd476",
+      "repository": "Percolation-Labs/percolate",
+      "retrieved": "2026-10-20",
       "status": "draft-not-installed"
     },
     "PersonalJarvis/PersonalJarvis": {
@@ -778,6 +798,16 @@
       "readme_sha256": "e1f3d5b2a27672aad3561df40d28b81044210323104428f5a41c7ac2f109a2fb",
       "repository": "zavora-ai/adk-rust",
       "retrieved": "2026-10-08",
+      "status": "draft-not-installed"
+    },
+    "zexadev/gemini-web2api-go": {
+      "category": "content",
+      "commit": "64b2d2c549c37b91f4c3dcbacaa720f604eb69e1",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "19000377717e5e5ffc64e8c8221c0a586f270c70779471d44841810c0e5e56e1",
+      "repository": "zexadev/gemini-web2api-go",
+      "retrieved": "2026-10-20",
       "status": "draft-not-installed"
     }
   }

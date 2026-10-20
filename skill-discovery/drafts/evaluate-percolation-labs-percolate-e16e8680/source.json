@@ -1,0 +1,10 @@
+{
+  "repository": "Percolation-Labs/percolate",
+  "commit": "bb8853a617c575b8d828668980a8eb97bf165711",
+  "retrieved": "2026-10-20",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "0ca9d6aba869582da468b4dd5a3bcd2368dcab8689b6b3a3e7cf1f28379bd476"
+}
