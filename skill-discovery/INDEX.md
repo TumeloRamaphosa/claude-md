@@ -17,6 +17,7 @@ Draft evaluation skills only. Review before activation.
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
+- [NVIDIA-AI-Blueprints/nemotron-voice-agent](drafts/evaluate-nvidia-ai-blueprints-nemotron-voice-agent-4c3d2591/SKILL.md) — voice; first found 2026-10-21
 - [Percolation-Labs/percolate](drafts/evaluate-percolation-labs-percolate-e16e8680/SKILL.md) — memory; first found 2026-10-20
 - [PersonalJarvis/PersonalJarvis](drafts/evaluate-personaljarvis-personaljarvis-d4f2813f/SKILL.md) — voice; first found 2026-09-27
 - [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
@@ -46,6 +47,7 @@ Draft evaluation skills only. Review before activation.
 - [elevenlabs/cli](drafts/evaluate-elevenlabs-cli-b90739ff/SKILL.md) — voice; first found 2026-09-29
 - [hao-ai-lab/FastVideo](drafts/evaluate-hao-ai-lab-fastvideo-5261b517/SKILL.md) — content; first found 2026-10-07
 - [hkjarral/AVA-AI-Voice-Agent-for-Asterisk](drafts/evaluate-hkjarral-ava-ai-voice-agent-for-asterisk-6ae91283/SKILL.md) — voice; first found 2026-10-02
+- [htobty/ReadyLLM](drafts/evaluate-htobty-readyllm-0ed9fdb3/SKILL.md) — content; first found 2026-10-21
 - [huggingface/speech-to-speech](drafts/evaluate-huggingface-speech-to-speech-44ebd7c6/SKILL.md) — voice; first found 2026-09-25
 - [hyperb1iss/sibyl](drafts/evaluate-hyperb1iss-sibyl-ccc7a344/SKILL.md) — memory; first found 2026-10-10
 - [ictinnovations/asterisk-ai-voice-agent](drafts/evaluate-ictinnovations-asterisk-ai-voice-agent-0929d723/SKILL.md) — voice; first found 2026-10-18
@@ -60,6 +62,7 @@ Draft evaluation skills only. Review before activation.
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
 - [oceanbase/powercontext](drafts/evaluate-oceanbase-powercontext-3a79551d/SKILL.md) — memory; first found 2026-10-16
+- [openJiuwen-ai/agent-memory](drafts/evaluate-openjiuwen-ai-agent-memory-56f2dad1/SKILL.md) — memory; first found 2026-10-21
 - [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [q253595422/dsh-imagegen-video](drafts/evaluate-q253595422-dsh-imagegen-video-add4a032/SKILL.md) — content; first found 2026-10-18

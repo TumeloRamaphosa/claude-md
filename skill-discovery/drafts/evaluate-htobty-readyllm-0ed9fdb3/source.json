@@ -1,0 +1,10 @@
+{
+  "repository": "htobty/ReadyLLM",
+  "commit": "48e4d9ed25fef31244f4955480138a8592f3e9dd",
+  "retrieved": "2026-10-21",
+  "license": "MIT",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "82b68157d14c17ce5fc0119c051c1b72056991c5aa03252c10959e9aba416b19"
+}

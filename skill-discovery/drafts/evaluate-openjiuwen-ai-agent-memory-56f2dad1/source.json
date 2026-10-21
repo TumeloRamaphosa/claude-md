@@ -1,0 +1,10 @@
+{
+  "repository": "openJiuwen-ai/agent-memory",
+  "commit": "b416b0877296ed48c7c882fd4aad51f73015537b",
+  "retrieved": "2026-10-21",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "015d712ed34f45a32d58a1e36f0f0577fa8bd868ee1b97db23725b197346ac6b"
+}

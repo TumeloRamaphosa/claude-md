@@ -1,0 +1,10 @@
+{
+  "repository": "NVIDIA-AI-Blueprints/nemotron-voice-agent",
+  "commit": "a15d7184c35115d5d58f02e5ff65bed50b141fb0",
+  "retrieved": "2026-10-21",
+  "license": "NOASSERTION",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "adf1094d5bc2b717404e5816b29ae5ef4db9a2bf8e78d06ffe9881053a693a37"
+}

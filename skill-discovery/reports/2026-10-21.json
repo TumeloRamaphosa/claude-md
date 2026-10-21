@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "created": [
+    {
+      "repository": "NVIDIA-AI-Blueprints/nemotron-voice-agent",
+      "commit": "a15d7184c35115d5d58f02e5ff65bed50b141fb0",
+      "retrieved": "2026-10-21",
+      "license": "NOASSERTION",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "adf1094d5bc2b717404e5816b29ae5ef4db9a2bf8e78d06ffe9881053a693a37"
+    },
+    {
+      "repository": "htobty/ReadyLLM",
+      "commit": "48e4d9ed25fef31244f4955480138a8592f3e9dd",
+      "retrieved": "2026-10-21",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "82b68157d14c17ce5fc0119c051c1b72056991c5aa03252c10959e9aba416b19"
+    },
+    {
+      "repository": "openJiuwen-ai/agent-memory",
+      "commit": "b416b0877296ed48c7c882fd4aad51f73015537b",
+      "retrieved": "2026-10-21",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "015d712ed34f45a32d58a1e36f0f0577fa8bd868ee1b97db23725b197346ac6b"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

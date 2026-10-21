@@ -150,6 +150,16 @@
       "retrieved": "2026-10-11",
       "status": "draft-not-installed"
     },
+    "NVIDIA-AI-Blueprints/nemotron-voice-agent": {
+      "category": "voice",
+      "commit": "a15d7184c35115d5d58f02e5ff65bed50b141fb0",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "NOASSERTION",
+      "readme_sha256": "adf1094d5bc2b717404e5816b29ae5ef4db9a2bf8e78d06ffe9881053a693a37",
+      "repository": "NVIDIA-AI-Blueprints/nemotron-voice-agent",
+      "retrieved": "2026-10-21",
+      "status": "draft-not-installed"
+    },
     "Percolation-Labs/percolate": {
       "category": "memory",
       "commit": "bb8853a617c575b8d828668980a8eb97bf165711",
@@ -440,6 +450,16 @@
       "retrieved": "2026-10-02",
       "status": "draft-not-installed"
     },
+    "htobty/ReadyLLM": {
+      "category": "content",
+      "commit": "48e4d9ed25fef31244f4955480138a8592f3e9dd",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "82b68157d14c17ce5fc0119c051c1b72056991c5aa03252c10959e9aba416b19",
+      "repository": "htobty/ReadyLLM",
+      "retrieved": "2026-10-21",
+      "status": "draft-not-installed"
+    },
     "huggingface/speech-to-speech": {
       "category": "voice",
       "commit": "60d2cb23533579fc7c6990b3545d23bce4a139b9",
@@ -578,6 +598,16 @@
       "readme_sha256": "65493e306f9f4a54a01b9f506e98bde0c7a3df36a2cc89f8c2f28ab6094304bd",
       "repository": "oceanbase/powercontext",
       "retrieved": "2026-10-16",
+      "status": "draft-not-installed"
+    },
+    "openJiuwen-ai/agent-memory": {
+      "category": "memory",
+      "commit": "b416b0877296ed48c7c882fd4aad51f73015537b",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "015d712ed34f45a32d58a1e36f0f0577fa8bd868ee1b97db23725b197346ac6b",
+      "repository": "openJiuwen-ai/agent-memory",
+      "retrieved": "2026-10-21",
       "status": "draft-not-installed"
     },
     "openai/openai-agents-js": {
