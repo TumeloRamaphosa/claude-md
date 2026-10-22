@@ -1,0 +1,10 @@
+{
+  "repository": "team-telnyx/telnyx-node",
+  "commit": "2196e1d17ef2ca46fdebcdb00e2927c9fed9bec3",
+  "retrieved": "2026-10-22",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "d506d614810fb553a836c49b9ae09fe3abf5b71a794d6106fb70550c544112dd"
+}

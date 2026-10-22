@@ -24,6 +24,7 @@ Draft evaluation skills only. Review before activation.
 - [RapierCraftStudios/ForgeDock](drafts/evaluate-rapiercraftstudios-forgedock-5b023033/SKILL.md) — memory; first found 2026-10-12
 - [Rick1330/ibex-harness](drafts/evaluate-rick1330-ibex-harness-161d5542/SKILL.md) — memory; first found 2026-10-18
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
+- [StreamEval/StreamEval](drafts/evaluate-streameval-streameval-d3c4496d/SKILL.md) — content; first found 2026-10-22
 - [TeleAI-UAGI/Awesome-Agent-Memory](drafts/evaluate-teleai-uagi-awesome-agent-memory-b21b10ee/SKILL.md) — memory; first found 2026-10-11
 - [TencentARC/SCoPE](drafts/evaluate-tencentarc-scope-69ce19f9/SKILL.md) — content; first found 2026-09-27
 - [TencentCloud/TencentDB-Agent-Memory](drafts/evaluate-tencentcloud-tencentdb-agent-memory-38ae38ec/SKILL.md) — memory; first found 2026-10-09
@@ -51,6 +52,7 @@ Draft evaluation skills only. Review before activation.
 - [huggingface/speech-to-speech](drafts/evaluate-huggingface-speech-to-speech-44ebd7c6/SKILL.md) — voice; first found 2026-09-25
 - [hyperb1iss/sibyl](drafts/evaluate-hyperb1iss-sibyl-ccc7a344/SKILL.md) — memory; first found 2026-10-10
 - [ictinnovations/asterisk-ai-voice-agent](drafts/evaluate-ictinnovations-asterisk-ai-voice-agent-0929d723/SKILL.md) — voice; first found 2026-10-18
+- [kody-hq/kody](drafts/evaluate-kody-hq-kody-286b18ae/SKILL.md) — memory; first found 2026-10-22
 - [ldclabs/KIP](drafts/evaluate-ldclabs-kip-dda508d0/SKILL.md) — memory; first found 2026-09-27
 - [liliang-cn/cortexdb](drafts/evaluate-liliang-cn-cortexdb-25a83188/SKILL.md) — memory; first found 2026-10-03
 - [lktiep/cortex-hub](drafts/evaluate-lktiep-cortex-hub-73745065/SKILL.md) — memory; first found 2026-09-28
@@ -70,6 +72,7 @@ Draft evaluation skills only. Review before activation.
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
 - [stimm-ai/stimm](drafts/evaluate-stimm-ai-stimm-9450b306/SKILL.md) — voice; first found 2026-10-12
+- [team-telnyx/telnyx-node](drafts/evaluate-team-telnyx-telnyx-node-a955657f/SKILL.md) — voice; first found 2026-10-22
 - [tetherto/qvac](drafts/evaluate-tetherto-qvac-78e9e46f/SKILL.md) — content; first found 2026-09-28
 - [trilogy-group/ttv-pipeline](drafts/evaluate-trilogy-group-ttv-pipeline-5b571ab2/SKILL.md) — content; first found 2026-10-14
 - [ukr8b3g-cmyk/ComfyUI-H3-Continuum](drafts/evaluate-ukr8b3g-cmyk-comfyui-h3-continuum-a4d27d5b/SKILL.md) — content; first found 2026-10-13

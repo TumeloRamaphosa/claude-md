@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-22",
+  "created": [
+    {
+      "repository": "team-telnyx/telnyx-node",
+      "commit": "2196e1d17ef2ca46fdebcdb00e2927c9fed9bec3",
+      "retrieved": "2026-10-22",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "d506d614810fb553a836c49b9ae09fe3abf5b71a794d6106fb70550c544112dd"
+    },
+    {
+      "repository": "StreamEval/StreamEval",
+      "commit": "0c71a727ee85ed21672b3bdbf613e7da4f265226",
+      "retrieved": "2026-10-22",
+      "license": "Apache-2.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "ac3422dd0d8c9f7ffddb48a39ad9047fb8edf1dd8314d305c494d867ace10f74"
+    },
+    {
+      "repository": "kody-hq/kody",
+      "commit": "41c60973792f71d06bbb94dc68f9661e64809261",
+      "retrieved": "2026-10-22",
+      "license": "NOASSERTION",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "00ed081efbac1cc7e43bbfeadd71ba211da00992e07617c580e48222a3aa2efb"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

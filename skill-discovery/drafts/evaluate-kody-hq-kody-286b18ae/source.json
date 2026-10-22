@@ -1,0 +1,10 @@
+{
+  "repository": "kody-hq/kody",
+  "commit": "41c60973792f71d06bbb94dc68f9661e64809261",
+  "retrieved": "2026-10-22",
+  "license": "NOASSERTION",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "00ed081efbac1cc7e43bbfeadd71ba211da00992e07617c580e48222a3aa2efb"
+}

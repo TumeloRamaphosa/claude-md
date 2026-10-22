@@ -220,6 +220,16 @@
       "retrieved": "2026-10-05",
       "status": "draft-not-installed"
     },
+    "StreamEval/StreamEval": {
+      "category": "content",
+      "commit": "0c71a727ee85ed21672b3bdbf613e7da4f265226",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "Apache-2.0",
+      "readme_sha256": "ac3422dd0d8c9f7ffddb48a39ad9047fb8edf1dd8314d305c494d867ace10f74",
+      "repository": "StreamEval/StreamEval",
+      "retrieved": "2026-10-22",
+      "status": "draft-not-installed"
+    },
     "TeleAI-UAGI/Awesome-Agent-Memory": {
       "category": "memory",
       "commit": "b8ef8f87df73ff3cc86c6294c6d7f4c8a3774d1e",
@@ -490,6 +500,16 @@
       "retrieved": "2026-10-18",
       "status": "draft-not-installed"
     },
+    "kody-hq/kody": {
+      "category": "memory",
+      "commit": "41c60973792f71d06bbb94dc68f9661e64809261",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "NOASSERTION",
+      "readme_sha256": "00ed081efbac1cc7e43bbfeadd71ba211da00992e07617c580e48222a3aa2efb",
+      "repository": "kody-hq/kody",
+      "retrieved": "2026-10-22",
+      "status": "draft-not-installed"
+    },
     "ldclabs/KIP": {
       "category": "memory",
       "commit": "69a05ff71e5c1ef759311432151b1a28d6aa749a",
@@ -678,6 +698,16 @@
       "readme_sha256": "98926868ae0d7371b1380cb70433861bbd1b4259a8e9ac112065c2c3d6ee56ed",
       "repository": "stimm-ai/stimm",
       "retrieved": "2026-10-12",
+      "status": "draft-not-installed"
+    },
+    "team-telnyx/telnyx-node": {
+      "category": "voice",
+      "commit": "2196e1d17ef2ca46fdebcdb00e2927c9fed9bec3",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "d506d614810fb553a836c49b9ae09fe3abf5b71a794d6106fb70550c544112dd",
+      "repository": "team-telnyx/telnyx-node",
+      "retrieved": "2026-10-22",
       "status": "draft-not-installed"
     },
     "tetherto/qvac": {
