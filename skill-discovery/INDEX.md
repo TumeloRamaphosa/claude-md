@@ -13,7 +13,9 @@ Draft evaluation skills only. Review before activation.
 - [AnkitSaini491/SocialPulse-AI](drafts/evaluate-ankitsaini491-socialpulse-ai-3b2e366b/SKILL.md) — analytics; first found 2026-10-04
 - [Ariestar/sivtr](drafts/evaluate-ariestar-sivtr-8a09084f/SKILL.md) — memory; first found 2026-09-24
 - [Azure-Samples/art-voice-agent-accelerator](drafts/evaluate-azure-samples-art-voice-agent-accelerator-b92a4a4d/SKILL.md) — voice; first found 2026-10-19
+- [Azure-Samples/call-center-voice-agent-accelerator](drafts/evaluate-azure-samples-call-center-voice-agent-accel-8fa05544/SKILL.md) — voice; first found 2026-10-23
 - [C4rohan/Lampline](drafts/evaluate-c4rohan-lampline-322babaa/SKILL.md) — voice; first found 2026-10-20
+- [Deen-Media/dgx-monarch](drafts/evaluate-deen-media-dgx-monarch-632e5071/SKILL.md) — content; first found 2026-10-23
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
@@ -48,6 +50,7 @@ Draft evaluation skills only. Review before activation.
 - [elevenlabs/cli](drafts/evaluate-elevenlabs-cli-b90739ff/SKILL.md) — voice; first found 2026-09-29
 - [hao-ai-lab/FastVideo](drafts/evaluate-hao-ai-lab-fastvideo-5261b517/SKILL.md) — content; first found 2026-10-07
 - [hkjarral/AVA-AI-Voice-Agent-for-Asterisk](drafts/evaluate-hkjarral-ava-ai-voice-agent-for-asterisk-6ae91283/SKILL.md) — voice; first found 2026-10-02
+- [hsuanshao/AgentMemory](drafts/evaluate-hsuanshao-agentmemory-465816b0/SKILL.md) — memory; first found 2026-10-23
 - [htobty/ReadyLLM](drafts/evaluate-htobty-readyllm-0ed9fdb3/SKILL.md) — content; first found 2026-10-21
 - [huggingface/speech-to-speech](drafts/evaluate-huggingface-speech-to-speech-44ebd7c6/SKILL.md) — voice; first found 2026-09-25
 - [hyperb1iss/sibyl](drafts/evaluate-hyperb1iss-sibyl-ccc7a344/SKILL.md) — memory; first found 2026-10-10

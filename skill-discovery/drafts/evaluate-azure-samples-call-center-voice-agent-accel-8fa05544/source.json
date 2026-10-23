@@ -1,0 +1,10 @@
+{
+  "repository": "Azure-Samples/call-center-voice-agent-accelerator",
+  "commit": "312ff9b0bfd86925bee99914903e0adf9b4f1088",
+  "retrieved": "2026-10-23",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "288bc74a9a11b07ea8bbacd371ba850e8bf145c63e5088a59f000f2b7a8a8324"
+}

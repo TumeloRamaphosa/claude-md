@@ -1,0 +1,10 @@
+{
+  "repository": "hsuanshao/AgentMemory",
+  "commit": "36526024220a8dbc121fe8f8c4b1e39fec5b00a2",
+  "retrieved": "2026-10-23",
+  "license": "NOASSERTION",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "50b3a99cd5dd9ba348628d59cfda42432fa856247378b40f3255a478352d68ac"
+}

@@ -110,6 +110,16 @@
       "retrieved": "2026-10-19",
       "status": "draft-not-installed"
     },
+    "Azure-Samples/call-center-voice-agent-accelerator": {
+      "category": "voice",
+      "commit": "312ff9b0bfd86925bee99914903e0adf9b4f1088",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "288bc74a9a11b07ea8bbacd371ba850e8bf145c63e5088a59f000f2b7a8a8324",
+      "repository": "Azure-Samples/call-center-voice-agent-accelerator",
+      "retrieved": "2026-10-23",
+      "status": "draft-not-installed"
+    },
     "C4rohan/Lampline": {
       "category": "voice",
       "commit": "d7564dcfbe1ea807cc5c59e23f69f1a570d8430f",
@@ -118,6 +128,16 @@
       "readme_sha256": "d41c0f7cda900f9972598b36a5889076eca1ce1e27010e2c13d4a30ff430e8ad",
       "repository": "C4rohan/Lampline",
       "retrieved": "2026-10-20",
+      "status": "draft-not-installed"
+    },
+    "Deen-Media/dgx-monarch": {
+      "category": "content",
+      "commit": "5433e0569d22d1ea9ac12cdf80c221fd28c9078f",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "Apache-2.0",
+      "readme_sha256": "213fdd0e2e6208d48dc0e4a0d3e591c3140dfe160d056ec47b6eef380bea10cf",
+      "repository": "Deen-Media/dgx-monarch",
+      "retrieved": "2026-10-23",
       "status": "draft-not-installed"
     },
     "EfficientAI-tech/efficientAI": {
@@ -458,6 +478,16 @@
       "readme_sha256": "05d9750e950ef3af00ae6e1f177ea0a1dd7e36fe336290adb1a1b5f9db6c7e69",
       "repository": "hkjarral/AVA-AI-Voice-Agent-for-Asterisk",
       "retrieved": "2026-10-02",
+      "status": "draft-not-installed"
+    },
+    "hsuanshao/AgentMemory": {
+      "category": "memory",
+      "commit": "36526024220a8dbc121fe8f8c4b1e39fec5b00a2",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "NOASSERTION",
+      "readme_sha256": "50b3a99cd5dd9ba348628d59cfda42432fa856247378b40f3255a478352d68ac",
+      "repository": "hsuanshao/AgentMemory",
+      "retrieved": "2026-10-23",
       "status": "draft-not-installed"
     },
     "htobty/ReadyLLM": {

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-23",
+  "created": [
+    {
+      "repository": "Azure-Samples/call-center-voice-agent-accelerator",
+      "commit": "312ff9b0bfd86925bee99914903e0adf9b4f1088",
+      "retrieved": "2026-10-23",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "288bc74a9a11b07ea8bbacd371ba850e8bf145c63e5088a59f000f2b7a8a8324"
+    },
+    {
+      "repository": "Deen-Media/dgx-monarch",
+      "commit": "5433e0569d22d1ea9ac12cdf80c221fd28c9078f",
+      "retrieved": "2026-10-23",
+      "license": "Apache-2.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "213fdd0e2e6208d48dc0e4a0d3e591c3140dfe160d056ec47b6eef380bea10cf"
+    },
+    {
+      "repository": "hsuanshao/AgentMemory",
+      "commit": "36526024220a8dbc121fe8f8c4b1e39fec5b00a2",
+      "retrieved": "2026-10-23",
+      "license": "NOASSERTION",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "50b3a99cd5dd9ba348628d59cfda42432fa856247378b40f3255a478352d68ac"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

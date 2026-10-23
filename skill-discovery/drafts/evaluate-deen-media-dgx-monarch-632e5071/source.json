@@ -1,0 +1,10 @@
+{
+  "repository": "Deen-Media/dgx-monarch",
+  "commit": "5433e0569d22d1ea9ac12cdf80c221fd28c9078f",
+  "retrieved": "2026-10-23",
+  "license": "Apache-2.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "213fdd0e2e6208d48dc0e4a0d3e591c3140dfe160d056ec47b6eef380bea10cf"
+}
