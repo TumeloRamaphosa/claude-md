@@ -1,0 +1,10 @@
+{
+  "repository": "getphoneflow/phoneflow",
+  "commit": "34b93690d12588e7e75b0436071c9225a84ed6c8",
+  "retrieved": "2026-10-24",
+  "license": "Apache-2.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "82c37a3750a12db53103ef95bc9c8f18acd08beb61f4070ac30917ae59ff851d"
+}

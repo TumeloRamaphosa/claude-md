@@ -18,6 +18,7 @@ Draft evaluation skills only. Review before activation.
 - [Deen-Media/dgx-monarch](drafts/evaluate-deen-media-dgx-monarch-632e5071/SKILL.md) — content; first found 2026-10-23
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
+- [LudwigKienle/ai-video-production-editor](drafts/evaluate-ludwigkienle-ai-video-production-editor-eb66faf7/SKILL.md) — content; first found 2026-10-24
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
 - [NVIDIA-AI-Blueprints/nemotron-voice-agent](drafts/evaluate-nvidia-ai-blueprints-nemotron-voice-agent-4c3d2591/SKILL.md) — voice; first found 2026-10-21
 - [Percolation-Labs/percolate](drafts/evaluate-percolation-labs-percolate-e16e8680/SKILL.md) — memory; first found 2026-10-20
@@ -48,6 +49,7 @@ Draft evaluation skills only. Review before activation.
 - [edihasaj/universal-memory-protocol](drafts/evaluate-edihasaj-universal-memory-protocol-140d7de1/SKILL.md) — memory; first found 2026-10-19
 - [egma-ai/egma](drafts/evaluate-egma-ai-egma-409bbb08/SKILL.md) — voice; first found 2026-09-30
 - [elevenlabs/cli](drafts/evaluate-elevenlabs-cli-b90739ff/SKILL.md) — voice; first found 2026-09-29
+- [getphoneflow/phoneflow](drafts/evaluate-getphoneflow-phoneflow-af0c8433/SKILL.md) — voice; first found 2026-10-24
 - [hao-ai-lab/FastVideo](drafts/evaluate-hao-ai-lab-fastvideo-5261b517/SKILL.md) — content; first found 2026-10-07
 - [hkjarral/AVA-AI-Voice-Agent-for-Asterisk](drafts/evaluate-hkjarral-ava-ai-voice-agent-for-asterisk-6ae91283/SKILL.md) — voice; first found 2026-10-02
 - [hsuanshao/AgentMemory](drafts/evaluate-hsuanshao-agentmemory-465816b0/SKILL.md) — memory; first found 2026-10-23
@@ -72,6 +74,7 @@ Draft evaluation skills only. Review before activation.
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [q253595422/dsh-imagegen-video](drafts/evaluate-q253595422-dsh-imagegen-video-add4a032/SKILL.md) — content; first found 2026-10-18
 - [rapidaai/voice-ai](drafts/evaluate-rapidaai-voice-ai-4292ab18/SKILL.md) — voice; first found 2026-10-17
+- [ruvnet/RuVector](drafts/evaluate-ruvnet-ruvector-2482e2b5/SKILL.md) — memory; first found 2026-10-24
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05
 - [soniqo/speech-core](drafts/evaluate-soniqo-speech-core-10989f7b/SKILL.md) — voice; first found 2026-10-10
 - [stimm-ai/stimm](drafts/evaluate-stimm-ai-stimm-9450b306/SKILL.md) — voice; first found 2026-10-12

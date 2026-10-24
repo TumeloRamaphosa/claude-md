@@ -160,6 +160,16 @@
       "retrieved": "2026-10-09",
       "status": "draft-not-installed"
     },
+    "LudwigKienle/ai-video-production-editor": {
+      "category": "content",
+      "commit": "e6b7d020e080f481bbcc83677b7e982034a41a50",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "GPL-3.0",
+      "readme_sha256": "c8948d72114687f7e7e2407b3a2e657fc25b6bc3939397d6ad97f1070cbb9006",
+      "repository": "LudwigKienle/ai-video-production-editor",
+      "retrieved": "2026-10-24",
+      "status": "draft-not-installed"
+    },
     "Mrkomiljon/awesome-generative-ai": {
       "category": "content",
       "commit": "d828d92311122de2368b1a38a4c9c27a6eb220be",
@@ -460,6 +470,16 @@
       "retrieved": "2026-09-29",
       "status": "draft-not-installed"
     },
+    "getphoneflow/phoneflow": {
+      "category": "voice",
+      "commit": "34b93690d12588e7e75b0436071c9225a84ed6c8",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "Apache-2.0",
+      "readme_sha256": "82c37a3750a12db53103ef95bc9c8f18acd08beb61f4070ac30917ae59ff851d",
+      "repository": "getphoneflow/phoneflow",
+      "retrieved": "2026-10-24",
+      "status": "draft-not-installed"
+    },
     "hao-ai-lab/FastVideo": {
       "category": "content",
       "commit": "3467f8befbd77c40cc5941fdfa37bd3e2c069eb2",
@@ -698,6 +718,16 @@
       "readme_sha256": "53807d6fd706072c46319fe89f1d49f8f3231cb2dd1663c6acc6dae66ab8ba18",
       "repository": "rapidaai/voice-ai",
       "retrieved": "2026-10-17",
+      "status": "draft-not-installed"
+    },
+    "ruvnet/RuVector": {
+      "category": "memory",
+      "commit": "46d816ddc4c2a8a06cd3613534a79b1d557d858b",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "7ef50964ae9b77d8fdcac9f4ce49faa7eeb7c98c3b972137cadd2c7765787c37",
+      "repository": "ruvnet/RuVector",
+      "retrieved": "2026-10-24",
       "status": "draft-not-installed"
     },
     "slng-ai/unmute": {

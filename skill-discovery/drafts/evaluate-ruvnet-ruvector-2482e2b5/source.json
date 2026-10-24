@@ -1,0 +1,10 @@
+{
+  "repository": "ruvnet/RuVector",
+  "commit": "46d816ddc4c2a8a06cd3613534a79b1d557d858b",
+  "retrieved": "2026-10-24",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "7ef50964ae9b77d8fdcac9f4ce49faa7eeb7c98c3b972137cadd2c7765787c37"
+}

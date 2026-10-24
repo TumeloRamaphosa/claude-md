@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-24",
+  "created": [
+    {
+      "repository": "LudwigKienle/ai-video-production-editor",
+      "commit": "e6b7d020e080f481bbcc83677b7e982034a41a50",
+      "retrieved": "2026-10-24",
+      "license": "GPL-3.0",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "c8948d72114687f7e7e2407b3a2e657fc25b6bc3939397d6ad97f1070cbb9006"
+    },
+    {
+      "repository": "ruvnet/RuVector",
+      "commit": "46d816ddc4c2a8a06cd3613534a79b1d557d858b",
+      "retrieved": "2026-10-24",
+      "license": "MIT",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "7ef50964ae9b77d8fdcac9f4ce49faa7eeb7c98c3b972137cadd2c7765787c37"
+    },
+    {
+      "repository": "getphoneflow/phoneflow",
+      "commit": "34b93690d12588e7e75b0436071c9225a84ed6c8",
+      "retrieved": "2026-10-24",
+      "license": "Apache-2.0",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "82c37a3750a12db53103ef95bc9c8f18acd08beb61f4070ac30917ae59ff851d"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}
