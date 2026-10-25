@@ -380,6 +380,16 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "context-graph-ai/contextdb": {
+      "category": "memory",
+      "commit": "cd75f16d7d7e2d900da184bb747195c4307e84ab",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "8f236c4fb2187434b02f29b1ac54fd8217eae7a12428b5d587fcf9e4e162d8cc",
+      "repository": "context-graph-ai/contextdb",
+      "retrieved": "2026-10-25",
+      "status": "draft-not-installed"
+    },
     "converge-ai-labs/agent-foundation": {
       "category": "memory",
       "commit": "9e7c29086736e0e27a8ff3138013044fc82eedac",
@@ -708,6 +718,16 @@
       "readme_sha256": "eca8e7c632f20ef57f371c1ded866628cb103366117b512311dbe5ee97b6af83",
       "repository": "q253595422/dsh-imagegen-video",
       "retrieved": "2026-10-18",
+      "status": "draft-not-installed"
+    },
+    "qzw881130/AI-NovelFlow": {
+      "category": "content",
+      "commit": "20e4d8592313eed168dacbe5135eec82fc752749",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "NOASSERTION",
+      "readme_sha256": "79a69ea3d050a9f76b1806c6203a08ab1edbc7607cb8032f851656e7e5d91448",
+      "repository": "qzw881130/AI-NovelFlow",
+      "retrieved": "2026-10-25",
       "status": "draft-not-installed"
     },
     "rapidaai/voice-ai": {

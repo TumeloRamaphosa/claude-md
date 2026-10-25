@@ -1,0 +1,10 @@
+{
+  "repository": "context-graph-ai/contextdb",
+  "commit": "cd75f16d7d7e2d900da184bb747195c4307e84ab",
+  "retrieved": "2026-10-25",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "8f236c4fb2187434b02f29b1ac54fd8217eae7a12428b5d587fcf9e4e162d8cc"
+}

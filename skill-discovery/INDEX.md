@@ -40,6 +40,7 @@ Draft evaluation skills only. Review before activation.
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
+- [context-graph-ai/contextdb](drafts/evaluate-context-graph-ai-contextdb-b3a48741/SKILL.md) — memory; first found 2026-10-25
 - [converge-ai-labs/agent-foundation](drafts/evaluate-converge-ai-labs-agent-foundation-92c23a55/SKILL.md) — memory; first found 2026-09-30
 - [cvlab-kaist/GRACE](drafts/evaluate-cvlab-kaist-grace-506de232/SKILL.md) — content; first found 2026-10-10
 - [czg86389-hub/muse2api](drafts/evaluate-czg86389-hub-muse2api-13c6053d/SKILL.md) — content; first found 2026-10-02
@@ -73,6 +74,7 @@ Draft evaluation skills only. Review before activation.
 - [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [q253595422/dsh-imagegen-video](drafts/evaluate-q253595422-dsh-imagegen-video-add4a032/SKILL.md) — content; first found 2026-10-18
+- [qzw881130/AI-NovelFlow](drafts/evaluate-qzw881130-ai-novelflow-8f8e18fe/SKILL.md) — content; first found 2026-10-25
 - [rapidaai/voice-ai](drafts/evaluate-rapidaai-voice-ai-4292ab18/SKILL.md) — voice; first found 2026-10-17
 - [ruvnet/RuVector](drafts/evaluate-ruvnet-ruvector-2482e2b5/SKILL.md) — memory; first found 2026-10-24
 - [slng-ai/unmute](drafts/evaluate-slng-ai-unmute-22da1a1f/SKILL.md) — voice; first found 2026-10-05

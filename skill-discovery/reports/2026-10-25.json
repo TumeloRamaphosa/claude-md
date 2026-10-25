@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-25",
+  "created": [
+    {
+      "repository": "qzw881130/AI-NovelFlow",
+      "commit": "20e4d8592313eed168dacbe5135eec82fc752749",
+      "retrieved": "2026-10-25",
+      "license": "NOASSERTION",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "79a69ea3d050a9f76b1806c6203a08ab1edbc7607cb8032f851656e7e5d91448"
+    },
+    {
+      "repository": "context-graph-ai/contextdb",
+      "commit": "cd75f16d7d7e2d900da184bb747195c4307e84ab",
+      "retrieved": "2026-10-25",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "8f236c4fb2187434b02f29b1ac54fd8217eae7a12428b5d587fcf9e4e162d8cc"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}
