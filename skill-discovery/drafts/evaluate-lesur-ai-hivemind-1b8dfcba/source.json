@@ -1,0 +1,10 @@
+{
+  "repository": "Lesur-ai/hivemind",
+  "commit": "2cba769427a3729bf23ead2b4c06b2067e3e8c47",
+  "retrieved": "2026-10-26",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "53cd9042853cc9142691f4f0ca6b7df7d5ebc72d0c428a43b05294af03e212e5"
+}

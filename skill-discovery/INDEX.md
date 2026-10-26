@@ -18,6 +18,7 @@ Draft evaluation skills only. Review before activation.
 - [Deen-Media/dgx-monarch](drafts/evaluate-deen-media-dgx-monarch-632e5071/SKILL.md) — content; first found 2026-10-23
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
+- [Lesur-ai/hivemind](drafts/evaluate-lesur-ai-hivemind-1b8dfcba/SKILL.md) — memory; first found 2026-10-26
 - [LudwigKienle/ai-video-production-editor](drafts/evaluate-ludwigkienle-ai-video-production-editor-eb66faf7/SKILL.md) — content; first found 2026-10-24
 - [Mrkomiljon/awesome-generative-ai](drafts/evaluate-mrkomiljon-awesome-generative-ai-df3ff8ae/SKILL.md) — content; first found 2026-10-11
 - [NVIDIA-AI-Blueprints/nemotron-voice-agent](drafts/evaluate-nvidia-ai-blueprints-nemotron-voice-agent-4c3d2591/SKILL.md) — voice; first found 2026-10-21
@@ -40,6 +41,7 @@ Draft evaluation skills only. Review before activation.
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
+- [codewithmuh/ai-voice-agent](drafts/evaluate-codewithmuh-ai-voice-agent-4ae82350/SKILL.md) — voice; first found 2026-10-26
 - [context-graph-ai/contextdb](drafts/evaluate-context-graph-ai-contextdb-b3a48741/SKILL.md) — memory; first found 2026-10-25
 - [converge-ai-labs/agent-foundation](drafts/evaluate-converge-ai-labs-agent-foundation-92c23a55/SKILL.md) — memory; first found 2026-09-30
 - [cvlab-kaist/GRACE](drafts/evaluate-cvlab-kaist-grace-506de232/SKILL.md) — content; first found 2026-10-10
@@ -74,6 +76,7 @@ Draft evaluation skills only. Review before activation.
 - [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24
 - [q253595422/dsh-imagegen-video](drafts/evaluate-q253595422-dsh-imagegen-video-add4a032/SKILL.md) — content; first found 2026-10-18
+- [qianshuixia/shrimpreel](drafts/evaluate-qianshuixia-shrimpreel-8019555f/SKILL.md) — content; first found 2026-10-26
 - [qzw881130/AI-NovelFlow](drafts/evaluate-qzw881130-ai-novelflow-8f8e18fe/SKILL.md) — content; first found 2026-10-25
 - [rapidaai/voice-ai](drafts/evaluate-rapidaai-voice-ai-4292ab18/SKILL.md) — voice; first found 2026-10-17
 - [ruvnet/RuVector](drafts/evaluate-ruvnet-ruvector-2482e2b5/SKILL.md) — memory; first found 2026-10-24

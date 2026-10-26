@@ -160,6 +160,16 @@
       "retrieved": "2026-10-09",
       "status": "draft-not-installed"
     },
+    "Lesur-ai/hivemind": {
+      "category": "memory",
+      "commit": "2cba769427a3729bf23ead2b4c06b2067e3e8c47",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "53cd9042853cc9142691f4f0ca6b7df7d5ebc72d0c428a43b05294af03e212e5",
+      "repository": "Lesur-ai/hivemind",
+      "retrieved": "2026-10-26",
+      "status": "draft-not-installed"
+    },
     "LudwigKienle/ai-video-production-editor": {
       "category": "content",
       "commit": "e6b7d020e080f481bbcc83677b7e982034a41a50",
@@ -378,6 +388,16 @@
       "readme_sha256": "a79bf5983d62b118b62fed03911f8d6e0d12d0ca61ebcd3ff84e5441284ee078",
       "repository": "camgraphe/MaxVideoAi",
       "retrieved": "2026-09-24",
+      "status": "draft-not-installed"
+    },
+    "codewithmuh/ai-voice-agent": {
+      "category": "voice",
+      "commit": "cfdb426cfb57d5063fe1e3054a5cd4fee3b4aba4",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "77a5173a68e1e5cbb048d67a0d113de4d9e5203a6da9a9e16a49fb142bc67a62",
+      "repository": "codewithmuh/ai-voice-agent",
+      "retrieved": "2026-10-26",
       "status": "draft-not-installed"
     },
     "context-graph-ai/contextdb": {
@@ -718,6 +738,16 @@
       "readme_sha256": "eca8e7c632f20ef57f371c1ded866628cb103366117b512311dbe5ee97b6af83",
       "repository": "q253595422/dsh-imagegen-video",
       "retrieved": "2026-10-18",
+      "status": "draft-not-installed"
+    },
+    "qianshuixia/shrimpreel": {
+      "category": "content",
+      "commit": "882825ae9863bcdebb7fcef979976ec4baa0c117",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "MIT",
+      "readme_sha256": "be32d1b389cda408cd05c927b07ed2dd3b15396a84d4ee1f3c3dfcc4dbe3c712",
+      "repository": "qianshuixia/shrimpreel",
+      "retrieved": "2026-10-26",
       "status": "draft-not-installed"
     },
     "qzw881130/AI-NovelFlow": {

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-26",
+  "created": [
+    {
+      "repository": "Lesur-ai/hivemind",
+      "commit": "2cba769427a3729bf23ead2b4c06b2067e3e8c47",
+      "retrieved": "2026-10-26",
+      "license": "Apache-2.0",
+      "category": "memory",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "status": "draft-not-installed",
+      "readme_sha256": "53cd9042853cc9142691f4f0ca6b7df7d5ebc72d0c428a43b05294af03e212e5"
+    },
+    {
+      "repository": "codewithmuh/ai-voice-agent",
+      "commit": "cfdb426cfb57d5063fe1e3054a5cd4fee3b4aba4",
+      "retrieved": "2026-10-26",
+      "license": "MIT",
+      "category": "voice",
+      "goal": "Make business knowledge accessible through conversation.",
+      "status": "draft-not-installed",
+      "readme_sha256": "77a5173a68e1e5cbb048d67a0d113de4d9e5203a6da9a9e16a49fb142bc67a62"
+    },
+    {
+      "repository": "qianshuixia/shrimpreel",
+      "commit": "882825ae9863bcdebb7fcef979976ec4baa0c117",
+      "retrieved": "2026-10-26",
+      "license": "MIT",
+      "category": "content",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "status": "draft-not-installed",
+      "readme_sha256": "be32d1b389cda408cd05c927b07ed2dd3b15396a84d4ee1f3c3dfcc4dbe3c712"
+    }
+  ],
+  "errors": [],
+  "note": "Heuristic candidates, not vetted recommendations. No fetched code executed."
+}

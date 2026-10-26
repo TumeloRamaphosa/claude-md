@@ -1,0 +1,10 @@
+{
+  "repository": "codewithmuh/ai-voice-agent",
+  "commit": "cfdb426cfb57d5063fe1e3054a5cd4fee3b4aba4",
+  "retrieved": "2026-10-26",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "77a5173a68e1e5cbb048d67a0d113de4d9e5203a6da9a9e16a49fb142bc67a62"
+}
