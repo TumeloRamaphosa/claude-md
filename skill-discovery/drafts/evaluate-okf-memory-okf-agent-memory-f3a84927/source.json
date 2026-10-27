@@ -1,0 +1,10 @@
+{
+  "repository": "okf-memory/okf-agent-memory",
+  "commit": "4e2bf4c42a59890530be4bdfc9d5e006f459fbc6",
+  "retrieved": "2026-10-27",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "7762ca01ffca3e83a9362f3690fa35b45dcad4de7b5c45c7b7ccbc922efebfc0"
+}

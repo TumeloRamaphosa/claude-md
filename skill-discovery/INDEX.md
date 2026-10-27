@@ -34,11 +34,13 @@ Draft evaluation skills only. Review before activation.
 - [TencentCloud/TencentDB-Agent-Memory](drafts/evaluate-tencentcloud-tencentdb-agent-memory-38ae38ec/SKILL.md) — memory; first found 2026-10-09
 - [Tenney95/AI-Canvas-tauri](drafts/evaluate-tenney95-ai-canvas-tauri-857eb28b/SKILL.md) — content; first found 2026-10-06
 - [The-AI-Alliance/semiont](drafts/evaluate-the-ai-alliance-semiont-5ecd2c4b/SKILL.md) — memory; first found 2026-10-13
+- [Xmax-AI/XmaxSDK-RN](drafts/evaluate-xmax-ai-xmaxsdk-rn-90122b70/SKILL.md) — content; first found 2026-10-27
 - [YouMind-OpenLab/awesome-grok-imagine-prompts](drafts/evaluate-youmind-openlab-awesome-grok-imagine-prompt-fd406d2b/SKILL.md) — content; first found 2026-09-29
 - [ZeroLu/awesome-seedance](drafts/evaluate-zerolu-awesome-seedance-061cd66d/SKILL.md) — content; first found 2026-10-12
 - [Zihan-Su/Self_Gradient_Forcing_Plus](drafts/evaluate-zihan-su-self-gradient-forcing-plus-53a2e496/SKILL.md) — content; first found 2026-10-15
 - [adventists-ai/duplexjev](drafts/evaluate-adventists-ai-duplexjev-cc019b1e/SKILL.md) — voice; first found 2026-10-13
 - [aicc2025/sip-to-ai](drafts/evaluate-aicc2025-sip-to-ai-165d3682/SKILL.md) — voice; first found 2026-10-03
+- [ayush-that/bohemia-ai](drafts/evaluate-ayush-that-bohemia-ai-331a4306/SKILL.md) — voice; first found 2026-10-27
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
 - [codewithmuh/ai-voice-agent](drafts/evaluate-codewithmuh-ai-voice-agent-4ae82350/SKILL.md) — voice; first found 2026-10-26
@@ -72,6 +74,7 @@ Draft evaluation skills only. Review before activation.
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
 - [nexscope-ai/ecommerce-ai-tools](drafts/evaluate-nexscope-ai-ecommerce-ai-tools-7dd204be/SKILL.md) — content; first found 2026-09-30
 - [oceanbase/powercontext](drafts/evaluate-oceanbase-powercontext-3a79551d/SKILL.md) — memory; first found 2026-10-16
+- [okf-memory/okf-agent-memory](drafts/evaluate-okf-memory-okf-agent-memory-f3a84927/SKILL.md) — memory; first found 2026-10-27
 - [openJiuwen-ai/agent-memory](drafts/evaluate-openjiuwen-ai-agent-memory-56f2dad1/SKILL.md) — memory; first found 2026-10-21
 - [openai/openai-agents-js](drafts/evaluate-openai-openai-agents-js-592c1816/SKILL.md) — voice; first found 2026-10-15
 - [pipecat-ai/pipecat](drafts/evaluate-pipecat-ai-pipecat-0de015bb/SKILL.md) — voice; first found 2026-09-24

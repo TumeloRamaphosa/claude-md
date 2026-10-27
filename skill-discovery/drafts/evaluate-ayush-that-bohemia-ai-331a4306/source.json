@@ -1,0 +1,10 @@
+{
+  "repository": "ayush-that/bohemia-ai",
+  "commit": "fa3309b25994541a0199d805b68f445d1f695e04",
+  "retrieved": "2026-10-27",
+  "license": "GPL-3.0",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "ea4fbfdd6e3f4b29fe72e75752c7e7e90e930b60ad9de35d93002edd86a08912"
+}
