@@ -1,0 +1,10 @@
+{
+  "repository": "ServiceNow/eva",
+  "commit": "6e1c41456415326cbcc222175ad8d5714fe436e8",
+  "retrieved": "2026-10-28",
+  "license": "MIT",
+  "category": "voice",
+  "goal": "Make business knowledge accessible through conversation.",
+  "status": "draft-not-installed",
+  "readme_sha256": "15c0cbcfc812774f5ed00a4df4ecb553de3331cb47c47d88fd755a1b02ecf237"
+}

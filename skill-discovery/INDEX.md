@@ -27,6 +27,7 @@ Draft evaluation skills only. Review before activation.
 - [PurpleDoubleD/locally-uncensored](drafts/evaluate-purpledoubled-locally-uncensored-086f6197/SKILL.md) — content; first found 2026-10-08
 - [RapierCraftStudios/ForgeDock](drafts/evaluate-rapiercraftstudios-forgedock-5b023033/SKILL.md) — memory; first found 2026-10-12
 - [Rick1330/ibex-harness](drafts/evaluate-rick1330-ibex-harness-161d5542/SKILL.md) — memory; first found 2026-10-18
+- [ServiceNow/eva](drafts/evaluate-servicenow-eva-7b51f024/SKILL.md) — voice; first found 2026-10-28
 - [Smite79/MiniMax-H3-LongVideos](drafts/evaluate-smite79-minimax-h3-longvideos-fe083e8a/SKILL.md) — content; first found 2026-10-05
 - [StreamEval/StreamEval](drafts/evaluate-streameval-streameval-d3c4496d/SKILL.md) — content; first found 2026-10-22
 - [TeleAI-UAGI/Awesome-Agent-Memory](drafts/evaluate-teleai-uagi-awesome-agent-memory-b21b10ee/SKILL.md) — memory; first found 2026-10-11
@@ -99,6 +100,7 @@ Draft evaluation skills only. Review before activation.
 - [wiringai/mod_earshot](drafts/evaluate-wiringai-mod-earshot-ec1bc4ea/SKILL.md) — voice; first found 2026-10-04
 - [xerj-org/xerj](drafts/evaluate-xerj-org-xerj-ec758d19/SKILL.md) — memory; first found 2026-09-26
 - [xin1u/UltraFlash](drafts/evaluate-xin1u-ultraflash-71a5175f/SKILL.md) — content; first found 2026-10-17
+- [xm6018924/BSAI-MiniMAX-H3-Prompt](drafts/evaluate-xm6018924-bsai-minimax-h3-prompt-27ecac8c/SKILL.md) — content; first found 2026-10-28
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
 - [yzfly/awesome-voice-agents](drafts/evaluate-yzfly-awesome-voice-agents-5ece01e6/SKILL.md) — voice; first found 2026-10-16
 - [zavora-ai/adk-rust](drafts/evaluate-zavora-ai-adk-rust-204a579e/SKILL.md) — voice; first found 2026-10-08

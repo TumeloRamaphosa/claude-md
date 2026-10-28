@@ -250,6 +250,16 @@
       "retrieved": "2026-10-18",
       "status": "draft-not-installed"
     },
+    "ServiceNow/eva": {
+      "category": "voice",
+      "commit": "6e1c41456415326cbcc222175ad8d5714fe436e8",
+      "goal": "Make business knowledge accessible through conversation.",
+      "license": "MIT",
+      "readme_sha256": "15c0cbcfc812774f5ed00a4df4ecb553de3331cb47c47d88fd755a1b02ecf237",
+      "repository": "ServiceNow/eva",
+      "retrieved": "2026-10-28",
+      "status": "draft-not-installed"
+    },
     "Smite79/MiniMax-H3-LongVideos": {
       "category": "content",
       "commit": "75b846d9140e431db79a65a1c9770a7b9c7bd30c",
@@ -968,6 +978,16 @@
       "readme_sha256": "29babb36667d559bd37fe5ff8e0383e7311a0c2bc661c8e56b244c8ff80ffcfd",
       "repository": "xin1u/UltraFlash",
       "retrieved": "2026-10-17",
+      "status": "draft-not-installed"
+    },
+    "xm6018924/BSAI-MiniMAX-H3-Prompt": {
+      "category": "content",
+      "commit": "5bdc7cdea7f0cb529a52d23905dc50203489bdd8",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "UNKNOWN",
+      "readme_sha256": "61a10a3f078308fc344215bfc8927eb4bafec7bcb8f6cd15269d3a6bf1b1d1f3",
+      "repository": "xm6018924/BSAI-MiniMAX-H3-Prompt",
+      "retrieved": "2026-10-28",
       "status": "draft-not-installed"
     },
     "xraysight/hermes-memory-ui": {
