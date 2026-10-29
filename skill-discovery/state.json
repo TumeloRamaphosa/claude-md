@@ -680,6 +680,16 @@
       "retrieved": "2026-10-09",
       "status": "draft-not-installed"
     },
+    "mnemoverse/awesome-agent-memory": {
+      "category": "memory",
+      "commit": "c8f4175d36a4ab57d8b352c9067c2289a02835f6",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "CC0-1.0",
+      "readme_sha256": "c634c865a1c425b0296efd509c1ce61aa3dd31c7879fbdc06d9b7d0c225ffaeb",
+      "repository": "mnemoverse/awesome-agent-memory",
+      "retrieved": "2026-10-29",
+      "status": "draft-not-installed"
+    },
     "mpieniak01/Venom": {
       "category": "memory",
       "commit": "b5bdc5f3dafc3ed67d6301763e6a7b20f8b2ac1f",
@@ -888,6 +898,16 @@
       "readme_sha256": "c1a40d0ed6ffb2cbe893b92677de50e871bcfc8456753656b466540129224174",
       "repository": "ukr8b3g-cmyk/ComfyUI-H3-Continuum",
       "retrieved": "2026-10-13",
+      "status": "draft-not-installed"
+    },
+    "vargHQ/sdk": {
+      "category": "content",
+      "commit": "7f665a8866ca9bf31d2390138f2233aa64769ea1",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "Apache-2.0",
+      "readme_sha256": "256537db86c20d8e0991349962794a3bd3284ece86baad0297d25b869d4d9b1c",
+      "repository": "vargHQ/sdk",
+      "retrieved": "2026-10-29",
       "status": "draft-not-installed"
     },
     "vectorize-io/agent-memory-benchmark": {

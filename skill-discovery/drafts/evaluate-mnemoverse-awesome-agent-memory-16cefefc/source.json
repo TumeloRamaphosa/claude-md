@@ -1,0 +1,10 @@
+{
+  "repository": "mnemoverse/awesome-agent-memory",
+  "commit": "c8f4175d36a4ab57d8b352c9067c2289a02835f6",
+  "retrieved": "2026-10-29",
+  "license": "CC0-1.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "c634c865a1c425b0296efd509c1ce61aa3dd31c7879fbdc06d9b7d0c225ffaeb"
+}

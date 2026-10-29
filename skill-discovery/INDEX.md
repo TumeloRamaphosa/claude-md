@@ -70,6 +70,7 @@ Draft evaluation skills only. Review before activation.
 - [mahimailabs/voicegateway](drafts/evaluate-mahimailabs-voicegateway-ff546bfe/SKILL.md) — voice; first found 2026-10-11
 - [markhuangai/dense-mem](drafts/evaluate-markhuangai-dense-mem-dd6ba377/SKILL.md) — memory; first found 2026-10-01
 - [miuda-ai/active-call](drafts/evaluate-miuda-ai-active-call-a5046e64/SKILL.md) — voice; first found 2026-10-09
+- [mnemoverse/awesome-agent-memory](drafts/evaluate-mnemoverse-awesome-agent-memory-16cefefc/SKILL.md) — memory; first found 2026-10-29
 - [mpieniak01/Venom](drafts/evaluate-mpieniak01-venom-c0391e27/SKILL.md) — memory; first found 2026-10-17
 - [mtrnix/metronix-memory](drafts/evaluate-mtrnix-metronix-memory-ac34814f/SKILL.md) — memory; first found 2026-10-07
 - [neoneye/agent-memory-atlas](drafts/evaluate-neoneye-agent-memory-atlas-3a020e22/SKILL.md) — memory; first found 2026-10-08
@@ -91,6 +92,7 @@ Draft evaluation skills only. Review before activation.
 - [tetherto/qvac](drafts/evaluate-tetherto-qvac-78e9e46f/SKILL.md) — content; first found 2026-09-28
 - [trilogy-group/ttv-pipeline](drafts/evaluate-trilogy-group-ttv-pipeline-5b571ab2/SKILL.md) — content; first found 2026-10-14
 - [ukr8b3g-cmyk/ComfyUI-H3-Continuum](drafts/evaluate-ukr8b3g-cmyk-comfyui-h3-continuum-a4d27d5b/SKILL.md) — content; first found 2026-10-13
+- [vargHQ/sdk](drafts/evaluate-varghq-sdk-2960c3c3/SKILL.md) — content; first found 2026-10-29
 - [vectorize-io/agent-memory-benchmark](drafts/evaluate-vectorize-io-agent-memory-benchmark-6a5440e5/SKILL.md) — memory; first found 2026-10-14
 - [vectorize-io/hindsight](drafts/evaluate-vectorize-io-hindsight-57687486/SKILL.md) — memory; first found 2026-09-25
 - [vericontext/vibeframe](drafts/evaluate-vericontext-vibeframe-00ab1c4d/SKILL.md) — content; first found 2026-10-04

@@ -1,0 +1,10 @@
+{
+  "repository": "vargHQ/sdk",
+  "commit": "7f665a8866ca9bf31d2390138f2233aa64769ea1",
+  "retrieved": "2026-10-29",
+  "license": "Apache-2.0",
+  "category": "content",
+  "goal": "Produce consistent Studbot videos and reusable brand assets.",
+  "status": "draft-not-installed",
+  "readme_sha256": "256537db86c20d8e0991349962794a3bd3284ece86baad0297d25b869d4d9b1c"
+}
