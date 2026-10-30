@@ -1,0 +1,10 @@
+{
+  "repository": "EternalNight996/memory-eternal",
+  "commit": "8174ee8cd85c22556764d5b40b3c8951e2844e41",
+  "retrieved": "2026-10-30",
+  "license": "MIT",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "d2c781de5fdd1cd5cd29bfe43b84d0a3d2ff4a3cf971853ff1ce22afe3b99339"
+}

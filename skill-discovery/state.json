@@ -150,6 +150,16 @@
       "retrieved": "2026-09-28",
       "status": "draft-not-installed"
     },
+    "EternalNight996/memory-eternal": {
+      "category": "memory",
+      "commit": "8174ee8cd85c22556764d5b40b3c8951e2844e41",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "MIT",
+      "readme_sha256": "d2c781de5fdd1cd5cd29bfe43b84d0a3d2ff4a3cf971853ff1ce22afe3b99339",
+      "repository": "EternalNight996/memory-eternal",
+      "retrieved": "2026-10-30",
+      "status": "draft-not-installed"
+    },
     "HBAI-Ltd/Toonflow-app": {
       "category": "content",
       "commit": "72a895c26aab3f54c5a914517615362208fa6008",

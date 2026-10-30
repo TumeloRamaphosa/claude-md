@@ -17,6 +17,7 @@ Draft evaluation skills only. Review before activation.
 - [C4rohan/Lampline](drafts/evaluate-c4rohan-lampline-322babaa/SKILL.md) — voice; first found 2026-10-20
 - [Deen-Media/dgx-monarch](drafts/evaluate-deen-media-dgx-monarch-632e5071/SKILL.md) — content; first found 2026-10-23
 - [EfficientAI-tech/efficientAI](drafts/evaluate-efficientai-tech-efficientai-07a2e984/SKILL.md) — voice; first found 2026-09-28
+- [EternalNight996/memory-eternal](drafts/evaluate-eternalnight996-memory-eternal-93db2a50/SKILL.md) — memory; first found 2026-10-30
 - [HBAI-Ltd/Toonflow-app](drafts/evaluate-hbai-ltd-toonflow-app-eea32263/SKILL.md) — content; first found 2026-10-09
 - [Lesur-ai/hivemind](drafts/evaluate-lesur-ai-hivemind-1b8dfcba/SKILL.md) — memory; first found 2026-10-26
 - [LudwigKienle/ai-video-production-editor](drafts/evaluate-ludwigkienle-ai-video-production-editor-eb66faf7/SKILL.md) — content; first found 2026-10-24
