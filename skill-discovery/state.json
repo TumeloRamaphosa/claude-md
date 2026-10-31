@@ -430,6 +430,16 @@
       "retrieved": "2026-09-24",
       "status": "draft-not-installed"
     },
+    "caru-ini/modal-comfyui": {
+      "category": "content",
+      "commit": "eb6df76fa022dd47e824e4f5a4e6d818996369b3",
+      "goal": "Produce consistent Studbot videos and reusable brand assets.",
+      "license": "UNKNOWN",
+      "readme_sha256": "a46802267078681fd6d09aa308bfe27008b757add24b87a017f521c23f566104",
+      "repository": "caru-ini/modal-comfyui",
+      "retrieved": "2026-10-31",
+      "status": "draft-not-installed"
+    },
     "codewithmuh/ai-voice-agent": {
       "category": "voice",
       "commit": "cfdb426cfb57d5063fe1e3054a5cd4fee3b4aba4",
@@ -1048,6 +1058,16 @@
       "readme_sha256": "e1f3d5b2a27672aad3561df40d28b81044210323104428f5a41c7ac2f109a2fb",
       "repository": "zavora-ai/adk-rust",
       "retrieved": "2026-10-08",
+      "status": "draft-not-installed"
+    },
+    "zensation-ai/zenbrain": {
+      "category": "memory",
+      "commit": "6f5215cb608d6dc3c9e623bc2660f7c3e41f950f",
+      "goal": "Preserve sourced business facts and corrections across agent sessions.",
+      "license": "Apache-2.0",
+      "readme_sha256": "ecd2a1a89031bfc79ede298c7a80ecd0dce69dca5ab850a50ee982f01ab98690",
+      "repository": "zensation-ai/zenbrain",
+      "retrieved": "2026-10-31",
       "status": "draft-not-installed"
     },
     "zexadev/gemini-web2api-go": {

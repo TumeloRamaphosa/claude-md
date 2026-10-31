@@ -45,6 +45,7 @@ Draft evaluation skills only. Review before activation.
 - [ayush-that/bohemia-ai](drafts/evaluate-ayush-that-bohemia-ai-331a4306/SKILL.md) — voice; first found 2026-10-27
 - [bluejay-ai-dev/mivas-bench](drafts/evaluate-bluejay-ai-dev-mivas-bench-fc17208b/SKILL.md) — voice; first found 2026-09-26
 - [camgraphe/MaxVideoAi](drafts/evaluate-camgraphe-maxvideoai-1f0d3e3e/SKILL.md) — content; first found 2026-09-24
+- [caru-ini/modal-comfyui](drafts/evaluate-caru-ini-modal-comfyui-1aaaa44c/SKILL.md) — content; first found 2026-10-31
 - [codewithmuh/ai-voice-agent](drafts/evaluate-codewithmuh-ai-voice-agent-4ae82350/SKILL.md) — voice; first found 2026-10-26
 - [context-graph-ai/contextdb](drafts/evaluate-context-graph-ai-contextdb-b3a48741/SKILL.md) — memory; first found 2026-10-25
 - [converge-ai-labs/agent-foundation](drafts/evaluate-converge-ai-labs-agent-foundation-92c23a55/SKILL.md) — memory; first found 2026-09-30
@@ -107,4 +108,5 @@ Draft evaluation skills only. Review before activation.
 - [xraysight/hermes-memory-ui](drafts/evaluate-xraysight-hermes-memory-ui-daa023c6/SKILL.md) — memory; first found 2026-10-05
 - [yzfly/awesome-voice-agents](drafts/evaluate-yzfly-awesome-voice-agents-5ece01e6/SKILL.md) — voice; first found 2026-10-16
 - [zavora-ai/adk-rust](drafts/evaluate-zavora-ai-adk-rust-204a579e/SKILL.md) — voice; first found 2026-10-08
+- [zensation-ai/zenbrain](drafts/evaluate-zensation-ai-zenbrain-aa2d5c8a/SKILL.md) — memory; first found 2026-10-31
 - [zexadev/gemini-web2api-go](drafts/evaluate-zexadev-gemini-web2api-go-7f450c12/SKILL.md) — content; first found 2026-10-20

@@ -1,0 +1,576 @@
+<p align="center">
+  <h1 align="center">ZenBrain</h1>
+  <p align="center"><strong>The neuroscience-inspired memory system for AI agents.</strong></p>
+  <p align="center">Memory for agents that lasts across sessions: seven layers, from working memory to long-term facts and procedures, and 20 tested algorithm modules for what memory research describes, such as spaced repetition, Hebbian strengthening, sleep replay and emotional tagging.<br/>Pure TypeScript. No third-party dependencies in algorithms and core. 945 tests. Extracted from a production AI platform.</p>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@zensation/algorithms"><img src="https://img.shields.io/npm/v/@zensation/algorithms?color=blue&label=npm" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/@zensation/algorithms"><img src="https://img.shields.io/npm/dm/@zensation/algorithms?color=blue" alt="npm downloads"></a>
+  <a href="https://github.com/zensation-ai/zenbrain/actions/workflows/ci.yml"><img src="https://github.com/zensation-ai/zenbrain/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/zensation-ai/zenbrain/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.7+-blue.svg" alt="TypeScript"></a>
+  <img src="https://img.shields.io/badge/third--party%20dependencies-0-brightgreen.svg" alt="No third-party dependencies (algorithms and core)">
+</p>
+
+```bash
+npm install @zensation/algorithms     # the library, Node 22 or newer
+claude mcp add --scope user zenbrain -e ZENBRAIN_DB=~/.zenbrain/memory.db -- npx -y @zensation/mcp   # memory for Claude Code
+```
+
+<p align="center">
+  <sub>The same MCP server runs in Claude Desktop and Cursor (<a href="./packages/mcp">configuration</a>) and comes as a <a href="./plugins/zenbrain">Claude Code plugin</a> · Vercel AI SDK middleware: <a href="./packages/ai-sdk"><code>@zensation/ai-sdk</code></a></sub>
+</p>
+
+<p align="center">
+  <sub><strong>Status:</strong> pre-1.0, semver — the public API can still change before <code>1.0</code>.<br/>
+  945 tests green in CI: 933 on each of Node 22, 24 and 26, and 12 more against PostgreSQL with pgvector · the current version of every package published to npm with build provenance ·
+  every change recorded in the <a href="./CHANGELOG.md">CHANGELOG</a> · issues and pull requests are answered; replications and counter-results are especially welcome.</sub>
+</p>
+
+<p align="center">
+  <sub><strong>Self-hosted:</strong> the library makes no network calls of its own. Memory lives in SQLite or PostgreSQL that you operate; an embedding model or an LLM is optional and your choice.</sub>
+</p>
+
+---
+
+<p align="center">
+  <img src="docs/demo.gif" alt="ZenBrain Playground Demo" width="700"/>
+</p>
+
+<p align="center">
+  <strong><a href="https://zensation.ai/en/playground?utm_source=github&utm_medium=readme&utm_campaign=evergreen">▶ Try the live playground in your browser</a></strong> — runs this published code, no install required.
+</p>
+
+<details>
+<summary><strong>📄 Paper & Citation</strong> — ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems</summary>
+
+<br/>
+
+- **arXiv preprint** (cs.AI): [arxiv.org/abs/2604.23878](https://arxiv.org/abs/2604.23878)
+- **Open-access archive** (Zenodo / CERN): [doi.org/10.5281/zenodo.19353663](https://doi.org/10.5281/zenodo.19353663)
+- **ORCID**: [0009-0001-1793-012X](https://orcid.org/0009-0001-1793-012X)
+- **License**: CC BY 4.0 (paper) · Apache-2.0 (code)
+
+```bibtex
+@misc{bering2026zenbrain,
+  title         = {ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems},
+  author        = {Bering, Alexander},
+  year          = {2026},
+  eprint        = {2604.23878},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.5281/zenodo.19353663},
+  url           = {https://arxiv.org/abs/2604.23878}
+}
+```
+
+Feedback, replications, and counter-results are explicitly welcome — please open an issue or reach out via [research@zensation.ai](mailto:research@zensation.ai).
+
+</details>
+
+> **Your AI forgets everything after every conversation.** ZenBrain gives it a memory that lasts across sessions, split into layers the way human memory is, and ships the mechanisms memory research describes (spaced repetition, emotional tagging, Hebbian strengthening, forgetting curves, sleep replay) as tested functions. Which of them run on their own and which you call yourself is in [one table](#what-runs-on-its-own-and-what-you-call-yourself).
+
+> **Architecture vs. this package.** ZenBrain's architecture is **15 neuroscience-inspired mechanisms — 9 foundational algorithms + 6 Predictive Memory Architecture (PMA) components** ([paper](https://arxiv.org/abs/2604.23878)). The six PMA components are proprietary: they ran in the ZenAI production system and are not in these packages, which contain the hooks they plug into. **This open-source package ships the algorithm library: 10 core algorithms + 10 advanced research modules (20 modules), zero-dependency.**
+
+---
+
+## Benchmark: LongMemEval-500
+
+On LongMemEval-500, **three of nine head-to-head comparisons hold** against
+Letta, Mem0 and A-Mem — all three against A-Mem, the remaining six are ties, none lost. Three
+competitors x three LLM judges, Bonferroni-corrected (alpha = 0.05/18) and version-matched. The measured ZenBrain arm (per the
+[correction notice](https://doi.org/10.5281/zenodo.22831086) a Python port of a test-harness class, not the seven-layer system) reaches
+**91.3% of the binary-judge accuracy of a full-context comparison arm (whose answer model reads the whole history) with 1/109.6 of its input tokens in the answer step**
+(47.7% vs. 52.2%); building the memory is not counted.
+
+Works out of the box without an embedding provider — lexical ranking, nothing extra
+to install. `nomic-embed-text` can be added as the embedding provider; it was the embedder of the
+measured run. The figures above were not measured with this package: per the correction notice,
+the measured arm is a Python port of a test-harness class, not an import of the packages.
+
+The paper prints where ZenBrain loses as well: on LoCoMo, substring-based aggregate F1 favours
+lexical retrieval (BM25) by metric design, and we do not contest that. The advantage is most
+pronounced in the judge-graded comparisons and on cross-session reasoning.
+
+**The mechanism comparison further down re-runs from this repository in under a minute** —
+`bash scripts/compare-mechanisms.sh`, no API keys; it needs git, Node and network access to clone the three
+compared repositories at the pinned commits. It prints a positive
+and a negative control before the result, so the instrument can be checked before its output
+is trusted. **The mechanism ablation behind paper Tables 7–9 also runs from here:** `cd backend && npm run
+experiments`, and CI compares every point estimate with the published ones. The method and the effect
+sizes behind the LongMemEval numbers above are in the paper; this repository ships no runner for those.
+The archived packages below run the significance tests and effect sizes in full, and the mechanism ablation
+behind paper Tables 7–9.
+
+- Method, effect sizes and ablations: [arXiv:2604.23878](https://arxiv.org/abs/2604.23878)
+- Open-access archive: [10.5281/zenodo.19353663](https://doi.org/10.5281/zenodo.19353663)
+
+---
+
+## Reproduction packages
+
+The raw material behind the numbers above is deposited on Zenodo, open access and citable. Both
+links are concept DOIs and resolve to the latest version, the same convention this README uses for
+the paper archive; each description was measured against the version named after it.
+
+- **Mechanism ablation, paper Tables 7–9** — [10.5281/zenodo.22162063](https://doi.org/10.5281/zenodo.22162063)
+  (described here: v1.0.0). Four experiment suites (95 tests), the reference JSON the paper's
+  tables were generated from, and `verify-against-reference.mjs`, which diffs a fresh run against
+  that reference and exits non-zero on drift. `npm install && npm run experiments`; the run itself
+  needs no API keys and no network, and finishes in under a minute on a laptop. Two of the paper's
+  other ablation tables need data this package does not carry: Table 11 the LoCoMo corpus, Table 13
+  a different pipeline. The package says so itself.
+- **Measurement package, LongMemEval-500 and the real-pipeline flag ablation** —
+  [10.5281/zenodo.22161977](https://doi.org/10.5281/zenodo.22161977) (described here: v1).
+  Per-(system, judge, seed) judged outputs, the flag manifests as recorded at run time, a
+  `SHA256SUMS.txt` covering every file in the package, and the analysis scripts. Three of those
+  scripts are stdlib-only and self-checking — the full-context comparison behind the 91.3% figure, the
+  judge-agreement figures, and the real-pipeline flag-ablation table: each prints every re-derived
+  value next to the reference it has to match, and exits non-zero on mismatch. The significance
+  tests behind the nine head-to-head comparisons against Letta, Mem0 and A-Mem sit in a separate
+  script that needs numpy and scipy; it recomputes all eighteen pairwise tests and rewrites the
+  deposited significance JSON byte-identically, so what catches a mismatch there is the checksum,
+  not an exit code.
+
+Both packages name what they do not cover. Replications and counter-results are welcome:
+[research@zensation.ai](mailto:research@zensation.ai).
+
+---
+
+## How ZenBrain differs from Mem0, Letta and Zep
+
+ZenBrain's architecture combines fifteen mechanisms taken from human memory research: nine
+foundational algorithms, which are in this library, and six Predictive Memory Architecture
+components, which are not public. Among the systems the paper surveys, none integrates more than
+two of the features it compares. The table below records which of five of these mechanisms
+appear in the public source of three widely used memory systems, at pinned versions, on a fixed
+date.
+
+| Mechanism | ZenBrain | Mem0 | Letta | Zep |
+|---|:--:|:--:|:--:|:--:|
+| FSRS spaced repetition | yes | — | — | — |
+| Hebbian learning | yes | — | — | — |
+| Ebbinghaus forgetting curves | yes | — | — | — |
+| Sleep consolidation | yes | — | — | — |
+| Emotional tagging | yes | — | — | — |
+| Zero runtime dependencies | yes | — | — | n/a |
+
+<sub><strong>How this was measured, 27 August 2026.</strong> Full-text search over the
+public source of <a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a> at tag
+<code>ts-v3.1.7</code> (npm <code>mem0ai</code> 3.1.7, PyPI <code>mem0ai</code> 2.0.19),
+<a href="https://github.com/letta-ai/letta-code">letta-ai/letta-code</a> at tag <code>v0.31.2</code>
+(npm <code>@letta-ai/letta-code</code> 0.31.2) and
+<a href="https://github.com/getzep/zep">getzep/zep</a> at commit <code>7de18df</code>, its last
+before that date, lockfiles excluded. getzep/zep holds examples and integrations for the hosted
+Zep Cloud, whose own source is not public: a dash in the Zep column covers that repository only,
+and there is no library to count dependencies of. A dash means
+<strong>the term does not occur in that snapshot</strong> — not that the system cannot do
+something comparable under another name. One case we know of: Letta Code revises memory in the
+background and calls it "dreaming" (sleep-time compute), which the term search for sleep
+consolidation does not match. In ZenBrain the mechanisms in this table are library functions;
+which of them the coordinator runs is in <a href="#what-runs-on-its-own-and-what-you-call-yourself">this table</a>. Dependency counts are declared direct dependencies:
+<code>@zensation/core</code> resolves to two packages, both our own; <code>mem0ai</code>
+declares four, <code>@letta-ai/letta-code</code> eighteen. Re-run the whole check — the five
+mechanism rows and the dependency counts, at these pins — with
+<a href="./scripts/compare-mechanisms.sh"><code>scripts/compare-mechanisms.sh</code></a>
+(<code>--latest</code> runs it against today's default branches instead); it prints its own
+positive and negative controls so you can see the instrument works before you trust the result.</sub>
+
+Human memory does not work like a key-value store. The brain keeps specialised systems for
+different kinds of memory, forgets actively, modulates by emotion and retrieves by context.
+ZenBrain brings those mechanisms to AI agents, as a memory system with seven layers and as a
+library of the algorithms behind them.
+
+### Advanced algorithms (since v0.3.0, May 2026)
+
+On top of the 10 core algorithms above, `@zensation/algorithms` ships 10 advanced algorithms grounded in recent neuroscience and ML research. Each is exposed as its own sub-path (`@zensation/algorithms/<name>`) and remains zero-dependency:
+
+- **`fsrs-vmPFC`** — Prediction-Error coupled FSRS
+- **`hebbian-two-factor`** — Two-Factor synaptic consolidation
+- **`sleep-simulation-selection`** — RL-based replay selection
+- **`spectral-health`** — Fiedler-value KG health monitor
+- **`ib-budget`** — Information-Bottleneck retention budget
+- **`dopamine-routing`** · **`hopfield-stm`** · **`personalized-pagerank`** · **`surprise-gradient-memory`** · **`temporal-multi-route`**
+
+See [`CHANGELOG.md`](./CHANGELOG.md#030--2026-05-08) for details.
+
+## What runs on its own, and what you call yourself
+
+`@zensation/core` is a memory system: the `MemoryCoordinator` stores, recalls, consolidates and
+forgets. `@zensation/algorithms` is a library of twenty modules of tested functions, and the
+coordinator calls only a few of them. Several mechanisms named in this README live in the library
+alone; you wire them into your own system where you want them.
+
+| Mechanism | The coordinator (`@zensation/core`) | The library (`@zensation/algorithms`) |
+|---|---|---|
+| Layers | Seven layer classes. `recall()` searches episodic, semantic, procedural and core memory, working memory on request; the cross-context layer is not part of recall. | — |
+| Routing | `store()` picks the layer: step-by-step content becomes a procedure, an emotional weight above 0.5 an episode, a confidence above 0.9 a pinned core block, anything else a fact. | — |
+| Emotional tagging | At `store()` with automatic routing — not with an explicit `type`, and not when steps or procedural wording already made it a procedure. The weight decides episode or fact, and which episodes consolidation promotes; a weight you pass for a fact stretches its starting FSRS stability by `1 + weight`. | `tagEmotion`, `computeEmotionalWeight` |
+| Spaced repetition (FSRS) | Every fact gets an FSRS schedule. `getReviewQueue()` lists the due facts; a review your application reports with `recordReview()` updates the schedule. Recall does not rank by retrievability. | FSRS, prediction-error-coupled FSRS |
+| Forgetting | Nothing in long-term memory decays or is deleted on its own. `forget(id, layer)` deletes a memory on request together with what consolidation linked to it (episode ⇄ fact) and its working-memory copies; `{ cascade: false }` deletes only the one memory. Working memory decays exponentially with the minutes since its last decay. | Ebbinghaus retention, personal decay profiles |
+| Consolidation | `consolidate()` turns each emotionally weighted episode among the 100 most recent into a fact, once. | Sleep replay (`selectForReplay`, `simulateReplay`, `pruneWeakConnections`), simulation-selection loop |
+| Hebbian learning | Not used: core keeps no knowledge graph. | Classic and two-factor Hebbian |
+| Bayesian confidence | Not used. | `propagateForRelation` and the rest of the module |
+| Context-dependent retrieval | Not used. The `includeContext` option never had an effect and was withdrawn in 0.5.0. | `captureEncodingContext`, `calculateContextSimilarity` |
+
+The six Predictive Memory Architecture components of the paper are not in the packages; the packages
+contain the hooks they plug into (see *Architecture vs. this package* above).
+
+## Quick Start
+
+> **Requires Node.js 22 or newer** (since `0.4.0`). On Node 20 or older, npm silently installs the last
+> compatible release (`@zensation/algorithms@0.3.4`, `@zensation/core@0.2.2`) instead of the current one —
+> which looks like a broken package but is a platform mismatch. See [CHANGELOG](./CHANGELOG.md#040--2026-08-05).
+
+```bash
+npm install @zensation/algorithms
+```
+
+```typescript
+import {
+  initFromDecayClass,
+  getRetrievability,
+  updateAfterRecall,
+  tagEmotion,
+  computeEmotionalWeight,
+  computeHebbianStrengthening,
+  propagateForRelation,
+} from '@zensation/algorithms';
+
+// 1. Schedule a memory with FSRS
+const memory = initFromDecayClass('normal_decay');
+
+// 2. A week later, check recall probability (Ebbinghaus curve)
+const aWeekLater = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000);
+const retention = getRetrievability(memory, aWeekLater);
+console.log(`Recall probability: ${(retention * 100).toFixed(1)}%`);
+// ~36.8% — retrievability has decayed over the week
+
+// 3. User recalled it anyway — update scheduling
+const updated = updateAfterRecall(memory, 4, retention, aWeekLater);
+// stability 7 -> 8.19: recalling at low retrievability gives a bigger boost
+
+// 4. Tag emotional significance
+const emotion = tagEmotion('I am absolutely thrilled — I got the promotion!');
+const weight = computeEmotionalWeight(emotion);
+console.log(`Decay multiplier: ${weight.decayMultiplier}x`);
+// 2.7x — emotional memories decay nearly 3x slower
+
+// 5. Strengthen knowledge connections (Hebbian)
+const stronger = computeHebbianStrengthening(1.0);
+// 1.09 — "neurons that fire together wire together"
+
+// 6. Propagate confidence through your knowledge graph
+const confidence = propagateForRelation(0.5, 0.8, 1.0, 'supports');
+// 0.9 — supporting evidence increases confidence
+```
+
+### Want the advanced algorithms?
+
+```typescript
+import {
+  computeKGPredictionError,
+  computeAdaptiveFSRSInterval,
+} from '@zensation/algorithms/fsrs-vmPFC';
+
+// Couple FSRS scheduling with the prediction-error signal from your
+// knowledge graph: when the embedding has shifted a lot since the last
+// review (high cosine distance), shrink the next interval; otherwise push
+// it out. Both arrays must have the same length.
+const lastEmbedding = [0.1, 0.2, 0.3, 0.4];
+const currentEmbedding = [0.5, 0.4, 0.1, 0.2];
+const pe = computeKGPredictionError(lastEmbedding, currentEmbedding);
+const nextInterval = computeAdaptiveFSRSInterval(14, pe);
+```
+
+Each advanced algorithm has its own sub-path (`@zensation/algorithms/spectral-health`, `@zensation/algorithms/ib-budget`, …). All zero dependencies.
+
+## Runnable examples
+
+Seven examples live in [`examples/`](./examples); five run on the workspace packages alone, two need a
+third-party SDK installed (the [examples README](./examples/README.md) says which):
+
+| Example | Shows |
+|---|---|
+| [`basic-chatbot.ts`](./examples/basic-chatbot.ts) | Working Memory + Short-Term Memory for conversation context — no SDK needed |
+| [`with-claude.ts`](./examples/with-claude.ts) | An Anthropic Claude assistant that remembers across conversations |
+| [`with-langchain.ts`](./examples/with-langchain.ts) | ZenBrain as the memory backend of a LangChain agent |
+| [`with-crewai.ts`](./examples/with-crewai.ts) | Multiple agents sharing Working Memory, with Hebbian strengthening |
+| [`with-vercel-ai.ts`](./examples/with-vercel-ai.ts) | A memory-aware system prompt for the Vercel AI SDK `streamText` pattern |
+| [`with-llamaindex.ts`](./examples/with-llamaindex.ts) | ZenBrain as long-term memory for a LlamaIndex.TS agent — LlamaIndex keeps the short-term window, ZenBrain decides what outlives it |
+| [`with-mastra.ts`](./examples/with-mastra.ts) | ZenBrain behind a Mastra agent: a Processor records each turn, and the instructions are rebuilt from what is currently recallable |
+
+```bash
+npx tsx examples/basic-chatbot.ts
+```
+
+The integration examples additionally need their respective SDK installed; [`examples/README.md`](./examples/README.md) lists which. Open [good first issues](https://github.com/zensation-ai/zenbrain/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) are the best way in if you want to contribute.
+
+## The Science Behind It
+
+### 7-Layer Memory Architecture
+
+```
+Layer 7: Cross-Context Memory    ← Entity links across domains (experimental)
+Layer 6: Core Memory             ← Pinned facts (Letta-style)
+Layer 5: Procedural Memory       ← "How to do X" (skills & workflows)
+Layer 4: Long-Term Semantic      ← Facts with FSRS scheduling
+Layer 3: Episodic Memory         ← Concrete experiences & events
+Layer 2: Short-Term / Session    ← Current conversation context
+Layer 1: Working Memory          ← Active task focus (7±2 items)
+```
+
+Each layer holds a different kind of memory and is stored and searched in its own way.
+
+### FSRS Spaced Repetition
+
+[FSRS](https://github.com/open-spaced-repetition/fsrs4anki) (Free Spaced Repetition Scheduler) is the open scheduler Anki offers as an alternative to its legacy SM-2 algorithm; its authors report that, in simulations, users need 20–30% fewer reviews than with SM-2 for the same retention ([ABC of FSRS](https://github.com/open-spaced-repetition/awesome-fsrs/wiki/ABC-of-FSRS)). It uses the **desirable difficulty** principle: reviewing when retention is low gives a bigger stability boost. In `@zensation/core` every fact gets an FSRS schedule; your application reports each review with `recordReview()`, and FSRS sets the next one.
+
+### Emotional Memory
+
+The amygdala modulates memory consolidation — emotional events are remembered more vividly (flashbulb memory). ZenBrain's emotional tagger assigns arousal, valence, and significance scores using about 170 weighted keywords in four lists (English & German). In the library, emotional weight stretches decay half-lives up to **3x** (`computeEmotionalWeight`); the coordinator uses the weight to route emotional content to episodic memory and to choose what consolidation promotes.
+
+### Hebbian Learning
+
+"Neurons that fire together wire together" (Hebb, 1949). Knowledge graph edges that are frequently co-activated grow stronger. Unused edges decay and eventually get pruned. The result: a self-organizing knowledge structure that reflects actual usage patterns, with homeostatic normalization to prevent runaway growth. These are library functions; `@zensation/core` keeps no knowledge graph, so you apply them to a graph of your own.
+
+### Ebbinghaus Forgetting Curves
+
+Ebbinghaus (1885) showed that memory decays exponentially: `R = e^(-t/S)`. The library implements personalized decay profiles that adapt to individual learning patterns, with SM-2-compatible call signatures for existing spaced repetition code (the stability update itself is FSRS's). In the coordinator, only working memory decays.
+
+### Context-Dependent Retrieval
+
+Tulving's Encoding Specificity Principle (1973): memories are recalled better when the retrieval context matches the encoding context. The library captures temporal context (time of day, day of week) and task type, and `calculateContextSimilarity` turns a match between a stored and the current context into a boost factor of up to **1.3** — a design constant, not a measured effect. The coordinator stores no encoding context; its `includeContext` option never had an effect and was withdrawn in 0.5.0.
+
+### Bayesian Confidence Propagation
+
+Knowledge isn't isolated — facts support or contradict each other. The library propagates confidence through a knowledge graph you keep, one edge per call, with Bayesian-style (noisy-OR) updates: supporting evidence increases confidence, contradictions decrease it, with damping for numerical stability.
+
+### Sleep Consolidation
+
+During sleep, the hippocampus replays recent experiences, strengthening important memories and pruning weak connections (Stickgold & Walker, 2013). ZenBrain simulates this process: `selectForReplay()` prioritizes emotional and recently-accessed memories, `simulateReplay()` boosts their stability by 50%, and `pruneWeakConnections()` removes weak Hebbian edges — a threshold rule inspired by the Synaptic Homeostasis Hypothesis (Tononi & Cirelli, 2006). The coordinator's `consolidate()` does not run this replay; it turns emotionally weighted episodes among the 100 most recent into facts, once each.
+
+```typescript prelude=replay
+import { selectForReplay, simulateReplay } from '@zensation/algorithms/sleep-consolidation';
+
+// Select memories for overnight consolidation
+const toReplay = selectForReplay(allMemories);
+// Simulate sleep replay — stability ↑, weak edges pruned
+const result = simulateReplay(toReplay);
+console.log(`Replayed ${result.summary.totalReplayed} memories, avg stability +${result.summary.avgStabilityIncrease.toFixed(1)} days`);
+```
+
+### Memory Coordinator
+
+The `MemoryCoordinator` puts the layers behind one API — inspired by Global Workspace Theory (Baars, 1988):
+
+```typescript prelude=adapter
+import { MemoryCoordinator } from '@zensation/core';
+
+const memory = new MemoryCoordinator({ storage: adapter, embedding: embedder });
+
+// Auto-routes to the right layer (semantic, episodic, procedural, or core)
+await memory.store('User prefers TypeScript', { type: 'auto' });
+
+// Cross-layer search with ranked, deduplicated results
+const results = await memory.recall('programming preferences');
+
+// Forget a memory by the id and layer of a recall result (a fact consolidated from it goes too)
+await memory.forget(results[0].id, results[0].layer);
+
+// Consolidate: emotionally weighted episodes among the 100 most recent become facts, once each;
+// working memory decays
+await memory.consolidate();
+
+// Facts whose FSRS review is due; report each review with recordReview()
+const dueItems = await memory.getReviewQueue();
+```
+
+## Packages
+
+| Package | Description | Status |
+|---------|-------------|--------|
+| [`@zensation/algorithms`](https://www.npmjs.com/package/@zensation/algorithms) · [source](./packages/algorithms) | 20 algorithm modules — 10 core (FSRS, Hebbian, Ebbinghaus, emotional, Bayesian, sleep consolidation, intervals, visualization) + 10 advanced (vmPFC-FSRS, two-factor Hebbian, IB budget, Hopfield STM, …) | :white_check_mark: Published |
+| [`@zensation/core`](https://www.npmjs.com/package/@zensation/core) · [source](./packages/core) | Memory layers, coordinator, adapter interfaces | :white_check_mark: Published |
+| [`@zensation/adapter-postgres`](https://www.npmjs.com/package/@zensation/adapter-postgres) · [source](./packages/adapters/postgres) | PostgreSQL + pgvector storage adapter | :white_check_mark: Published |
+| [`@zensation/adapter-sqlite`](https://www.npmjs.com/package/@zensation/adapter-sqlite) · [source](./packages/adapters/sqlite) | SQLite storage adapter (zero-config) | :white_check_mark: Published |
+| [`@zensation/mcp`](https://www.npmjs.com/package/@zensation/mcp) · [source](./packages/mcp) | MCP server — gives any MCP client (Claude Desktop, Claude Code, Cursor) five tools over five of the seven layers. Carries the protocol SDK, so the core stays dependency-free | :white_check_mark: Published |
+| [`@zensation/ai-sdk`](https://www.npmjs.com/package/@zensation/ai-sdk) · [source](./packages/ai-sdk) | Vercel AI SDK middleware — recall before the model call, store after it. Works with any provider, **zero runtime dependencies** | :white_check_mark: Published |
+
+### Tree-Shakeable Imports
+
+Every algorithm is available as a subpath export:
+
+```typescript
+// Import everything
+import { tagEmotion, updateAfterRecall } from '@zensation/algorithms';
+```
+
+Or just what you need (better tree-shaking):
+
+```typescript
+import { updateAfterRecall } from '@zensation/algorithms/fsrs';
+import { tagEmotion } from '@zensation/algorithms/emotional';
+import { computeHebbianStrengthening } from '@zensation/algorithms/hebbian';
+import { propagateForRelation } from '@zensation/algorithms/bayesian';
+import { selectForReplay } from '@zensation/algorithms/sleep-consolidation';
+import { getRetrievabilityWithCI } from '@zensation/algorithms/intervals';
+import { generateRetentionCurve } from '@zensation/algorithms/visualization';
+```
+
+## Use Cases
+
+### AI Chatbots with Long-Term Memory
+
+```typescript
+import { initFromDecayClass, getRetrievability, type FSRSState } from '@zensation/algorithms/fsrs';
+import { tagEmotion, computeEmotionalWeight } from '@zensation/algorithms/emotional';
+
+// When your AI learns a fact about the user:
+function rememberFact(fact: string): FSRSState {
+  const weight = computeEmotionalWeight(tagEmotion(fact));
+  // Emotional facts start with more stability: the multiplier runs from 1 to 3,
+  // and initFromDecayClass applies up to 2x of it to the base stability.
+  return initFromDecayClass('normal_decay', weight.decayMultiplier);
+}
+
+// Before each conversation, check what needs reinforcement:
+function getFactsDueForReview(facts: FSRSState[]) {
+  return facts.filter(f => getRetrievability(f) < 0.7);
+}
+```
+
+### Knowledge Graph with Self-Organizing Edges
+
+```typescript
+import { computeHebbianStrengthening, computeHebbianDecay } from '@zensation/algorithms/hebbian';
+import { propagateForRelation } from '@zensation/algorithms/bayesian';
+
+// When two concepts are mentioned together:
+function coActivate(edge: { weight: number }) {
+  edge.weight = computeHebbianStrengthening(edge.weight);
+}
+
+// Periodic maintenance — decay unused edges:
+function decayEdges(edges: { weight: number; lastUsed: Date }[]) {
+  for (const edge of edges) {
+    edge.weight = computeHebbianDecay(edge.weight);
+    // 0 means the edge fell below MIN_WEIGHT (0.1): prune it
+  }
+}
+```
+
+### RAG with Confidence Scoring
+
+```typescript
+import { propagateForRelation, isSignificantChange } from '@zensation/algorithms/bayesian';
+
+type Fact = { confidence: number };
+type Relation = { source: Fact; target: Fact; weight: number; type: string };
+
+// After retrieval, propagate confidence through related facts:
+function updateConfidenceGraph(relations: Relation[]) {
+  for (const rel of relations) {
+    const newConf = propagateForRelation(
+      rel.target.confidence,
+      rel.source.confidence,
+      rel.weight,
+      rel.type // a key of PROPAGATION_FACTORS: 'supports', 'contradicts', 'causes', 'requires', 'part_of', …
+    );
+    if (isSignificantChange(newConf, rel.target.confidence)) {
+      rel.target.confidence = newConf;
+    }
+  }
+}
+```
+
+## Extracted From Production
+
+These aren't toy implementations — ZenBrain's algorithms are extracted from [ZenAI](https://zensation.ai/?utm_source=github&utm_medium=readme&utm_campaign=evergreen), the AI platform they ran in production. Everything claimed here is verifiable in this repository:
+
+- **945 tests** (539 algorithms · 164 core · 88 adapter-sqlite · 65 adapter-postgres, 12 of them against a real PostgreSQL · 61 mcp · 28 ai-sdk), all passing
+- **Zero runtime dependencies** in `@zensation/algorithms` and `@zensation/core` (core depends only on algorithms) — pure TypeScript, dual ESM + CJS, tree-shakeable subpath exports
+- **Reproducible** — building from this source produces the same 153-file `@zensation/algorithms@0.6.0` tarball published on npm
+- **7-layer** memory architecture grounded in published neuroscience
+
+## Contributing
+
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+Issues and pull requests are answered; replications and counter-results are especially welcome.
+
+**Resources:** [API Reference](./docs/api-reference.md) | [Recipes](./docs/recipes.md) | [Architecture](./docs/architecture.md) | [Benchmarks](./docs/benchmarks.md) | [FAQ](./docs/FAQ.md) | [Roadmap](./docs/ROADMAP.md)
+
+```bash
+# Clone the repo
+git clone https://github.com/zensation-ai/zenbrain.git
+cd zenbrain
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Build all packages
+npm run build
+```
+
+## Research
+
+ZenBrain's architecture and algorithms are documented in an open-access technical disclosure:
+
+- **arXiv preprint** (cs.AI): [arxiv.org/abs/2604.23878](https://arxiv.org/abs/2604.23878)
+- **Open-access archive:** [ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems](https://doi.org/10.5281/zenodo.19353663) (Zenodo, DOI: [10.5281/zenodo.19353663](https://doi.org/10.5281/zenodo.19353663) — resolves to the latest version)
+- **TDCommons:** [Technical Disclosure](https://www.tdcommons.org/dpubs_series/9683) (CC BY 4.0)
+- **HuggingFace:** [Model Card & Benchmarks](https://huggingface.co/zensation-ai/zenbrain)
+
+If you use ZenBrain in academic work, please cite:
+
+```bibtex
+@misc{bering2026zenbrain,
+  title         = {ZenBrain: A Neuroscience-Inspired 7-Layer Memory Architecture for Autonomous AI Systems},
+  author        = {Bering, Alexander},
+  year          = {2026},
+  eprint        = {2604.23878},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.5281/zenodo.19353663},
+  url           = {https://arxiv.org/abs/2604.23878}
+}
+```
+
+## Cited by
+
+Five works cite ZenBrain (as of 28 September 2026): a survey by the Sico team at Microsoft Research, MindMemOS by Huawei's Noah's Ark Lab, the EVD preprint, the HindsightTag manuscript and the Lamperouge manifesto.
+
+- **Agentic Evolution: From Self-Improving Agents to Co-Evolving Human-AI Systems**, a survey by the Sico team at [Microsoft Research](https://www.microsoft.com/en-us/research/publication/agentic-evolution-from-self-improving-agents-to-co-evolving-human-ai-systems/) (2026), calls forgetting "critically understudied": very few of the roughly 100 Memory & Sense papers it surveys implement explicit forgetting. It lists ZenBrain as one of four works in its forgetting/lifecycle group and as its only source for sleep-based consolidation.
+- **MindMemOS** (Huawei's Noah's Ark Lab, [arXiv:2608.12428](https://arxiv.org/abs/2608.12428), August 2026) relies on exactly three references for the foundational claim of its introduction: two field surveys and a single system paper — ZenBrain.
+- **HindsightTag** (Vivek Govindbhai Dudhat, [manuscript](https://github.com/ViveK1One/hindsighttag/blob/main/HindsightTag_paper.pdf), July 2026, revised 30 September 2026) discusses ZenBrain as its closest prior system and uses its `MemoryCoordinator` interface as the integration example.
+- **EVD: An Emotional Valence Dimension for Persistent Agent Memory** (R. J. Vandelinder and I. Vandelinder, Exile Research, [Zenodo](https://doi.org/10.5281/zenodo.20706465), June 2026) places ZenBrain in its related work.
+- **The field measures the wrong thing** (Lamperouge, manifesto, [Zenodo](https://doi.org/10.5281/zenodo.21982684), August 2026) selects ZenBrain among six works on persistent internal state and notes that its "days" are simulation steps.
+
+Each work with the sentence that cites ZenBrain: [zensation.ai/en/publikationen](https://zensation.ai/en/publikationen).
+
+Projects that build the library into their code:
+
+- [ACMS](https://github.com/newtogi/ACMS-Agentic-Cognitive-Memory-System) reads and writes the ZenBrain SQLite database directly.
+- [neurograph-runtime](https://github.com/cwang-95/neurograph-runtime) uses the FSRS implementation of `@zensation/algorithms` as the ranking and feedback layer of a knowledge base on radiotherapy literature.
+
+Citing ZenBrain or building on it? Open an issue and we will add you here.
+
+## Community
+
+- **GitHub Discussions**: [Ask a question, show what you built](https://github.com/zensation-ai/zenbrain/discussions) — help, show-and-tell, feature requests
+- **GitHub Issues**: [Bug reports & feature requests](https://github.com/zensation-ai/zenbrain/issues)
+- **Email**: open-source@zensation.ai
+
+## License
+
+[Apache 2.0](./LICENSE) — use it in production, modify it, distribute it. Just keep the attribution.
+
+---
+
+<p align="center">
+  Built by <a href="https://zensation.ai/?utm_source=github&utm_medium=readme&utm_campaign=evergreen">ZenSation</a> in Kiel, Germany.
+</p>

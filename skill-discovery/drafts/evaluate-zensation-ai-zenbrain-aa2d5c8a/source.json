@@ -1,0 +1,10 @@
+{
+  "repository": "zensation-ai/zenbrain",
+  "commit": "6f5215cb608d6dc3c9e623bc2660f7c3e41f950f",
+  "retrieved": "2026-10-31",
+  "license": "Apache-2.0",
+  "category": "memory",
+  "goal": "Preserve sourced business facts and corrections across agent sessions.",
+  "status": "draft-not-installed",
+  "readme_sha256": "ecd2a1a89031bfc79ede298c7a80ecd0dce69dca5ab850a50ee982f01ab98690"
+}
